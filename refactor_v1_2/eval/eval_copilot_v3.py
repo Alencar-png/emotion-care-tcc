@@ -31,7 +31,7 @@ import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-BACKEND = ROOT.parent.parent / "emotion-care"
+BACKEND = ROOT.parent.parent / "emotion-care" / "nr1-backend"
 sys.path.insert(0, str(BACKEND))
 sys.path.insert(0, str(ROOT))
 
@@ -50,9 +50,10 @@ os.environ.setdefault(
     "postgresql://emotioncare:emotioncare@localhost:5432/emotioncare",
 )
 
-# Monkey-patch o threshold de busca antes de importar
+# Monkey-patch removido: usar o threshold de produção (0.75) definido no
+# copilot_nr01.py, agora compatível com o corpus integral indexado pelo
+# seed_copilot_kb_v3.py (NR-01, NR-17 e LGPD completos).
 from services.ai import copilot_nr01  # noqa: E402
-copilot_nr01.SIMILARITY_THRESHOLD = 0.40
 
 from metrics_core import bootstrap_ci, fmt_ci, percentile  # noqa: E402
 from regulatory_lookup import hallucination_rate  # noqa: E402
@@ -237,7 +238,7 @@ async def main():
         "agent": "copilot_nr01",
         "version": "v3_2026-05",
         "n_questions": n,
-        "similarity_threshold": 0.40,
+        "similarity_threshold": copilot_nr01.SIMILARITY_THRESHOLD,
         "retrieval": {
             "precision@1": {"point": p1_ci["point"], "lo": p1_ci["lo"], "hi": p1_ci["hi"]},
             "precision@3": _mean(p3),

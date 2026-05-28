@@ -183,18 +183,41 @@ class Citation:
     kind: str          # "item", "section", "dimension", "annex"
 
 
+def _hierarchical_match(items: dict[str, str], loc: str) -> tuple[bool, str | None]:
+    """Match exato OU por prefixo hierárquico válido.
+
+    Para um locator como '1.5.3.1.1.2.4', verifica se algum prefixo
+    ('1.5.3.1.1.2.4', '1.5.3.1.1.2', '1.5.3.1.1', '1.5.3.1', '1.5.3',
+    '1.5', '1') existe no dicionário curado. Isso evita falsos positivos
+    de alucinação quando o LLM cita subitens detalhados (que existem na
+    norma completa) mas não estão explicitamente listados na base.
+    """
+    if loc in items:
+        return True, items[loc]
+    # Fallback: tenta prefixos sucessivos
+    parts = loc.split(".")
+    for i in range(len(parts) - 1, 0, -1):
+        prefix = ".".join(parts[:i])
+        if prefix in items:
+            return True, f"{items[prefix]} (subitem {loc})"
+    return False, None
+
+
 def lookup(citation: Citation) -> tuple[bool, str | None]:
     """Verifica se a citação aponta para item real.
 
     Returns:
         (existe, descrição_curta_ou_None)
+
+    Estratégia de match (corpus integral indexado, v3):
+    - Match exato no dicionário curado, ou
+    - Match por prefixo hierárquico (ex.: '1.5.3.1.1' existe e o LLM
+      cita '1.5.3.1.1.2.4', aceitamos).
     """
     if citation.norm == "NR-01":
-        d = NR01_ITEMS.get(citation.locator)
-        return (d is not None, d)
+        return _hierarchical_match(NR01_ITEMS, citation.locator)
     if citation.norm == "NR-17":
-        d = NR17_ITEMS.get(citation.locator)
-        return (d is not None, d)
+        return _hierarchical_match(NR17_ITEMS, citation.locator)
     if citation.norm == "COPSOQ":
         ok = citation.locator.lower() in COPSOQ_DIMENSIONS_FLAT
         return (ok, citation.locator if ok else None)

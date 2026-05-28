@@ -1,0 +1,1844 @@
+NR 17 – 
+ERGONOMIA 
+COMENTÁRIOS AO NOVO 
+TEXTO (PORTARIA MTP 423, 
+DE 07/10/2021)
+
+NR 17 – 
+ERGONOMIA 
+COMENTÁRIOS AO NOVO 
+TEXTO (PORTARIA MTP 423, 
+DE 07/10/2021)
+CONFEDERAÇÃO NACIONAL DA INDÚSTRIA – CNI
+Antonio Ricardo Alvarez Alban
+Presidente
+Gabinete da Presidência
+Danusa Costa Lima e Silva de Amorim
+Chefe do Gabinete - Diretora
+Diretoria de Desenvolvimento Industrial e Economia
+Rafael Esmeraldo Lucchesi Ramacciotti
+Diretor
+Diretoria de Relações Institucionais
+Roberto de Oliveira Muniz
+Diretor
+Diretoria de Serviços Corporativos
+Cid Carvalho Vianna
+Diretor 
+Diretoria Jurídica
+Cassio Augusto Muniz Borges
+Diretor
+Diretoria de Comunicação
+Ana Maria Curado Matta
+Diretora
+Diretoria de Inovação
+Jefferson de Oliveira Gomes
+Diretor
+Serviço Social da Indústria - SESI
+Vagner Freitas de Moraes
+Presidente do Conselho Nacional
+SESI – Departamento Nacional
+Antonio Ricardo Alvarez Alban
+Diretor
+Rafael Esmeraldo Lucchesi Ramacciotti
+Diretor-Superintendente 
+Paulo Mól Júnior
+Diretor de Operações
+NR 17 – 
+ERGONOMIA 
+COMENTÁRIOS AO NOVO 
+TEXTO (PORTARIA MTP 423, 
+DE 07/10/2021)
+© 2023. CNI – Confederação Nacional da Indústria.
+© 2023. SESI – Departamento Nacional.
+Qualquer parte desta obra poderá ser reproduzida, desde que citada a fonte.
+CNI
+Gerência Executiva de Relações de Trabalho – GERT
+SESI
+Gerência Executiva de Saúde e Segurança na Indústria
+CNI
+Confederação Nacional da Indústria
+Sede
+Setor Bancário Norte
+Quadra 1 – Bloco C
+Edifício Roberto Simonsen
+70040-903 – Brasília – DF
+Tel.: (61) 3317-9000
+Fax: (61) 3317-9994
+http://www.portaldaindustria.com.br/cni/
+Serviço de Atendimento ao Cliente - SAC
+Tels.: (61) 3317-9989/3317-9992
+sac@cni.com.br
+FICHA CATALOGRÁFICA
+C748n
+Confederação Nacional da Indústria. 
+NR 17 ergonomia : comentários ao novo texto : portaria MTP 423, de 07/10/2021 / 
+Confederação Nacional da Indústria, Serviço Social da Indústria. - Brasília : CNI, 2023.
+65 p. : il.
+ISBN: 978-85-7957-295-1
+1.Ergonomia. 2. Segurança e Saúde no Trabalho. 3. Norma Regulamentadora. 
+I. Título.
+CDU: 331.45
+
+LISTA 
+DE FIGURAS
+Figura 1 – Prevalência entre tipos de normas ................................................................................................22
+Figura 2 – Possibilidade de registro da Avaliação Ergonômica Preliminar ....................................................29
+Figura 3 – Fluxo entre as fases de avaliação e a correlação com a NR 01 ...................................................35
+Figura 4 – Ações de ergonomia exemplificadas pelo PDCA ..........................................................................36
+
+APRESENTAÇÃO ...........................................................................................................................9
+RESUMO EXECUTIVO ..................................................................................................................11
+INTRODUÇÃO .............................................................................................................................. 15
+1 O QUE É A NR 17? ....................................................................................................................19
+2 A NR 17 E SUA INTER-RELAÇÃO COM OUTRAS NORMAS REGULAMENTADORAS .......21
+3 COMENTÁRIOS SOBRE O NOVO TEXTO DA NR 17 .............................................................25
+REFERÊNCIAS .............................................................................................................................65
+SUMÁRIO
+
+9APRESENTAÇÃO
+APRESENTAÇÃO
+A Norma Regulamentadora de Ergonomia (NR 17) constitui o arcabouço regulatório que 
+busca proporcionar conforto, segurança, saúde e desempenho eficiente no trabalho. 
+Em 2021, a norma foi modernizada, simplificada e desburocratizada, o que lhe conferiu 
+leitura e compreensão mais objetiva, facilitando sua aplicação por parte dos empregadores. 
+A NR 17, harmonizada com as novas disposições do gerenciamento de riscos ocupacionais, 
+introduzidas pela nova NR 01, prioriza um processo contínuo de prevenção de riscos no 
+ambiente de trabalho, fortalecendo a gestão integrada de Segurança e Saúde no Trabalho. 
+Reestruturada, a nova NR 17 focou-se na produção de informações capazes de subsidiar 
+o planejamento das medidas de prevenção a serem adotadas.
+Por fim, este documento elaborado pela CNI e pelo SESI busca orientar as empresas com 
+interpretações, exemplos práticos, sugestões de ferramentas e metodologias ergonô-
+micas relacionadas ao trabalho, correlacionando-as com diretrizes do gerenciamento 
+de riscos ocupacionais.
+Boa leitura.
+
+11
+RESUMO EXECUTIVO
+RESUMO EXECUTIVO
+Avaliação das situações de trabalho
+O capítulo 17.3 aborda duas formas de avaliação das situações de trabalho que apresentam 
+perigos ergonômicos, o que torna necessária a integração dessas avaliações com o Programa 
+de Gerenciamento de Riscos, previsto na NR 01. Avaliação Ergonômica Preliminar (AEP) ou 
+Análise Ergonômica do Trabalho (AET) – esta última quando for necessária uma avaliação 
+mais aprofundada da situação ou quando os programas PGR ou PCMSO demandarem. 
+As micro e pequenas empresas de grau de riscos 1 e 2 têm tratamento diferenciado 
+quanto à elaboração da AET. 
+Organização do trabalho
+O capítulo 17.4 trata dos aspectos a serem considerados na organização do trabalho e 
+das medidas de prevenção que devem ser observadas a partir da AEP ou AET, para evitar 
+posturas extremas, movimentos repetitivos ou bruscos, uso excessivo da força, exposição 
+a vibrações e exigências cognitivas, que possam gerar adoecimento do trabalhador. Apre-
+senta condições mínimas para que as pausas, quando implementadas, possam propiciar 
+descanso e recuperação psicofisiológica dos trabalhadores. Correlaciona as condições 
+sanitárias e de conforto nos locais de trabalho com a NR 24. Aborda aspectos do posto 
+de trabalho em relação à tarefa, fatores organizacionais e ambientais. Traz a conduta da 
+liderança imediata para propiciar um ambiente saudável e alerta para que avaliação de 
+desempenho, para fins de remuneração ou vantagens, considere as repercussões sobre 
+a saúde dos trabalhadores.
+Levantamento, transporte e descarga individual de cargas 
+O capítulo 17.5 discorre sobre as situações em que não é admissível o transporte manual de 
+carga, bem como os aspectos de tratamento diferenciado para carga suportada por mulheres 
+e menores. Apresenta os requisitos gerais a serem observados para levantamento, manuseio 
+e transporte individual e não eventual de cargas. Torna obrigatória a implantação de uma 
+ou mais medidas de prevenção, listadas no item 17.5.4 na movimentação e no transporte 
+manual não eventual de cargas. Lista pontos a serem observados quando o transporte e a 
+descarga de materiais são realizados por impulsão ou tração de vagonetes, carros de mão 
+ou qualquer outro aparelho mecânico. Traz a obrigatoriedade de orientar o trabalhador 
+quanto aos métodos de levantamento, carregamento e deposição de cargas. Esclarece que 
+este capítulo da NR não se aplica a levantamento, transporte e movimentação de pessoas.
+12
+NR 17 – ERGONOMIA | COMENTÁRIOS AO NOVO TEXTO (PORTARIA MTP 423, DE 07/10/2021)
+Mobiliário dos postos de trabalho
+O capítulo 17.6 expõe as necessidades relacionadas aos mobiliários dos postos de traba-
+lho para adaptá-los às características antropométricas dos trabalhadores envolvidos e à 
+natureza do trabalho. Aborda a necessidade de planejar ou adaptar os postos de trabalho, 
+de forma que favoreçam a alternância da posição de pé com a posição sentada. Lista os 
+requisitos mínimos que devem ser atendidos para a realização de trabalho manual e que 
+devem proporcionar ao trabalhador condições de boa postura, visualização e operação. 
+Aceita a utilização de apoio para os pés como recurso para adaptação do mobiliário às 
+dimensões antropométricas do trabalhador. Determina os aspectos a serem observados 
+quando ocorre o uso de pedais e demais comandos para acionamento pelos pés. Apresenta 
+os requisitos mínimos que devem ser atendidos para os assentos utilizados nos postos 
+de trabalho. 
+Trabalho com máquinas, equipamentos e ferramentas manuais 
+O capítulo 17.7 faz menção à observância da NR 12 nos trabalhos com máquinas e equi-
+pamentos, além da necessidade de atender às demais NRs relacionadas. Dispõe sobre a 
+obrigatoriedade de os equipamentos utilizados no processamento eletrônico de dados 
+com terminais de vídeo, permitirem o ajuste de acordo com a tarefa, além da necessidade 
+de ajuste da tela à iluminação do ambiente. Trata dos requisitos mínimos para atividades 
+com uso de computador portátil de forma não eventual em posto de trabalho. Obriga 
+que os equipamentos e ferramentas manuais, cujos pesos e utilização forem passíveis de 
+comprometer a segurança ou a saúde dos trabalhadores, sejam dotados de dispositivos 
+de sustentação ou outra medida de prevenção, a partir da AEP ou da AET. Aborda os 
+aspectos a serem considerados na concepção das ferramentas manuais. Traz o dever da 
+organização de selecionar as ferramentas manuais, considerando o tipo, formato e a textura 
+da empunhadura, de modo que sejam apropriados à tarefa e ao eventual uso de luvas. 
+Condições de conforto no ambiente de trabalho 
+O capítulo 17.8 discorre sobre as condições de conforto no ambiente de trabalho, tra -
+zendo aspectos e referências normativas para níveis de iluminamento, conforto acústico 
+e conforto térmico. Traz a necessidade de haver iluminação apropriada à natureza da 
+atividade, instalada de forma a evitar ofuscamento, reflexos incômodos, sombras e 
+contrastes excessivos, com níveis de iluminamento em conformidade com a NHO 11 da 
+Fundacentro. Aborda a obrigatoriedade de adoção de medidas de conforto acústico e tér-
+mico nos ambientes onde são executadas atividades que exijam manutenção da solicitação 
+13
+13RESUMO EXECUTIVO
+intelectual e atenção constantes. Torna obrigatória a adoção de medidas de controle para 
+minimizar a ocorrência de correntes de ar, aplicadas diretamente sobre os trabalhadores. 
+Evidencia que, nas situações em que haja normativa específica, com a devida justificativa 
+técnica de que não haverá prejuízo à segurança ou à saúde dos trabalhadores, essas 
+normativas podem substituir a aplicação da NHO 11 e a referência de 65 dB(A) para ruído 
+de fundo aceitável para efeito de conforto acústico.
+
+15INTRODUÇÃO
+INTRODUÇÃO
+A Norma Regulamentadora 17 (NR 17) – Ergonomia foi originalmente publicada em 1978, 
+por meio da Portaria 3.214, de 8/6/1978, para regulamentar os artigos 175, 176, 178, 
+198 e 199 da Consolidação das Leis do Trabalho (CL T). A NR 17 de 1978 estabelecera os 
+parâmetros que permitiriam a adaptação das condições de trabalho às características 
+psicofisiológicas dos trabalhadores, de modo a proporcionar conforto, segurança, saúde 
+e desempenho eficiente no trabalho.
+Com o propósito de tornar o ambiente de trabalho confortável, seguro e saudável, a NR 
+17 passou por uma ampla revisão em 1990. Nela, foram estabelecidas as novas diretrizes, 
+capazes de permitir a adequação das condições de trabalho aos aspectos relacionados aos 
+materiais (levantamento, transporte e descarga), aos postos de trabalho (equipamentos 
+e mobiliário), às condições ambientais do trabalho (temperatura, umidade relativa do ar, 
+ruído, velocidade do ar, níveis de iluminamento) e à organização do trabalho (execução, 
+organização das tarefas e medidas de controle). 
+Em 2019, no contexto do processo de revisão das normas regulamentadoras (NRs), ini-
+ciaram-se, na Comissão Tripartite Paritária Permanente (CTPP), as tratativas quanto aos 
+procedimentos a serem tomados para a revisão da NR 17, em conjunto com as demais NRs. 
+Em junho de 2021, impulsionada pela necessidade de harmonizar seu texto com outros 
+dispositivos legais – em especial as NR 01 – Disposições Gerais e Gerenciamento de 
+Riscos Ocupacionais, NR 07 – Programa de Controle Médico e Saúde Ocupacional e 
+NR 09 – Avaliação e Controle das Exposições Ocupacionais a Agentes Físicos, Químicos 
+e Biológicos – o processo de revisão da NR 17 foi concluído. 
+Nessa revisão, a NR 17 foi reestruturada em capítulos, conforme estabelecido pela então 
+Portaria SIT 787/2018, tendo sido simplificada e desburocratizada, o que lhe conferiu 
+leitura e compreensão mais objetiva, facilitando sua aplicação por parte de profissionais 
+de Segurança e Saúde no Trabalho (SST), trabalhadores, empregadores e auditores fiscais 
+do trabalho. 
+Entre as alterações promovidas pela revisão da norma, destacam-se a introdução da etapa 
+de Avaliação Ergonômica Preliminar (AEP) das situações de trabalho e o reposicionamento 
+da Análise Ergonômica do Trabalho (AET). 
+16
+NR 17 – ERGONOMIA | COMENTÁRIOS AO NOVO TEXTO (PORTARIA MTP 423, DE 07/10/2021)
+A AEP é uma avaliação inicial, que tem por objetivo identificar os perigos a que os tra -
+balhadores estão expostos, compreendendo e caracterizando a exposição, de forma a 
+proporcionar a implementação de medidas de prevenção e adequações das condições de 
+trabalho que não demandem análise aprofundada. 
+A AET, por sua vez, passa a ser realizada quando houver situações de trabalho que neces-
+sitem de uma análise mais aprofundada. Podem ser gatilhos para a AET: a) a constatação 
+da ineficiência de medidas adotadas; b) a sugestão vinda do acompanhamento da saúde 
+dos trabalhadores, nos termos do Programa de Controle Médico de Saúde Ocupacional 
+(PCMSO); ou c) a indicação de causa relacionada às condições de trabalho na análise de 
+acidentes e doenças relacionadas ao trabalho.
+Um terceiro destaque advém de sua harmonização com as novas disposições do geren-
+ciamento de riscos ocupacionais, introduzidas pela nova NR 01, priorizando assim, um 
+processo contínuo de identificação, avaliação e prevenção de riscos no ambiente de 
+trabalho relacionados a fatores ergonômicos, fortalecendo a gestão integrada de SST. 
+Por fim, este documento busca orientar as empresas com interpretações, exemplos prá-
+ticos, sugestões de ferramentas e metodologias ergonômicas relacionadas ao trabalho, 
+correlacionando-as com diretrizes do gerenciamento de riscos ocupacionais comentados a 
+cada requisito da NR17. Não é foco deste documento o Anexo I – Trabalho dos operadores 
+de checkout e Anexo II – Trabalho em teleatendimento/ telemarketing.
+
+191 O QUE É A NR 17?
+1 O QUE É A NR 17?
+A Norma Regulamentadora 17 (NR 17) – Ergonomia constitui o arcabouço regulatório 
+que estabelece as diretrizes e os requisitos que permitam a adaptação das condições de 
+trabalho às características psicofisiológicas dos trabalhadores, de modo a proporcionar 
+conforto, segurança, saúde e desempenho eficiente no trabalho. A NR 17 não indica 
+o “como fazer”, haja vista que essas informações devem ser obtidas em literaturas 
+técnicas pertinentes. 
+Os dois anexos da NR 17 foram mantidos, atualizados e harmonizados com as práticas de 
+gerenciamento de riscos ocupacionais: Anexo I – Trabalho dos operadores de checkout 
+e Anexo II – Trabalho em teleatendimento/telemarketing.
+
+212 A NR 17 E SUA INTER-RELAÇÃO COM OUTRAS NORMAS REGULAMENTADORAS
+2 A NR 17 E SUA INTER-RELAÇÃO 
+COM OUTRAS NORMAS 
+REGULAMENTADORAS
+As normas regulamentadoras de segurança e saúde no trabalho (NRs) possuem regras 
+de prevalência quando de sua aplicação pelas empresas. O Capítulo VI da Portaria MTP 
+672/2021, de 08/11/2021, não só disciplina essas regras, como também as classifica. Nesse 
+sentido, as NRs podem ser classificadas em:
+• Normas gerais: regulamentam aspectos decorrentes da relação jurídica prevista 
+em lei, sem estar condicionadas a outros requisitos, como atividades, instalações, 
+equipamentos ou setores e atividades econômicas específicas. São classificadas 
+como normas regulamentadoras gerais: NR 01 – Disposições Gerais e Gerenciamento 
+de Riscos Ocupacionais, NR 03 – Embargo e Interdição, NR 04 – Serviços Especiali-
+zados em Engenharia de Segurança e em Medicina do Trabalho, NR 05 – Comissão 
+Interna de Prevenção de Acidentes, NR 07 – Programa de Controle Médico e de 
+Saúde Ocupacional, NR 09 – Avaliação e Controle das Exposições Ocupacionais a 
+Agentes Químicos, Físicos e Biológicos, NR 17 – Ergonomia e NR 28 – Fiscalização 
+e Penalidades.
+• Normas especiais: regulamentam a execução do trabalho e consideram as atividades, 
+instalações ou equipamentos empregados, não condicionados a setores ou atividades 
+econômicas específicas. São classificadas como normas regulamentadoras especiais: 
+NR 06 – Equipamento de Proteção Individual, NR 08 – Edificações, NR 10 – Segurança 
+em Instalações e Serviços em Eletricidade, NR 11 – Transporte, Movimentação, Ar-
+mazenagem e Manuseio de Materiais, NR 12 – Segurança no Trabalho em Máquinas e 
+Equipamentos, NR 13 – Caldeiras, Vasos de Pressão, Tubulações e Tanques Metálicos 
+de Armazenamento, NR 14 - Fornos, NR 15 – Atividades e Operações Insalubres, 
+NR 16 – Atividades e Operações Perigosas, NR 19 - Explosivos, NR 20 – Segurança e 
+Saúde no Trabalho com Inflamáveis e Combustíveis, NR 21 – Trabalho a Céu Aberto, 
+NR 23 – Proteção Contra Incêndios, NR 24 – Condições Sanitárias e de Conforto nos 
+Locais de Trabalho, NR 25 – Resíduos Industriais, NR 26 – Sinalização de Segurança, 
+NR 33 – Segurança e Saúde no Trabalho em Espaços Confinados e NR 35 – Trabalho 
+em Altura. 
+
+22
+NR 17 – ERGONOMIA | COMENTÁRIOS AO NOVO TEXTO (PORTARIA MTP 423, DE 07/10/2021)
+• Normas setoriais: regulamentam a execução do trabalho em setores ou atividades 
+econômicas específicas. São classificadas como normas regulamentadoras setoriais: 
+NR 18 – Segurança e Saúde no Trabalho na Indústria da Construção, NR 22 – Segu-
+rança e Saúde Ocupacional na Mineração, NR 29 – Segurança e Saúde no Trabalho 
+Portuário, NR 30 – Segurança e Saúde no Trabalho Aquaviário, NR 31 – Segurança 
+e Saúde no Trabalho na Agricultura, Pecuária, Silvicultura, Exploração Florestal e 
+Aquicultura, NR 32 – Segurança e Saúde no Trabalho em Serviços de Saúde, NR 34 
+– Condições e Meio Ambiente de Trabalho na Indústria da Construção, Reparação 
+e Desmonte Naval, NR 36 – Segurança e Saúde no Trabalho em Empresas de Abate e 
+Processamento de Carnes e Derivados e NR 37 – Segurança e Saúde em Plataformas 
+de Petróleo. 
+De acordo com essa classificação, em caso de conflito entre dispositivos de NRs, será 
+considerada a seguinte prevalência de implantação: NR setorial se sobrepõe a NR especial 
+ou geral; e NR especial se sobrepõe a NR geral.
+Como a NR 17 é uma norma geral, nos casos de aparente conflito entre dispositivos da 
+NR 17 e demais normas regulamentadoras, a solução se dará pela aplicação: da NR setorial, 
+em primeiro lugar; da NR especial, em segundo lugar; e da NR geral, em terceiro lugar, 
+conforme exemplificado na figura 1. 
+FIGURA 1 – Prevalência entre tipos de normas
+MAIOR
+PREVALÊNCIA
+NORMA
+SETORIAL
+NORMA
+ESPECIAL
+NORMA
+GERAL
+NR 17
+MENOR
+PREVALÊNCIA
+Fonte: SESI (2010).
+Além das NRs, seus anexos também recebem enquadramento, conforme sua finalidade: 
+• Anexo do Tipo 1: complementa diretamente a parte geral da norma regulamenta-
+dora, exemplifica ou define seus termos;
+• Anexo do Tipo 2: dispõe sobre uma situação específica.
+Os anexos I e II da NR 17 se enquadram no tipo 2, ou seja, ambos se referem a situações 
+específicas (Trabalho dos operadores de checkout e Trabalho em teleatendimento/ 
+telemarketing). 
+
+253 COMENTÁRIOS SOBRE O NOVO TEXTO DA NR 17
+3 COMENTÁRIOS SOBRE O 
+NOVO TEXTO DA NR 17
+Este capítulo apresenta o texto da NR 17 publicado por meio da Portaria MTP 423, de 
+07/10/2021 (DOU 08/10/2021, Seção 1), e respectivos comentários, os quais têm por 
+objetivo trazer clareza e contribuir para seu cumprimento.
+Itens da Norma
+17.1 Objetivo. 
+17.2 Campo de aplicação.
+17.3 Avaliação das situações de trabalho.
+17.4 Organização do trabalho.
+17.5 Levantamento, transporte e descarga individual de cargas.
+17.6 Mobiliário dos postos de trabalho.
+17.7 Trabalho com máquinas, equipamentos e ferramentas manuais.
+17.8 Condições de conforto no ambiente de trabalho.
+Anexo I – Trabalho dos operadores de checkout.
+Anexo II – Trabalho em teleatendimento/telemarketing.
+17.1 Objetivo 
+17.1.1 Esta Norma Regulamentadora - NR visa estabelecer as diretrizes e os requisitos 
+que permitam a adaptação das condições de trabalho às características psicofisiológicas 
+dos trabalhadores, de modo a proporcionar conforto, segurança, saúde e desempenho 
+eficiente no trabalho.
+17.1.1.1 As condições de trabalho incluem aspectos relacionados ao levantamento, 
+transporte e descarga de materiais, ao mobiliário dos postos de trabalho, ao trabalho com 
+máquinas, equipamentos e ferramentas manuais, às condições de conforto no ambiente 
+de trabalho e à própria organização do trabalho.
+
+26
+NR 17 – ERGONOMIA | COMENTÁRIOS AO NOVO TEXTO (PORTARIA MTP 423, DE 07/10/2021)
+COMENTÁRIOS
+O objetivo da NR 17 é estabelecer as diretrizes e os requisitos para permitir a adaptação 
+das condições de trabalho às características psicofisiológicas dos trabalhadores. 
+A norma está estruturada em capítulos, nos quais são apresentados os requisitos e as 
+diretrizes para implantação das medidas de prevenção a serem adotadas pelas empresas 
+para adaptação das condições de trabalho. 
+Para avaliar se as condições de trabalho estão adaptadas às características psicofisiológicas 
+dos trabalhadores, considerando todos os aspectos citados no item 17.1.1.1, a norma 
+prevê a realização de avaliação das situações de trabalho, conforme item 17.3.
+Essas diretrizes e requisitos visam proporcionar conforto, segurança, saúde e desempenho 
+eficiente no trabalho. 
+17.2 Campo de aplicação 
+17.2.1 Esta Norma se aplica a todas as situações de trabalho, relacionadas às condições 
+previstas no subitem 17.1.1.1, das organizações e dos órgãos públicos da administração 
+direta e indireta, bem como dos órgãos dos Poderes Legislativo, Judiciário e Ministério 
+Público, que possuam empregados regidos pela Consolidação das Leis do Trabalho - CL T.
+17.2.2 Nos termos previstos em lei, aplica-se o disposto nesta NR a outras relações jurídicas.
+COMENTÁRIOS
+Esta norma é aplicável às situações de trabalho que envolvem o levantamento, transporte 
+e descarga de materiais, mobiliário dos postos de trabalho, trabalho com máquinas, 
+equipamentos e ferramentas manuais, condições de conforto no ambiente de trabalho 
+e à própria organização do trabalho.
+A aplicação da NR 17 é obrigatória em todas as organizações e órgãos públicos da admi-
+nistração direta e indireta, bem como nos órgãos dos Poderes Legislativo, Judiciário e 
+Ministério Público, que possuam empregados regidos pela CL T. 
+De acordo com a NR 01, entende-se como organização a pessoa ou o grupo de pessoas 
+com suas próprias funções, com responsabilidades, autoridade e relações para alcançar 
+seus objetivos. 
+O conceito é abrangente, pois não se limita a empregador, tomador de serviços, empresa, 
+empreendedor individual, produtor rural, companhia, corporação, firma, autoridade, parce-
+ria, organização de caridade ou instituição – ou parte ou combinação desses, incorporada 
+ou não – pública ou privada.
+27
+273 COMENTÁRIOS SOBRE O NOVO TEXTO DA NR 17
+Por fim, no item 17.2.2, a norma busca abranger outras relações jurídicas de trabalho, 
+quando previstas em lei, que também estão obrigadas a cumprir o disposto nesta NR.
+17.3 Avaliação das situações de trabalho 
+17.3.1 A organização deve realizar a avaliação ergonômica preliminar das situações 
+de trabalho que, em decorrência da natureza e conteúdo das atividades requeridas 
+demandam adaptação às características psicofisiológicas dos trabalhadores, a fim 
+de subsidiar a implementação das medidas de prevenção e adequações necessárias 
+previstas nesta NR.
+17.3.1.1 A avaliação ergonômica preliminar das situações de trabalho pode ser realizada 
+por meio de abordagens qualitativas, semiquantitativas, quantitativas ou combinação 
+dessas, dependendo do risco e dos requisitos legais, a fim de identificar os perigos e 
+produzir informações para o planejamento das medidas de prevenção necessárias.
+17.3.1.2 A avaliação ergonômica preliminar pode ser contemplada nas etapas do processo 
+de identificação de perigos e de avaliação dos riscos, descrito no item 1.5.4 da Norma Regu-
+lamentadora nº 01 (NR 01) - Disposições Gerais e Gerenciamento de Riscos Ocupacionais.
+17.3.1.2.1 A avaliação ergonômica preliminar das situações de trabalho deve ser registrada 
+pela organização.
+COMENTÁRIOS
+A NR 17 estabeleceu dois instrumentos de avaliação das situações de trabalho: Avaliação 
+Ergonômica Preliminar (AEP) e Análise Ergonômica do Trabalho (AET). 
+A avaliação ergonômica preliminar foi incluída na nova NR 17 com o objetivo de identificar 
+os perigos e produzir informações preliminares, capazes de subsidiar o planejamento das 
+medidas de prevenção necessárias, sem que seja necessária a realização de AET. 
+Essa novidade agiliza o processo de melhoria contínua, na medida em que considera que 
+nem todas as situações de trabalho demandam uma análise aprofundada para proposição 
+de adequações e medidas de prevenção. 
+Sendo assim, durante a avaliação ergonômica preliminar, se a organização identificar que 
+pode mudar um processo de trabalho, trocar um mobiliário, adequar um posto de trabalho, 
+ou ainda adequar as condições do local de trabalho, poderá fazê-lo imediatamente ou 
+planejar as mudanças, com base no resultado dessa avaliação preliminar. 
+Cabe considerar que o levantamento preliminar de perigos não se aplica apenas a perigos 
+relacionados à ergonomia; pois é uma etapa do processo de gestão realizada para todas 
+as categorias de riscos (físicos, químicos, biológicos, ergonômicos e de acidentes) levando 
+28
+NR 17 – ERGONOMIA | COMENTÁRIOS AO NOVO TEXTO (PORTARIA MTP 423, DE 07/10/2021)
+em consideração as particularidades de cada categoria, empregando os critérios e referên-
+cias técnicas mais adequadas para cada perigo, bem como as normas regulamentadoras 
+aplicáveis.
+De modo geral, a avaliação preliminar de perigos é um processo técnico realizado para 
+identificação e caracterização de perigos, de modo a compreender as variáveis que podem 
+impactar a exposição do trabalhador e subsidiar a avaliação de riscos. Graças a essa 
+avaliação preliminar de perigos, torna-se possível distinguir os riscos em que é possível 
+entrar com a proposição de medidas preventivas imediatas daqueles que necessitam de 
+análise mais aprofundada.
+Nesse contexto, é importante destacar o disposto no item 17.3.1.2 e compreender as 
+vantagens de realizar a avaliação ergonômica preliminar durante o processo de identi -
+ficação de perigos e de avaliação dos riscos do Programa de Gerenciamento de Riscos 
+Ocupacionais (PGR), descrito no item 1.5.4 da NR 01.
+Ao incluir a avaliação ergonômica preliminar nas etapas de identificação de perigos 
+e avaliação dos riscos do PGR, é possível obter uma visão global e multidisciplinar do 
+ambiente de trabalho. Isso permite compreender a inter-relação entre as categorias de 
+riscos e as situações geradoras, proporcionando informações integradas que possibilitem 
+maior assertividade na proposição das possíveis adequações. Além de maior integração 
+entre as NRs, facilita-se o processo de melhoria contínua e otimizam-se recursos. 
+A NR 17 não determina, contudo, uma abordagem específica ou única para realização da 
+avaliação ergonômica preliminar. Cabe à organização escolher uma ou mais abordagens 
+(qualitativa, semiquantitativa, quantitativa ou combinação dessas) aplicáveis e que atenda 
+aos requisitos legais. É importante destacar que, mesmo sendo uma avaliação preliminar, 
+a AEP deve abordar os aspectos e requisitos mínimos descritos nos capítulos (temas) da 
+NR 17.
+Por exemplo, a organização pode fazer uso de questionários, entrevistas, listas de che-
+cagem, entre outras, combinadas com metodologias de avaliação de riscos (exemplos 
+disponíveis na ABNT NBR IEC 31010), desde que, por meio da abordagem escolhida, seja 
+possível identificar e caracterizar os perigos, avaliar os riscos e, quando aplicável, propor 
+adequações e medidas de prevenção.
+A NR 17 prevê ainda que a organização deve ser capaz de demonstrar que realizou a 
+avaliação ergonômica preliminar das situações de trabalho, contudo, não determina 
+a forma de registro, o que possibilita à empresa avaliar a melhor alternativa. 
+Ponderando que a avaliação ergonômica preliminar pode fazer parte do processo de 
+identificação de perigos e de avaliação dos riscos descrito no item 1.5.4 da NR 01, o registro 
+29
+293 COMENTÁRIOS SOBRE O NOVO TEXTO DA NR 17
+poderá ser realizado diretamente no inventário de riscos do PGR ou, quando realizado à 
+parte, o resultado da avaliação deve ser inserido no PGR.
+No fluxograma a seguir, apresentaremos algumas possibilidades de registros da avaliação 
+ergonômica preliminar, de que trata a NR 17, integrada ao PGR.
+FIGURA 2 – Possibilidade de registro da Avaliação Ergonômica Preliminar 
+Registro próprio
+da AEP, com
+planejamento
+de ações
+Organização
+dispensada de
+elaborar PGR?
+Organização
+possui programa
+de ergonomia?
+Inclui a avaliação ergonômica preliminar
+no processo de identiﬁcação de perigos
+e avaliação de riscos do PGR e faz o registro
+diretamente no inventário de riscos e plano
+de ações do PGR
+Registro próprio da Avaliação Ergonômica
+Preliminar, inclusão dos resultados no PGR
+e planejamento das melhorias no plano
+de ações do PGR
+Integra o processo de avaliação ergonômica
+preliminar no processo de identiﬁcação
+de perigos e avaliação de riscos do PGR e faz
+o registro diretamente no inventário de
+riscos e planos de ações do PGR
+Registra os resultados do programa
+de ergonomia no inventário de riscos
+do PGR e faz o planejamento das melhorias
+no plano de ações do PGR
+Mantém registros próprios e faz referência
+no PGR ao programa de ergonomia
+SIM
+NÃO
+NÃO
+1
+2
+1
+2
+3
+SIM
+Opções
+Opções
+Fonte: Elaborado por CNI e SESI (2022)
+Cabe ressaltar que o registro da avaliação preliminar de todos os perigos em um único 
+local, independentemente da categoria, torna o processo mais organizado, facilita a gestão 
+de riscos, reduz a burocracia e otimiza recursos. 
+Caso a empresa se enquadre na hipótese de dispensa descrita no item 1.8.4 da NR 01 – 
+estando desobrigada da elaboração do PGR – e necessite realizar a avaliação ergonômica 
+preliminar, o registro de que trata o item 17.3.1.2.1 da NR 17 deve ser realizado, indepen-
+dentemente da existência do PGR. 
+30
+NR 17 – ERGONOMIA | COMENTÁRIOS AO NOVO TEXTO (PORTARIA MTP 423, DE 07/10/2021)
+17.3.2 A organização deve realizar Análise Ergonômica do Trabalho - AET da situação de 
+trabalho quando:
+a) observada a necessidade de uma avaliação mais aprofundada da situação;
+b) identificadas inadequações ou insuficiência das ações adotadas;
+c) sugerida pelo acompanhamento de saúde dos trabalhadores, nos termos do Pro -
+grama de Controle Médico de Saúde Ocupacional - PCMSO e da alínea “c” do subitem 
+1.5.5.1.1 da NR 01; ou
+d) indicada causa relacionada às condições de trabalho na análise de acidentes e doenças 
+relacionadas ao trabalho, nos termos do Programa de Gerenciamento de Riscos - PGR.
+COMENTÁRIOS
+Conforme subitem 17.3.2, a NR 17 aponta quatro gatilhos para elaboração de AET. 
+As duas primeiras hipóteses advêm da avaliação ergonômica preliminar; a terceira, do 
+monitoramento de saúde dos trabalhadores conforme PCMSO; e a quarta, da análise de 
+acidentes de trabalho.
+Sendo assim, quando a avaliação ergonômica preliminar se mostrar insuficiente para 
+subsidiar o planejamento das ações que visam eliminar ou reduzir o risco ocupacional – ou 
+ainda, quando as ações implementadas com base na avaliação ergonômica preliminar não 
+forem suficientes para proteger a saúde do trabalhador – a organização deve realizar 
+uma AET.
+Outro gatilho para a elaboração de AET são os indícios ou comprovação de adoecimento 
+relacionados às condições ergonômicas de trabalho. Esses indícios de adoecimento 
+podem ser verificados pelos médicos durante o processo de monitoramento de saúde 
+dos trabalhadores nos termos do PCMSO e a comprovação do nexo por meio da análise 
+de acidentes.
+A Análise Ergonômica do Trabalho (AET) é um processo construtivo e participativo para a 
+resolução de um problema complexo, que exige informações mais detalhadas e estudos 
+mais acentuados e que, muitas vezes, requer a aplicação de ferramentas, técnicas ou 
+metodologias específicas e, de acordo com o grau de complexidade, pode demandar o 
+envolvimento de profissionais mais experientes e equipe multidisciplinar. 
+A organização deve ter clareza sobre a demanda que requer a análise ergonômica e o 
+problema que se quer resolver, ou seja, o que se busca com uma AET é apurar um eventual 
+problema ergonômico e encontrar alternativas para solucioná-lo.
+31
+313 COMENTÁRIOS SOBRE O NOVO TEXTO DA NR 17
+17.3.3 A AET deve abordar as condições de trabalho, conforme estabelecido nesta NR, 
+incluindo as seguintes etapas:
+a) análise da demanda e, quando aplicável, reformulação do problema;
+b) análise do funcionamento da organização, dos processos, das situações de trabalho 
+e da atividade;
+c) descrição e justificativa para definição de métodos, técnicas e ferramentas adequados 
+para a análise e sua aplicação, não estando adstrita à utilização de métodos, técnicas 
+e ferramentas específicos;
+d) estabelecimento de diagnóstico;
+e) recomendações para as situações de trabalho analisadas; e
+f) restituição dos resultados, validação e revisão das intervenções efetuadas, quando 
+necessária, com a participação dos trabalhadores.
+COMENTÁRIOS
+A AET não é considerada uma ferramenta, uma vez que seu escopo abrange uma análise 
+das demandas das condições de trabalho que podem necessitar de adaptação às caracte-
+rísticas psicofisiológicas dos trabalhadores que exercem suas atividades laborais. Deve, 
+portanto, ser elaborada quando a organização tiver dificuldade para entender como 
+resolver situações complexas. 
+Ainda que não defina um método específico para realização da AET, a NR 17 estabelece 
+as etapas que a AET deve seguir para abordar as condições de trabalho que requerem 
+essa análise mais aprofundada. Logo, a AET deve abordar as seguintes etapas: 
+a) análise da demanda e, quando aplicável, reformulação do problema
+A demanda deve ser estudada para direcionar o esforço da análise. Ela pode ter diversas 
+origens, como, por exemplo, a ocorrência de um número elevado de queixas relacionada à 
+saúde dos trabalhadores, indícios ou comprovação de doenças e acidentes, a necessidade 
+de melhoria no processo de produção, entre outros. Essa demanda deve ser estudada 
+para formulação do problema, objeto da análise. O problema poderá ser reformulado na 
+hipótese de uma demanda ter sido estudada e medidas terem sido aplicadas, mas não se 
+tenha obtido o resultado desejado na adequação do trabalho.
+b) análise do funcionamento da organização, dos processos, das situações de trabalho 
+e da atividade
+Para uma compreensão do trabalho com o objetivo de adequá-lo às características psico-
+fisiológicas dos trabalhadores, é necessário entender o funcionamento da organização 
+como um todo e as formas de trabalho adotadas. 
+32
+NR 17 – ERGONOMIA | COMENTÁRIOS AO NOVO TEXTO (PORTARIA MTP 423, DE 07/10/2021)
+Cada empresa adota um método particular de funcionamento, regras e relação entre 
+processos e pessoas. Conhecer essas particularidades e como são desenhados os pro -
+cessos, as situações de trabalho e a atividade constituem etapas fundamentais para o 
+entendimento da origem do problema e para sua solução.
+Apenas por meio dessa análise é possível entender a diferença entre a prescrição do trabalho 
+(como ele é desenhado e almejado pela empresa) e a atividade real desempenhada pelo 
+trabalhador. Essa assimetria entre a atividade prescrita e a realizada é objeto de estudo 
+e adequação, para que seja possível ajustar o trabalho aos trabalhadores, de forma que 
+ofereça condições ergonômicas para o desempenho seguro das atividades. 
+c) descrição e justificativa para definição de métodos, técnicas e ferramentas ade -
+quados para a análise e sua aplicação, não estando adstrito à utilização de métodos, 
+técnicas e ferramentas específicos
+A descrição e a justificativa das escolhas adotadas na análise da situação de risco é uma 
+novidade normativa, não contemplada na NR 17 anterior. Cumpre salientar que a NR 17 
+não é prescritiva quanto ao método de avaliação a ser aplicado na análise de cada situação 
+de trabalho, dando à organização a liberdade de escolha, mas, com isso, aumentando a 
+responsabilidade quanto ao alcance dos resultados.
+É uma mudança positiva e importante, pois permite que a organização adote o caminho técnico 
+mais adequado a cada caso e justifique sua escolha, não ficando limitada a um único método, 
+escola ou formato de avaliação. A riqueza de detalhes na adoção de diferentes técnicas e 
+abordagens é vital para a análise de tarefas com requisitos e complexidades diferentes.
+d) estabelecimento de diagnóstico
+Assim como a demanda orienta e indica um caminho para a análise, um diagnóstico bem-
+-feito estabelece conclusões acerca das análises e responde ao problema formulado na 
+demanda. Esse diagnóstico deve ser claro e objetivo, indicando os pontos de inadequação 
+de forma a permitir a indicação das ações a serem adotadas para mitigação dos riscos e 
+adequação das situações de trabalho que se façam necessárias.
+e) recomendações para as situações de trabalho analisadas
+Com base no diagnóstico, quando aplicável, deverão ser propostas ações para adequação 
+ou melhoria das situações de trabalho analisadas. Essas ações devem estar contempladas 
+no plano de ação do PGR ou integradas a este, conforme previsto na NR 01. 
+f) restituição dos resultados, validação e revisão das intervenções efetuadas, quando 
+necessária, com a participação dos trabalhadores
+A NR 17 destaca a importância da participação dos trabalhadores no processo de restitui-
+ção dos resultados, validação e revisão das intervenções efetuadas. Cabe ressaltar que a 
+participação dos trabalhadores, gestores, profissionais de segurança no trabalho e demais 
+33
+333 COMENTÁRIOS SOBRE O NOVO TEXTO DA NR 17
+interessados ou envolvidos é importante em todas as fases do processo, contribuindo na 
+discussão e na implementação e validação dos resultados obtidos. 
+Uma vez discutidas, analisadas e implantadas, as melhorias, precisam passar por um 
+processo de análise, para que se possa verificar o alcance dos resultados, eliminando ou 
+reduzindo o risco e tornando o trabalho mais adequado às características psicofisiológicas 
+dos trabalhadores. 
+Se for constatada a insuficiência ou inadequação de melhorias implementadas a partir da 
+AET, será necessário reavaliar a situação e propor novas alternativas de adequação. Caso 
+a insuficiência ou inadequação seja proveniente de uma melhoria realizada com base na 
+Avaliação Ergonômica Preliminar, será necessária a realização da AET, conforme previsto 
+no item 17.3.2 da NR 17.
+17.3.4 As Microempresas - ME e Empresas de Pequeno Porte - EPP enquadradas como graus 
+de risco 1 e 2 e o Microempreendedor Individual - MEI não são obrigados a elaborar a AET, 
+mas devem atender todos os demais requisitos estabelecidos nesta NR, quando aplicáveis.
+17.3.4.1 As ME ou EPP enquadradas como graus de risco 1 e 2 devem realizar a AET quando 
+observadas as situações previstas nas alíneas “c” e “d” do item 17.3.2.
+COMENTÁRIOS
+Em atendimento às exigências da Lei Complementar 123 (LC 123), de 14/12/2006, a NR 17 
+prevê tratamento diferenciado ao Microempreendedor Individual (MEI), à Microempresa 
+(ME) e à Empresa de Pequeno Porte (EPP).
+O tratamento diferenciado prevê que as empresas de porte ME e EPP de graus de risco 
+1 e 2 e o MEI estão dispensadas de elaborar a AET, mas continuam obrigadas a atender 
+aos demais requisitos da NR 17. 
+A classificação do porte está descrita no Cadastro Nacional de Pessoa Jurídica (CNPJ) e o 
+grau de risco da atividade econômica na NR 04 – Serviços Especializados em Engenharia 
+de Segurança e em Medicina do Trabalho.
+Entretanto, o subitem 17.3.4.1 apresenta uma exceção a essa dispensa, esclarecendo 
+que as MEs e EPPs, enquadradas no grau de riscos 1 e 2, devem elaborar AET, quando 
+sugerido pelo acompanhamento de saúde dos trabalhadores nos termos do PCMSO ou 
+quando observadas causas relacionadas às condições de trabalho pela análise de acidentes 
+e doenças.
+34
+NR 17 – ERGONOMIA | COMENTÁRIOS AO NOVO TEXTO (PORTARIA MTP 423, DE 07/10/2021)
+17.3.5 Devem integrar o inventário de riscos do programa de gerenciamento de riscos:
+a) os resultados da avaliação ergonômica preliminar;
+b) a revisão, quando for o caso, da identificação dos perigos e da avaliação dos riscos, 
+conforme indicado pela AET.
+17.3.6 Devem ser previstos planos de ação nos termos do Programa de Gerenciamento 
+de Riscos para:
+a) as medidas de prevenção e adequações decorrentes da avaliação ergonômica pre-
+liminar, atendido o previsto nesta norma regulamentadora; e
+b) as recomendações da AET.
+COMENTÁRIOS
+O PGR previsto na NR 01 deve consolidar, organizar e gerenciar as ações de saúde e segu-
+rança no trabalho nas empresas. A partir desse programa, a empresa fará ações diversas, 
+em consonância com as demais normas regulamentadoras que retroalimentarão o PGR, 
+num processo dinâmico e contínuo de gestão. 
+Nesse contexto, a nova NR 17 estabelece que a avaliação ergonômica preliminar, requerida 
+pelo item 17.3.1 – ou o resultado desta – devem incorporar o inventário de riscos previstos 
+na NR 01 e consignar que as ações estarão previstas no plano de ação do PGR. 
+A partir do processo de Avaliação Ergonômica Preliminar, incorporada à gestão de riscos, 
+pode ser observada a necessidade de uma AET, caso em que os resultados obtidos também 
+deverão ser incorporados ao PGR (inventário de riscos e plano de ação). Além disso, a partir 
+da AET poderá ser identificada a necessidade de revisão do PGR (inventário e plano de ação).
+Para compreender as inter-relações entre as avaliações previstas na NR 17 e o gerencia-
+mento de riscos ocupacionais, é apresentado o fluxo a seguir, que exemplifica as fases 
+de avaliação e correlação com a NR 01.
+35
+353 COMENTÁRIOS SOBRE O NOVO TEXTO DA NR 17
+FIGURA 3 – Fluxo entre as fases de avaliação e a correlação com a NR 01
+Registrar resultados e 
+gerenciar alterações, que 
+possam gerar necessidade
+de nova avaliação
+Registrar a avaliação e deﬁnir
+medidas de prevenção e
+adequações necessárias,
+conforme NR 17 e NR 01
+Planejamento das ações
+no plano de ação
+do PGR
+Execução das ações e
+reavaliação dos riscos
+Planejamento das ações
+no plano de ação
+do PGR
+Avaliação Ergonômica
+Preliminar* (qualitativa,
+semiquantitativa,
+quantitativa ou
+combinação dessas)
+Análise Ergonômica
+do Trabalho (AET)
+Início do
+Processo SIM
+NÃO
+NÃO
+NÃO
+NÃO
+SIM
+SIM
+SIM
+SIM
+Encontradas
+inadequações
+nas situações
+avaliadas?
+Há necessidade
+de avaliação
+aprofundada?
+As ações realizadas foram
+adequadas e suﬁcientes para
+eliminação ou aceitabilidade
+do risco?
+Encontradas
+inadequações
+nas situações
+avaliadas?
+Novas situações
+ou modiﬁcações
+nas situações
+avaliadas?
+SIM
+NÃO
+Análise de acidente que aponte para
+adoecimentos devido a causas relacionadas
+as situações de trabalho?
+*Realizar avaliação ergonômica preliminar das situações de trabalho que, em decorrência da natureza e conteúdo das atividades requeridas,
+demandam adaptação às características psicoﬁsiológicas dos trabalhadores.
+Há indícios de adoecimento relacionado
+às condições de trabalho nos termos
+do PCMSO?
+Fonte: Elaborado por CNI e SESI (2022)
+O fluxo mostra um processo contínuo, que conecta as ações de ergonomia a um ciclo de 
+gestão de riscos, que pode ser exemplificado por meio da metodologia PDCA – Planejar, 
+Fazer, Checar e Agir representado na imagem a seguir.
+36
+NR 17 – ERGONOMIA | COMENTÁRIOS AO NOVO TEXTO (PORTARIA MTP 423, DE 07/10/2021)
+FIGURA 4 – Ações de ergonomia exemplificadas pelo PDCA
+Elaborar plano de ação:
+Elaborado a partir do resultado
+da avaliação preliminar ou
+analise ergonômica,
+integrado ao PGR.
+Avaliar resultados:
+Coletar e analisar os
+resultados para validar
+as ações implementadas.
+Registrar resultados.
+Implantar as ações:
+Colocar o plano de ação
+em prática, implantando
+e acompanhado as medidas
+de prevenção
+e adequações propostas.
+Consolidar ou corrigir
+as ações:
+Processualizar as ações
+que deram certo e corrigir
+a rota quando necessário.
+Agir Planejar
+Checar Fazer
+Fonte: Elaborado por CNI e SESI (2022)
+O PDCA, metodologia amplamente utilizada em processos de gestão na busca de melhoria 
+contínua, se aplica ao gerenciamento de riscos ocupacionais. Com a metodologia, é possível 
+compreender como os objetivos são alcançados, com base nas ações planejadas em um 
+processo de execução monitorado e contínuo.
+17.3.7 O relatório da AET, quando realizada, deve ficar à disposição na organização pelo 
+prazo de 20 anos.
+17.3.8 A organização deve garantir que os empregados sejam ouvidos durante o processo 
+da avaliação ergonômica preliminar e na análise ergonômica do trabalho.
+COMENTÁRIOS
+Por representar a consolidação da análise das demandas das condições de trabalho que 
+necessitam de uma adaptação às características psicofisiológicas dos trabalhadores, 
+o relatório da AET deve ser mantido durante 20 anos sob a guarda da organização.
+A participação e a colaboração dos trabalhadores no processo da AEP e na AET são de 
+fundamental importância na identificação da demanda a ser estudada e no direcionamento 
+das análises, visando ao alcance dos objetivos pretendidos. 
+37
+373 COMENTÁRIOS SOBRE O NOVO TEXTO DA NR 17
+17.4 Organização do trabalho. 
+17.4.1 A organização do trabalho, para efeito desta NR, deve levar em consideração:
+a) as normas de produção;
+b) o modo operatório, quando aplicável;
+c) a exigência de tempo;
+d) o ritmo de trabalho;
+e) o conteúdo das tarefas e os instrumentos e meios técnicos disponíveis;
+f) aspectos cognitivos que possam comprometer a segurança e saúde do trabalhador.
+COMENTÁRIOS
+A organização do trabalho deve ser pensada de modo a propiciar o desempenho susten-
+tável, saudável e eficiente do processo de trabalho. Nesse sentido, a NR 17 determina 
+que devem ser levados em consideração determinados fatores, como:
+a) as normas de produção 
+Consideram-se como normas de produção todas as regras, explícitas ou implícitas, que o 
+trabalhador deve seguir ao realizar suas tarefas, estejam estas formalizadas ou não. Essas 
+normas incluem informações variadas, como, por exemplo, o horário de trabalho, detalhes 
+sobre a qualidade de um produto, insumos utilizados, especificações do produto a ser 
+produzido, utilização de determinado mobiliário, ferramenta ou equipamentos disponíveis. 
+A descrição do regramento a ser utilizado no trabalho, explícito ou implícito, pode ajudar 
+no entendimento das particularidades e dificuldades no dia a dia do trabalhador. Contra-
+dições entre as regras e o fluxo de trabalho imposto na execução das tarefas são fatores 
+de inadequação do trabalho, que podem gerar dificuldades na execução da tarefa ou se 
+tornarem um fator de risco no trabalho. 
+As normas de produção são importantes e devem existir. No entanto, precisam ser coerentes, 
+claras, atualizadas, aplicáveis e, preferencialmente, devem ser explícitas e formalizadas. Não 
+devem gerar ambiguidade ou ir de encontro às regras de segurança e saúde no trabalho.
+A liderança tem um papel fundamental na comunicação e operacionalização das normas 
+de produção, bem como na análise crítica das normas, com vistas a se obter uma produção 
+eficiente e sustentável. 
+b) o modo operatório, quando aplicável 
+Entende-se como modo operatório o conjunto de ações ou atividades desempenhadas, 
+para que o objetivo seja alcançado. Tal conjunto é caracterizado pelas diversas formas de 
+operacionalizar a execução da tarefa, de acordo com as variáveis do processo produtivo 
+(matérias-primas, insumos, maquinários, produto, entre outros). 
+38
+NR 17 – ERGONOMIA | COMENTÁRIOS AO NOVO TEXTO (PORTARIA MTP 423, DE 07/10/2021)
+Conceitualmente, consideramos dois tipos de modos operatórios: a) prescrito, que é 
+ditado pela empresa, mesmo que não seja explícito ou documentado. Diz respeito a como 
+a empresa espera (prevê) que seja implementado o conjunto de ações ou atividades 
+para obtenção do resultado; b) real, que é adotado pelo trabalhador na sua estratégia 
+para cumprir o objetivo da tarefa, conforme a variabilidade apresentada na situação 
+de trabalho. 
+Conhecer e compreender os modos operatórios prescritos e reais, comparando-os entre 
+si, permite avaliar as particularidades e dificuldades encontradas no dia a dia do traba -
+lhador, bem como os riscos gerados pela execução da tarefa. Assim sendo, a adequação 
+das situações de trabalho passa, necessariamente, pela avaliação dos modos operatórios. 
+Sabe-se que, em muitos casos, a produtividade e a qualidade do produto ocorrem com 
+base na habilidade do trabalhador em contornar as divergências, decorrentes de diversos 
+fatores como matéria-prima, condição do equipamento, entre outros. 
+O modo como a habilidade de um ou mais trabalhadores se desdobra em tarefas reais 
+pode indicar modos operatórios que necessitem de adequações – ou, ainda, modos 
+operatórios mais sustentáveis e eficientes do que aqueles prescritos pela empresa. Nesse 
+contexto, um modo operatório real pode apontar para melhores práticas, que, por sua 
+vez, podem transformar-se em modo operatório prescrito.
+c) a exigência de tempo 
+Ao longo da produção de um bem ou da prestação de um serviço, o tempo despendido 
+para realização de atividades humanas é uma variável importante para a análise do custo 
+operacional e da capacidade instalada. Contudo, devem-se considerar as variabilidades e 
+limitações que impactam a saúde dos trabalhadores envolvidos. 
+Nesse contexto, o processo de análise ergonômica do trabalho deve contemplar a análise 
+da imposição do tempo na execução da tarefa, desenvolvida em um espaço temporal que 
+envolve os horários, duração da jornada, frequência na tarefa (cadência e ritmo), diferença 
+de jornadas entre turnos, distribuição das pausas, tempo de troca durante o rodízio de 
+tarefas, horário de refeição, pausas, entre outros.
+d) o ritmo de trabalho 
+O ritmo de trabalho, que diz respeito à forma como a cadência de trabalho é realizada, 
+embute um aspecto qualitativo, podendo ser livre (o trabalhador determina sua própria 
+cadência ou imposto (pela máquina, linha ou esteira de trabalho). O ritmo livre pode 
+ocorrer mesmo em tarefas realizadas em linha ou esteira, desde que o trabalhador consiga 
+gerenciar sua velocidade ao longo do dia. 
+39
+393 COMENTÁRIOS SOBRE O NOVO TEXTO DA NR 17
+Já a cadência quantitativa está relacionada com a velocidade, por meio da determinação 
+da quantidade dos movimentos que se repetem em uma determinada unidade de tempo.
+O trabalhador tolera melhor o ritmo de trabalho quando dispõe da possibilidade de gestão 
+da sua produtividade, contudo cabe ressaltar que a imposição do ritmo isoladamente não 
+confere riscos à saúde. Por isso, torna-se importante entender a cadência e o ritmo de 
+trabalho no desenvolvimento da tarefa, para que seja possível avaliar se existe sobrecarga 
+ou eventuais efeitos ou agravos à saúde.
+e) o conteúdo das tarefas e os instrumentos e meios técnicos disponíveis 
+O conteúdo das tarefas se refere à percepção do trabalhador em relação a sua situação/ 
+condição de trabalho, o que permite verificar se esse trabalho é estimulante (envolve alguma 
+criatividade, variedade de atividades, estimula a resolução de problemas e os interesses 
+do trabalhador), socialmente importante, monótono ou abaixo das suas capacidades.
+O fato de um trabalho ser considerado estimulante depende da percepção do trabalhador, 
+com base nos seus conhecimentos, expectativas e aspirações, bem como da variabilidade 
+dos requisitos específicos da tarefa. A variabilidade da tarefa, por exemplo, pode exigir 
+grande demanda mental e temporal, podendo afetar a percepção do trabalhador quanto 
+ao trabalho ser gerador de fadiga e não estimulante. 
+Os instrumentos e meios técnicos disponíveis, em termos de qualidade e quantidade, 
+devem ser considerados na avaliação da tarefa e são partes importantes no entendimento 
+das situações de trabalho e na avaliação das necessidades de adequação às características 
+psicofisiológicas dos trabalhadores.
+f) aspectos cognitivos que possam comprometer a segurança e saúde do trabalhador
+Os aspectos cognitivos estão relacionados com os processos mentais do indivíduo, como 
+raciocínio, compreensão, percepção, atenção, lógica, memória, resposta motora e compi-
+lação de informações, aferidos em função da complexidade e exigência da tarefa.
+A realização de tarefas complexas demanda maior capacidade de percepção, absorção e 
+retenção de informações. Quando submetido, de forma contínua, a uma sobrecarga mental, 
+o indivíduo pode apresentar dificuldades no que tange à aprendizagem, memorização e 
+tomada de decisões.
+Esse é um importante fator a ser considerado em várias situações de trabalho, como as 
+que envolvem interface com softwares, sinalizações e sistemas complexos, entre outros. 
+A carga cognitiva (mental), capaz de comprometer a segurança e a saúde do trabalhador, 
+é um ponto a ser avaliado no estudo ergonômico, conforme previsto nesta norma. 
+40
+NR 17 – ERGONOMIA | COMENTÁRIOS AO NOVO TEXTO (PORTARIA MTP 423, DE 07/10/2021)
+Cumpre ressaltar que esse fator é avaliado preponderantemente de forma qualitativa 
+– e, eventualmente, por mensurações quantitativas – o que, por vezes, não contribui, de 
+forma conclusiva, para o entendimento ou a adequação da situação de trabalho.
+17.4.2 Nas atividades que exijam sobrecarga muscular estática ou dinâmica do tronco, 
+do pescoço, da cabeça, dos membros superiores e dos membros inferiores devem ser 
+adotadas medidas técnicas de engenharia, organizacionais e/ou administrativas, com 
+o objetivo de eliminar ou reduzir estas sobrecargas, a partir da avaliação ergonômica 
+preliminar ou da AET.
+COMENTÁRIOS
+O item 17.4.2 estabelece a necessidade de adoção de medidas preventivas para eliminar 
+ou reduzir a sobrecarga muscular, seja ela estática ou dinâmica, que possam afetar tronco, 
+pescoço, cabeça, membros superiores e membros inferiores. 
+Estabelece também que essas medidas, sejam técnicas de engenharia, organizacionais 
+e/ou administrativas, devem ser planejadas a partir da avaliação ergonômica preliminar 
+ou da AET.
+Alguns fatores podem contribuir negativamente para aumento da sobrecarga muscular, 
+como, por exemplo, mobiliário ou ferramentas inadequadas, falta de espaço disponível 
+para movimentação dos membros inferiores, ritmo intenso de trabalho, manutenção de 
+postura estática por muito tempo, entre outros.
+Identificadas corretamente as inadequações nas situações de trabalho e avaliados 
+corretamente esses fatores, é possível buscar alternativas (exemplo: adequação de 
+mobiliário, ferramentas e postos de trabalho, ajustes em processos, disponibilização 
+de equipamentos de apoio para levantamento ou transporte de carga) para eliminar ou 
+reduzir a sobrecarga muscular.
+17.4.3 Devem ser implementadas medidas de prevenção, a partir da avaliação ergonômica 
+preliminar ou da AET, que evitem que os trabalhadores, ao realizar suas atividades, sejam 
+obrigados a efetuar de forma contínua e repetitiva:
+a) posturas extremas ou nocivas do tronco, do pescoço, da cabeça, dos membros 
+superiores e/ou dos membros inferiores;
+b) movimentos bruscos de impacto dos membros superiores;
+c) uso excessivo de força muscular;
+d) frequência de movimentos dos membros superiores ou inferiores que possam 
+comprometer a segurança e saúde do trabalhador; e
+41
+413 COMENTÁRIOS SOBRE O NOVO TEXTO DA NR 17
+e) exposição a vibrações, nos termos do Anexo I da Norma Regulamentadora nº 09 
+– Avaliação e Controle das Exposições Ocupacionais a Agentes Físicos, Químicos e 
+Biológicos; ou
+f) exigência cognitiva que possa comprometer a segurança e saúde do trabalhador.
+COMENTÁRIOS
+O item 17.4.3 descreve outras situações que envolvem sobrecarga – além da sobrecarga 
+muscular estática e dinâmica – que, se efetuadas de forma contínua e repetitiva, requerem 
+identificação, avaliação e proposição de medidas de prevenção, por meio da avaliação 
+ergonômica preliminar ou, quando necessário, por meio da AET.
+17.4.3.1 As medidas de prevenção devem incluir duas ou mais das seguintes alternativas:
+a) pausas para propiciar a recuperação psicofisiológica dos trabalhadores que devem 
+ser computadas como tempo de trabalho efetivo;
+b) alternância de atividades com outras tarefas que permitam variar as posturas, os 
+grupos musculares utilizados ou o ritmo de trabalho;
+c) alteração da forma de execução ou organização da tarefa;
+d) outras medidas técnicas aplicáveis, recomendadas na avaliação ergonômica preliminar 
+ou na AET.
+COMENTÁRIOS
+As medidas preventivas, identificadas na AEP ou na AET, devem ser cuidadosamente 
+implementadas de acordo com o plano de ação definido pela empresa no programa de 
+gerenciamento de riscos e monitoradas para assegurar que tenham sido eficazes, com o 
+objetivo de eliminar ou reduzir os riscos para os trabalhadores.
+O item 17.4.3.1 é complementar ao item 17.4.3 e apresenta itens (pausa, alternância de 
+atividades, alteração da forma de execução ou organização da tarefa) que, obrigatoria-
+mente, devem ser previstos, combinados com outras medidas recomendadas com base 
+na avaliação ergonômica preliminar ou na AET. Esse item determina a necessidade de 
+adoção de duas ou mais alternativas, entre as listadas. 
+As medidas de prevenção que devem ser incluídas serão detalhadas a seguir: 
+I) Pausas para propiciar a recuperação psicofisiológica dos trabalhadores que 
+devem ser computadas como tempo de trabalho efetivo
+Caso a opção seja pela aplicação da pausa, essa sempre deverá ser feita em conjunto 
+com outras medidas de prevenção, haja vista que são necessárias sempre duas ou mais 
+medidas preventivas, diante das sobrecargas anteriormente citadas.
+42
+NR 17 – ERGONOMIA | COMENTÁRIOS AO NOVO TEXTO (PORTARIA MTP 423, DE 07/10/2021)
+O antigo texto normativo da NR 17 previa pausas para descanso somente para situações 
+de sobrecarga muscular estática ou dinâmica do pescoço, ombros, dorso e membros 
+superiores e inferiores. 
+Na nova NR 17, a aplicabilidade dessa medida preventiva está relacionada também a 
+atividades efetuadas de forma contínua e repetitiva e que podem acarretar sobrecarga, 
+quais sejam: a) posturas extremas ou nocivas do tronco, do pescoço, da cabeça, dos 
+membros superiores e/ou dos membros inferiores; b) movimentos bruscos de impacto 
+dos membros superiores; c) uso excessivo de força muscular; d) frequência de movimentos 
+dos membros superiores ou inferiores; e) exposição a vibrações e; f) exigência cognitiva 
+que possa comprometer a segurança e a saúde do trabalhador.
+De caráter prescritivo, a norma anterior indicava pausas na presença de sobrecarga 
+muscular, sem considerar se a prescrição era uma medida aplicável, a melhor solução ou 
+uma ação que, de fato, mitigasse o risco gerado ao trabalhador. Hoje, o entendimento é 
+de que cada tarefa, com sobrecarga distinta (em nível de sobrecarga, bem como em fator 
+que gerou a sobrecarga) precisa de ações preventivas específicas, cuja aplicabilidade deve 
+ser dosada de forma adequada.
+Por essa razão, as informações obtidas por meio da AEP ou AET serão a base para avaliar 
+se a pausa será ou não uma medida preventiva adequada a cada tarefa avaliada, se ela é 
+aplicável e como ela precisa ser implementada para obtenção de um resultado adequado 
+e sustentável. 
+Cabe ressaltar que a lógica de gestão, implícita na NR 17, é a mesma base de avaliação 
+e tratamento dos riscos ocupacionais no trabalho, previstos no gerenciamento de riscos 
+ocupacionais e descrito na NR 01. Nesse contexto na caracterização do perigo e na 
+avaliação de risco, deve-se nortear a escolha da forma mais adequada, visando eliminar, 
+reduzir ou controlar o risco, inclusive no sentido de avaliar a aplicabilidade ou não da 
+pausa e sua métrica. 
+II) Alternância de atividades com outras tarefas que permitam variar as posturas, 
+os grupos musculares ou o ritmo de trabalho
+Outra medida preventiva a ser prevista – e que possui eficácia em diversas situações de 
+trabalho – é a alternância de atividades que possibilitem variar as posturas, os grupos 
+musculares requisitados ou o ritmo de trabalho. 
+Quando a sobrecarga está diretamente relacionada à intensidade e/ou ao tempo de 
+exposição ao fator de risco, a gestão do tempo de exposição ou intensidade, que pode 
+ser obtida com a alternância de atividades, combinada a outras medidas de prevenção, 
+apresenta-se como uma boa opção para redução do risco. 
+43
+433 COMENTÁRIOS SOBRE O NOVO TEXTO DA NR 17
+A alternância de atividades – também conhecida como rodízio de tarefas – quando 
+realizada de forma adequada, possibilita a redução da sobrecarga, na medida em que 
+permite ao trabalhador alternar sua postura, reduzir ritmos de trabalho e requisitar 
+outros grupos musculares. 
+Cabe ressaltar que a alternância de atividades deve ser implementada em conjunto com 
+outras medidas preventivas, e estar fundamentada na avaliação ergonômica preliminar 
+ou, caso necessário, na AET.
+III) Alteração da forma de execução ou organização da tarefa
+Um fator que pode gerar sobrecarga está relacionado com a forma como a tarefa é 
+organizada ou executada. Alterando-se a forma de execução ou a própria organização da 
+tarefa, é possível eliminar, reduzir e/ou controlar o risco ao trabalhador.
+As etapas que se sucedem para a execução da tarefa, o gestual necessário, as posturas, 
+procedimentos, equipamentos disponíveis, entre vários outros fatores, podem ser reor-
+ganizados e ajustados, para que o risco seja eliminado, reduzido e/ou controlado. 
+As alternativas “c” e “d” do item 17.4.3.1 podem ocorrer em conjunto, ou seja, além da 
+reorganização da tarefa ou de sua forma de execução, ainda podem ser adotadas outras 
+medidas técnicas (em máquinas, equipamentos, ambiente, produtos, entre outros), que, 
+em conjunto, se mostrem eficazes para a prevenção, conforme analisado e previsto na 
+AEP ou na AET. 
+IV) Outras medidas técnicas aplicáveis conforme recomendado na AEP ou na AET
+De acordo com os dados obtidos na AEP ou na AET, será possível prever outras medidas 
+técnicas, mesmo que não estejam listadas na NR 17, desde que possam contribuir para a 
+eliminação, redução ou controle dos riscos avaliados. 
+O que vale dizer que as medidas a serem adotadas, sejam listadas explicitamente na NR, 
+sejam outras medidas técnicas aplicáveis, bem como a dosagem de cada ação necessária 
+devem ser previstas com base na AEP ou AET. 
+Apenas com a referida avaliação será possível adotar a medida de correção mais adequada 
+em cada situação de trabalho e somente com a reavaliação, após a adoção das medidas 
+preventivas, será possível avaliar a eficácia das melhorias e avaliar a necessidade de ações 
+complementares.
+44
+NR 17 – ERGONOMIA | COMENTÁRIOS AO NOVO TEXTO (PORTARIA MTP 423, DE 07/10/2021)
+17.4.3.1.1 Quando não for possível adotar as alternativas previstas nas alíneas “c” e “d” 
+do item 17.4.3.1, devem obrigatoriamente ser adotadas pausas e alternância de atividades 
+previstas, respectivamente, nas alíneas “a” e “b” do item 17.4.3.1.
+COMENTÁRIOS
+Neste item, a NR 17 recomenda que, quando não for possível alterar a forma de execução 
+ou organização da tarefa e não houver outras medidas técnicas aplicáveis (alíneas “c” e 
+“d” do item 17.4.3.1), deverão ser adotadas pausas e alternância do ritmo de trabalho ou 
+das posturas ou grupos musculares (alíneas “a” e “b” do item 17.4.3.1). 
+O caput deste item indica a necessidade de adoção de duas ou mais alternativas, o que 
+implica dizer que, se duas alternativas estiverem indisponíveis (alíneas “c” e “d”), restará 
+a obrigatoriedade da aplicação das duas alternativas restantes (alíneas “a” e “b”). 
+Todavia, cabe ressaltar que não há impeditivo para a combinação de duas ações preventivas 
+como adoção de pausas (alínea “a”, do item 17.4.3.1) e alteração na forma de execução da 
+tarefa (alínea “c”, do item 17.4.3.1), ou de quaisquer outras duas combinações de medidas 
+entre as quatro previstas.
+17.4.3.2 Para que as pausas possam propiciar descanso e recuperação psicofisiológica 
+dos trabalhadores, devem ser observados requisitos mínimos:
+a) a introdução não pode ser acompanhada de aumento da cadência individual;
+b) as pausas devem ser usufruídas fora dos postos de trabalho.
+17.4.3.3 Deve ser assegurada a saída dos postos de trabalho para satisfação das neces-
+sidades fisiológicas dos trabalhadores nos termos do item 24.9.8 da NR24, independen-
+temente da fruição das pausas.
+COMENTÁRIOS
+De acordo com o item 17.4.3.2, caso sejam adotadas pausas como medida preventiva no 
+âmbito da NR17, as pausas devem ser usufruídas fora dos postos de trabalho, sendo que 
+a organização do trabalho deve ser planejada e executada de modo que não se aumente a 
+cadência individual de trabalho, haja vista que tal aumento acarreta uma exposição maior 
+ao risco, tornando ineficaz o benefício obtido pela pausa.
+Pausas previstas como medida preventiva para reduzir o risco ao empregado não devem 
+ser confundidas com pausas para ir ao banheiro. A saída dos postos de trabalho para 
+satisfação das necessidades fisiológicas é livre e independe da adoção de pausas para 
+atendimento ao disposto no item 17.4.3.3.
+Para que não ocorra o aumento da cadência individual de trabalho, se as pausas forem 
+adotadas com a parada completa do setor ou área produtiva, o planejamento da produção 
+45
+453 COMENTÁRIOS SOBRE O NOVO TEXTO DA NR 17
+deve ocorrer de forma a não acelerar a velocidade produtiva nos períodos anteriores ou 
+após as paradas, com a finalidade de suprir o volume produtivo não executado durante 
+as pausas. 
+Da mesma forma, se a pausa for concedida de forma individualizada, o restante dos 
+funcionários que permanecem produzindo não podem ter suas cadências aumentadas 
+para suprir a produção daqueles que estão em período de pausa.
+O trabalhador poderá usufruir das pausas para recuperação psicofisiológica, dentro do 
+ambiente de trabalho ou fora dele, desde que não seja realizada no próprio posto de trabalho. 
+17.4.4 Todo e qualquer sistema de avaliação de desempenho para efeito de remuneração 
+e vantagens de qualquer espécie deve levar em consideração as repercussões sobre a 
+saúde dos trabalhadores.
+COMENTÁRIOS
+O incentivo à produção, via prêmios, vantagens financeiras ou qualquer outra, quando 
+não são observadas as questões relativas à saúde, pode contribuir para que o trabalhador 
+exceda seus limites, ou execute seu trabalho mesmo acometido de algum adoecimento, 
+em virtude da compensação ou vantagem adicional envolvida. 
+Por isso, a NR 17 determina que seja levado em consideração todo e qualquer sistema 
+de avaliação de desempenho – em especial, os individuais – capaz de repercutir na saúde 
+ocupacional. 
+Em um processo de avaliação do desempenho, o conhecimento das habilidades, capacidades 
+e da maneira como elas influenciam na rotina do trabalhador é fundamental para que 
+seja possível prever metas exequíveis e fazer um acompanhamento saudável, mediante 
+o fornecimento de um feedback que permita ao trabalhador evoluir profissionalmente. 
+O desafio é a diferenciação entre a avaliação e o incentivo saudável, dentro de um processo 
+normal do desempenho laborativo, de tal sorte que as avaliações não favoreçam um 
+ambiente onde os limites são extrapolados, e isso acarrete repercussões sobre a saúde 
+do trabalhador. 
+17.4.5 A concepção dos postos de trabalho deve levar em consideração os fatores orga-
+nizacionais, ambientais, a natureza da tarefa e das atividades e facilitar a alternância 
+de posturas.
+17.4.6 As dimensões dos espaços de trabalho e de circulação, inerentes à execução da 
+tarefa, devem ser suficientes para que o trabalhador possa movimentar os segmentos 
+46
+NR 17 – ERGONOMIA | COMENTÁRIOS AO NOVO TEXTO (PORTARIA MTP 423, DE 07/10/2021)
+corporais livremente, de maneira a facilitar o trabalho, reduzir o esforço do trabalhador 
+e não exigir a adoção de posturas extremas ou nocivas.
+COMENTÁRIOS
+Os postos de trabalho devem proporcionar a execução segura da tarefa, favorecendo a 
+alternância postural, em especial a alternância entre a postura em pé e a postura sen -
+tada. Para que um posto de trabalho seja considerado adequado, é importante levar em 
+consideração todas as variáveis relacionadas, tais como o ambiente físico, maquinários e 
+processos, a organização e execução das tarefas e a forma como o trabalho se organiza.
+A livre movimentação dos segmentos corporais nos postos de trabalho também ajuda a evitar 
+a sobrecarga dos músculos e das articulações dos trabalhadores, prevenindo a ocorrência 
+de situações nocivas relacionadas ao trabalho. Condições adequadas de espaçamento, no 
+posto de trabalho e/ou na área de circulação, evitam a adoção de posturas compensatórias 
+e o aumento do esforço do trabalhador, consequentemente reduzindo o risco de lesão.
+17.4.7 Os superiores hierárquicos diretos dos trabalhadores devem ser orientados para 
+buscar no exercício de suas atividades:
+a) facilitar a compreensão das atribuições e responsabilidades de cada função;
+b) manter aberto o diálogo de modo que os trabalhadores possam sanar dúvidas quanto 
+ao exercício de suas atividades;
+c) facilitar o trabalho em equipe; e
+d) estimular tratamento justo e respeitoso nas relações pessoais no ambiente de trabalho.
+17.4.7.1 As organizações com até 10 empregados ficam dispensadas do atendimento no 
+item 17.4.7.
+COMENTÁRIOS
+O papel da liderança é fundamental para facilitar a organização do trabalho e execução das 
+tarefas, e a comunicação assertiva é uma das ferramentas que propiciam que o trabalhador 
+compreenda suas atribuições e responsabilidades, tenha um diálogo facilitado com a 
+sua liderança, receba estímulo para o trabalho em equipe e tenha relações interpessoais 
+respeitosas e com tratamento justo. 
+Dessa forma, a NR 17 determina que os superiores hierárquicos diretos dos trabalhadores 
+sejam orientados para que se mantenha a harmonia e a adequação no desempenho do 
+trabalho. As empresas com até 10 trabalhadores estão dispensadas de cumprir esse item. 
+47
+473 COMENTÁRIOS SOBRE O NOVO TEXTO DA NR 17
+17.5 Levantamento, transporte e descarga individual de cargas. 
+17.5.1 Não deverá ser exigido nem admitido o transporte manual de cargas, por um 
+trabalhador cujo peso seja suscetível de comprometer sua saúde ou sua segurança.
+17.5.1.1 A carga suportada deve ser reduzida quando se tratar de trabalhadora mulher e 
+de trabalhador menor nas atividades permitidas por lei.
+COMENTÁRIOS
+Embora a NR 17 não estabeleça carga máxima para o transporte manual de cargas, 
+é possível estimar um parâmetro, quando analisado em conjunto com inúmeros fatores 
+que contribuem com o risco e devem ser observados durante a avaliação das situações 
+de trabalho, por meio da AEP ou AET. 
+A norma determina que, se forem constatados comprometimentos à saúde ou à segurança 
+do trabalhador em decorrência do peso da carga, mesmo que respeitados os limites 
+preconizados na CL T, o transporte manual dessa carga não deverá ser exigido.
+Entre os fatores a serem observados estão a altura da pega e da deposição do objeto, 
+a distância percorrida, o tipo de pega do objeto, a estabilidade do que está sendo manu-
+seado, a frequência do levantamento e o peso, ou ainda se o objeto é manuseado com 
+uma ou ambas as mãos, além da distância do objeto em relação ao trabalhador, a rotação 
+do tronco adotada durante o manuseio do objeto, a existência de intervalos no manuseio 
+do objeto, as características físicas do ambiente de trabalho (área de circulação, tipo de 
+piso, etc.), o tempo de manuseio do peso no turno, entre outros fatores. 
+Essa conjunção multifatorial pode contribuir para aumento ou redução do risco ocupacio-
+nal. Assim sendo, a definição do peso do objeto, de forma isolada, não é suficiente para 
+avaliação do risco e proposição de medidas de prevenção.
+Vale ressaltar que a NR prevê um tratamento diferenciado no que se refere à carga 
+suportada por trabalhadora mulher ou por trabalhador menor, casos em que o peso da 
+carga deve ser reduzido, observando as restrições determinadas em lei.
+17.5.2 No levantamento, manuseio e transporte individual e não eventual de cargas devem 
+ser observados os seguintes requisitos:
+a) os locais para pega e depósito das cargas, a partir da avaliação ergonômica preliminar 
+ou da AET, devem ser organizados de modo que as cargas, acessos, espaços para movi-
+mentação, alturas de pega e deposição não obriguem o trabalhador a efetuar flexões, 
+extensões e rotações excessivas do tronco e outros posicionamentos e movimentações 
+forçadas e nocivas dos segmentos corporais; e
+48
+NR 17 – ERGONOMIA | COMENTÁRIOS AO NOVO TEXTO (PORTARIA MTP 423, DE 07/10/2021)
+b) cargas e equipamentos devem ser posicionados o mais próximo possível do traba-
+lhador, resguardando espaços suficientes para os pés, de maneira a facilitar o alcance, 
+não atrapalhar os movimentos ou ocasionar outros riscos.
+17.5.2.1 É vedado o levantamento não eventual de cargas que possa comprometer a 
+segurança e a saúde do trabalhador quando a distância de alcance horizontal da pega for 
+superior a 60 cm (sessenta centímetros) em relação ao corpo.
+COMENTÁRIOS
+A norma trouxe requisitos específicos para levantamento, manuseio e transporte individual 
+de cargas, quando realizados rotineiramente. Esse é um ponto importante – e por vezes 
+controverso –, pois, no texto anterior, havia interpretação de que manuseios eventuais 
+de carga deveriam seguir as mesmas regras dos manuseios frequentes de carga. 
+Com o novo texto, ficou claro, ao aplicar os requisitos a serem observados apenas nos 
+manuseios não eventuais de carga, que as limitações causadas pela frequência e tempo 
+de exposição não são aplicáveis a manuseios eventuais. 
+O levantamento e a movimentação manual de cargas, sempre que possível, devem ser 
+evitados, entretanto, quando isso não for possível, a AEP ou AET devem ser realizadas 
+para que sejam determinadas as medidas a serem observadas para redução do risco, 
+de modo a prevenir a ocorrência de danos à saúde dos trabalhadores. No caso em que 
+a distância de alcance horizontal da pega for superior a 60 cm em relação ao corpo, fica 
+vedado o levantamento não eventual de cargas.
+Os requisitos a serem observados, conforme a nova NR 17, são de forma a não obrigar 
+que o trabalhador efetue flexões, extensões e rotações excessivas do tronco e outros 
+posicionamentos e movimentações forçadas e nocivas dos segmentos corporais. Em termos 
+práticos, o acesso e o espaço para movimentação da carga e a altura da pega da carga 
+devem estar organizadas de acordo com as recomendações da AEP ou AET. Além disso, 
+as cargas e equipamentos devem ser posicionados o mais próximo possível do trabalhador, 
+resguardando-se o espaço suficiente para os pés, de maneira a facilitar o alcance e não 
+atrapalhar os movimentos ou ocasionar outros fatores de riscos ocupacionais. 
+17.5.3 O transporte e a descarga de materiais feitos por impulsão ou tração de vagonetes, 
+carros de mão ou qualquer outro aparelho mecânico deve observar a carga, a frequência, 
+a pega e a distância percorrida, para que não comprometam a saúde ou a segurança do 
+trabalhador.
+49
+493 COMENTÁRIOS SOBRE O NOVO TEXTO DA NR 17
+COMENTÁRIOS
+Entende-se por puxar o esforço físico humano despendido, quando a força motriz estiver 
+na frente do corpo e este ficar ereto ou se movimentar para trás. Por sua vez, entende-se 
+como empurrar o esforço físico despendido, quando a força motriz for direcionada para 
+frente e para longe, do corpo do operador, enquanto estiver de pé ou se movimentar 
+para frente.
+As tarefas em que estão presentes as ações de empurrar ou puxar objeto, exigindo movi-
+mentação manual inadequada ou forçada – a depender da carga, frequência, pega e distância 
+percorrida – podem aumentar a probabilidade de ocorrência de lesões ou agravos à saúde, 
+assim como a redução na produtividade e qualidade do rendimento do trabalho.
+Por essa razão, a NR 17 determina que, na atividade de empurrar ou puxar objetos, por 
+meio de aparelhos mecânicos como vagonetes, carros de mão, ou qualquer outro, deve 
+ser observada a carga, a frequência, a pega e a distância a ser percorrida. Assim como o 
+manuseio da carga, a atividade de empurrar ou puxar objetos é multifatorial e depende de 
+uma análise das variáveis, para que seja possível definir a probabilidade de adoecimento 
+ou inadequação da tarefa.
+Em relação à carga, recomenda-se que sejam observadas as forças iniciais, usadas para 
+superar a inércia do objeto, e as forças sustentadas, usadas para manter o objeto. Além 
+disso, deve-se levar em consideração a postura a ser adotada, pois posturas inadequadas 
+frequentemente diminuem a habilidade de aplicar a força, aumentando o risco de lesões. 
+Longas distâncias, associadas a grandes forças e movimentos frequentes, podem ser 
+fatigantes aos operadores. A distância percorrida para mover um objeto pode variar de 
+alguns passos até muitos metros. Quanto maior a distância, mais cansativo o movimento 
+poderá ser para um determinado nível de força, fator que deve ser levado em consideração 
+na avaliação da tarefa e na adoção e medidas de prevenção. 
+Quanto ao tipo de pega, é aconselhável, sempre que possível, a adoção do uso de pegas 
+longas verticais para as mãos, para que os usuários tenham a oportunidade de segurar o 
+objeto na sua altura preferida. 
+Outros cuidados importantes nesta avaliação são as condições de funcionamento do 
+equipamento utilizado na tarefa, existência de rodas livres (pivotantes) e sua posição, 
+tipo de roda em relação ao piso, aclives ou declives no piso e condições de conservação 
+do piso, associadas às características da tarefa e peso da carga.
+50
+NR 17 – ERGONOMIA | COMENTÁRIOS AO NOVO TEXTO (PORTARIA MTP 423, DE 07/10/2021)
+17.5.4 Na movimentação e no transporte manual não eventual de cargas devem ser 
+adotadas uma ou mais das seguintes medidas de prevenção:
+a) implantar meios técnicos facilitadores;
+b) adequar o peso e o tamanho da carga (dimensões e formato) para que não provoquem 
+o aumento do esforço físico e possa comprometer a segurança e a saúde do trabalhador;
+c) limitar a duração, a frequência e o número de movimentos a serem efetuados pelos 
+trabalhadores;
+d) reduzir as distâncias a percorrer com cargas, quando aplicável;
+e) efetuar a alternância com outras atividades ou pausas suficientes, entre períodos 
+não superiores a duas horas.
+COMENTÁRIOS
+A nova NR 17 passou a estabelecer quais medidas de prevenção devem ser adotadas 
+nas tarefas que envolvem movimentação e transporte manual não eventual de cargas. 
+A norma não diz como fazer, mas determina que devem ser adotadas uma ou mais das 
+medidas descritas nas alíneas do subitem 17.5.4. 
+Existem inúmeras possibilidades de ajustes, que deverão ser planejados e estudados 
+conforme resultado da avaliação da situação de trabalho feita na AEP ou na AET. 
+São exemplos de meios técnicos facilitadores: mesas elevatórias, remontadores de 
+palet, carrinhos específicos com e sem elevação (conforme cada finalidade), esteiras de 
+transporte, robôs de manipulação, mecanismos de sustentação do peso, entre outros 
+(meios técnicos facilitadores).
+São exemplos de ações que possibilitam a limitação da duração, da frequência e do número 
+de movimentos: organização do trabalho em lotes, aumento do número de colaboradores, 
+redução da exposição individual na tarefa com o uso de rodízio, reorganização da tarefa, 
+para eliminar manuseios da carga de forma desnecessária, entre outros (limitação da 
+duração, da frequência e o número de movimentos).
+São exemplos de ações que possibilitam a redução da distância percorrida: esteiras de 
+transporte, aproximação do palet, uso de carrinhos, organização do ambiente de trabalho, 
+a fim de evitar barreiras e conferir livre movimentação aos segmentos corporais, entre 
+outros (redução da distância percorrida). 
+17.5.5 Todo trabalhador designado para o transporte manual não eventual de cargas deve 
+receber orientação quanto aos métodos de levantamento, carregamento e deposição 
+de cargas.
+51
+513 COMENTÁRIOS SOBRE O NOVO TEXTO DA NR 17
+17.5.6 O item 17.5 Levantamento, transporte e descarga individual de cargas desta NR 
+não se aplica a levantamento, transporte e movimentação de pessoas.
+COMENTÁRIOS
+A habilidade e a experiência podem beneficiar o trabalhador no desempenho de uma 
+tarefa, com redução do risco de lesões. A orientação quanto aos métodos de levantamento, 
+carregamento e deposição de cargas, associada a outras medidas preventivas, podem 
+aumentar ainda mais o nível de habilidade para desempenhar o transporte manual não 
+eventual de cargas e assim reduzir os riscos ocupacionais relacionados. 
+Por essa razão, a NR estabelece que os trabalhadores designados para o transporte manual 
+não eventual de cargas devem receber orientação quanto aos métodos de levantamento, 
+carregamento e deposição de cargas.
+Além disso, a nova NR 17 deixa claro que os comandos previstos na norma dizem respeito 
+tão somente a cargas, ou seja, não se aplicam a levantamento, transporte e movimentação 
+de pessoas.
+17.6 Mobiliário do posto de trabalho.
+17.6.1 O conjunto do mobiliário do posto de trabalho deve apresentar regulagens em um 
+ou mais de seus elementos que permitam adaptá-lo às características antropométricas 
+que atendam ao conjunto dos trabalhadores envolvidos e à natureza do trabalho a ser 
+desenvolvido.
+COMENTÁRIOS
+Visando atender à maioria das características antropométricas da população trabalha -
+dora em geral, a NR 17 estabelece que o conjunto de mobiliário existente no posto de 
+trabalho (cadeira, mesas, bancadas etc.) deve ter regulagens que permitam a adaptação 
+às características do conjunto de trabalhadores envolvidos. 
+Entende-se por regulagem o conjunto de dispositivos que, quando acionados, possibilitam 
+o ajuste da posição (altura e/ou inclinação e/ou profundidade) das superfícies de apoio 
+da cadeira, como assento, encosto e apoio do braço. 
+As regulagens devem permitir não só a adaptação do mobiliário às características antro-
+pométricas dos trabalhadores, mas também as regulagens dos planos de trabalho à 
+natureza do trabalho a ser desenvolvido, de tal forma que, conforme sua natureza e 
+características particulares, ocorra adequação à diversa gama de trabalhadores que ali 
+desempenham seu trabalho. 
+52
+NR 17 – ERGONOMIA | COMENTÁRIOS AO NOVO TEXTO (PORTARIA MTP 423, DE 07/10/2021)
+Cabe ressaltar que a ergonomia sempre busca o ajuste antropométrico da maioria dos 
+trabalhadores. Há, contudo, exceções, como no caso de colaboradores que estejam nos 
+percentis antropométricos extremos (abaixo dos 5%, ou acima dos 95%).
+Nesse contexto, os componentes do mobiliário terão que ser ajustados individualmente 
+ou em outra situação de trabalho conforme for possível e adequado, a depender das 
+características da tarefa a ser desempenhada e do posto de trabalho. 
+Assim como ajustar as situações de trabalho para a mediana populacional (percentil de 
+50%) deixa desprotegido uma grande gama de trabalhadores, ajustar aos extremos dos 
+percentis pode ser inviável e trazer complicações ao desempenho da tarefa. 
+17.6.2 Sempre que o trabalho puder ser executado alternando a posição de pé com a 
+posição sentada, o posto de trabalho deve ser planejado ou adaptado para favorecer 
+a alternância das posições.
+COMENTÁRIOS
+É sabido que os esforços estáticos de manutenção postural devem ser reduzidos ao máximo. 
+Esses esforços, implicam uma contração muscular estática, que pode ser nociva à saúde do 
+trabalhador, razão pela qual a postura rígida e fixa deve ser evitada. Como essa eventual 
+nocividade depende do tempo de manutenção da postura fixa, recomenda-se, sempre 
+que possível, a alternância de postura de trabalho, para aliviar sobrecargas no corpo. 
+Essa alternância visa proporcionar aos trabalhadores postos de trabalho em que eles 
+possam realizar suas atividades, alternando as posições em pé e sentado, ou mesmo 
+alternando suas atividades em postos de trabalho distintos, durante sua jornada.
+Nesse sentido, a norma determina que o posto de trabalho deve ser planejado ou adap-
+tado para favorecer a alternância das posições entre a posição de pé e a posição sentado, 
+sempre que a atividade permitir. 
+17.6.3 Para trabalho manual os planos de trabalho devem proporcionar ao trabalhador 
+condições de boa postura, visualização e operação e devem atender aos seguintes requi-
+sitos mínimos:
+a) ter características dimensionais que possibilitem posicionamento e movimentação dos 
+segmentos corporais de forma a não comprometer a saúde e não ocasionar amplitudes 
+articulares excessivas ou posturas nocivas de trabalho;
+b) altura e características da superfície de trabalho compatíveis com o tipo de atividade, 
+com a distância requerida dos olhos ao campo de trabalho e com a altura do assento;
+53
+533 COMENTÁRIOS SOBRE O NOVO TEXTO DA NR 17
+c) área de trabalho dentro da zona de alcance manual e de fácil visualização pelo 
+trabalhador;
+d) para o trabalho sentado, espaço suficiente para pernas e pés na base do plano de 
+trabalho, para permitir que o trabalhador se aproxime o máximo possível do ponto de 
+operação e possa posicionar completamente a região plantar, podendo utilizar apoio 
+para os pés, nos termos do item 17.6.4; e
+e) para o trabalho em pé, espaço suficiente para os pés na base do plano de trabalho, 
+para permitir que o trabalhador se aproxime o máximo possível do ponto de operação 
+e possa posicionar completamente a região plantar.
+COMENTÁRIOS
+Os requisitos previstos neste item referem-se aos postos onde são realizados trabalhos 
+manuais, e visam garantir uma postura neutra, sem sobrecargas ou amplitudes articulares 
+excessivas, a fim de preservar a segurança e a saúde do trabalhador. 
+Em geral, o ajuste do plano de trabalho, bem como o ajuste do campo visual, da zona 
+de alcance no trabalho e o adequado posicionamento das pernas, em pé e sentado, são 
+características relacionadas ao mobiliário ou posto de trabalho, que trazem grande impacto 
+no ajuste da execução da tarefa.
+Entre os itens apontados, a altura do plano de trabalho é um importante elemento para 
+o conforto postural. Se o plano de trabalho é muito alto, o trabalhador elevará os ombros 
+e os braços durante toda a jornada; se for muito baixo, ele trabalhará com as costas 
+inclinadas para frente. 
+Essa observação é válida tanto para o trabalho sentado como para trabalhos em pé. Um bom 
+ponto de referência utilizado para determinar a altura confortável de trabalho é a altura 
+dos cotovelos em relação ao piso, a ser ajustado conforme a natureza da tarefa. 
+Para o trabalho sentado, é importante observar, de acordo com a atividade realizada, 
+as possibilidades de ajustes do assento em relação ao ponto de operação, de modo 
+que possibilite a postura num ângulo de aproximadamente 90°, com a planta dos pés 
+totalmente apoiadas no piso.
+17.6.3.1 Área de trabalho dentro da zona de alcance máximo pode ser utilizada para 
+ações que não prejudiquem a segurança e a saúde do trabalhador, sejam elas eventuais 
+ou também, conforme AET, as não eventuais.
+COMENTÁRIOS
+Diversos autores (GRANDJEAN, 1998; IIDA, I; BUARQUE, L., 2016, entre outros) citam 
+que a superfície do posto de trabalho deve ser dimensionada de acordo com o tamanho 
+da peça, movimentos necessários à tarefa e arranjo do posto de trabalho. Entende-se 
+54
+NR 17 – ERGONOMIA | COMENTÁRIOS AO NOVO TEXTO (PORTARIA MTP 423, DE 07/10/2021)
+como alcance ótimo o raio de 35 a 45 cm a partir do trabalhador, enquanto a área de 
+alcance máximo é obtida com os braços estendidos, descrevendo um raio de 55 a 65 cm 
+de comprimento. Enquanto tarefas de maior frequência devem ser realizadas na área de 
+alcance ótimo, tarefas menos frequentes, de menor precisão e colocação de peças, devem 
+respeitar a área de alcance máximo. 
+A utilização do alcance é multifatorial, e sua inadequação depende de pontos como a 
+postura, tamanho da peça, presença de postura estática, gestos realizados, peso da peça, 
+tempo em cada postura e alcance, bem como tempo total de exposição. 
+Dessa forma, mesmo que se considere o referencial de alcance ótimo, ou de alcance máximo, 
+é imprescindível que seja feita a análise técnica, por meio da AEP ou AET, que permita o 
+entendimento da tarefa e do uso do espaço de trabalho a fim de determinar a área de 
+alcance mais adequada, desde que não prejudique a segurança e a saúde do trabalhador.
+17.6.4 Para adaptação do mobiliário às dimensões antropométricas do trabalhador pode 
+ser utilizado apoio para os pés sempre que o trabalhador não puder manter a planta dos 
+pés completamente apoiadas no piso.
+COMENTÁRIOS
+A norma permite a utilização de apoio para os pés com o objetivo de adaptar o mobiliário 
+às dimensões antropométricas do trabalhador. Há situações, por exemplo, em que o plano 
+de trabalho é fixo, e as características antropométricas do trabalhador não permitem 
+que ele apoie os pés no chão após o ajuste da cadeira, de forma que seus braços estejam 
+ajustados na altura correta e ele possa acessar rapidamente os instrumentos de trabalho 
+e ter conforto visual.
+17.6.5 Os pedais e demais comandos para acionamento pelos pés devem ter posicionamento 
+e dimensões que possibilitem fácil alcance, além de atender aos requisitos estabelecidos 
+no subitem 17.6.3.
+COMENTÁRIOS
+Todo acionamento realizado pelos membros inferiores demanda apoio desigual, seja em 
+pé ou sentado. Dessa forma, é importante que seja avaliado o alcance, a facilidade no 
+acionamento, a postura adotada durante o uso dos pedais e comandos, além do apoio e 
+da aproximação dos pés ao equipamento.
+De modo geral, o acionamento de um pedal muito alto irá demandar a elevação do mem-
+bro inferior, levando à necessidade de equilíbrio e um esforço de sobrecarga de peso em 
+apenas uma perna. Se mantida essa postura em casos de acionamento prolongado ou 
+frequente, a sobrecarga aumenta significativamente. 
+55
+553 COMENTÁRIOS SOBRE O NOVO TEXTO DA NR 17
+Por conseguinte, além de observar o posicionamento e dimensões que possibilitem fácil 
+alcance dos pedais, é necessário atender aos requisitos mínimos para condições de boa 
+postura, visualização e operação, conforme item 17.6.3
+Por fim, é importante levar em conta, na análise técnica, além da execução da tarefa 
+como um todo, as características antropométricas da população trabalhadora, a fim de 
+permitir um ajuste adequado, evitando, assim, que não sejam cumpridos os requisitos 
+previstos na NR 17.
+17.6.6 Os assentos utilizados nos postos de trabalho devem atender aos seguintes 
+requisitos mínimos:
+a) altura ajustável à estatura do trabalhador e à natureza da função exercida;
+b) possuir sistemas de ajustes e manuseio acessíveis;
+c) características de pouca ou nenhuma conformação na base do assento;
+d) borda frontal arredondada; e
+e) encosto com forma adaptada ao corpo para proteção da região lombar.
+COMENTÁRIOS
+A norma determina que os assentos utilizados nos postos de trabalho devem possuir 
+sistemas de ajustes e manuseios acessíveis, para permitir sua adequação à natureza da 
+tarefa e às dimensões antropométricas do trabalhador. Conforme sugerido pela ABNT 
+NBR 13962:2018, os sistemas de ajustes devem permitir que o assento para escritório 
+fique entre 42 e 50 cm do solo, medida considerada como padrão para a boa acomodação 
+da maioria dos trabalhadores. 
+Contudo, na prática, a definição da altura do assento deve ser feita com base na natureza 
+da tarefa a ser executada e o dimensionamento do posto de trabalho, de forma que seja 
+possível ficar com os pés bem apoiados, ajustando-se daí sua altura, em função do plano 
+de trabalho. 
+Quando a altura do plano de trabalho for fixa, e o trabalhador não puder manter a planta 
+dos pés completamente apoiadas no piso, a norma permite a utilização de apoio para os 
+pés, conforme item 17.6.4. 
+Além disso, o encosto deve fornecer um bom suporte lombar, e a conformação na base 
+do assento deve ser pouca ou nenhuma, de forma a evitar compressões desiguais e 
+permitir alterações de postura, para aliviar as pressões sobre os discos intervertebrais 
+e as tensões sobre os músculos dorsais de sustentação. A densidade do assento também é 
+importante para fornecer suporte adequado para a área que suporta nosso peso quando 
+estamos sentados.
+56
+NR 17 – ERGONOMIA | COMENTÁRIOS AO NOVO TEXTO (PORTARIA MTP 423, DE 07/10/2021)
+Tarefas específicas, com requisitos diferenciados, podem exigir assentos com dimensio-
+namentos próprios, com um intervalo maior de regulagens. Uma base de consulta aos 
+dimensionamentos adotados é a ABNT NBR 13962:2018 – Móveis para escritório - Cadeiras. 
+Cabe ressaltar que, mesmo com dimensionamentos especiais, a cadeira sempre deve 
+atender à necessidade de execução da tarefa e garantir uma postura sentada adequada 
+ao trabalhador, atendendo aos requisitos ora expostos.
+17.6.7 Para as atividades em que os trabalhos devam ser realizados de pé, devem ser 
+colocados assentos com encosto para descanso em locais em que possam ser utilizados 
+pelos trabalhadores durante as pausas.
+17.6.7.1 Os assentos previstos no item 17.6.7 estão dispensados do atendimento ao item 
+17.6.6.
+COMENTÁRIOS
+Para as atividades realizadas predominantemente em pé, a norma prevê a instalação de 
+assentos com encosto para descanso do trabalhador no momento de pausa, tanto para a 
+pausa estabelecida como medida preventiva (item 17.4.3.1 da NR 17) como para a pausa 
+da refeição. 
+Não há descrição do local onde estes assentos precisam ser dispostos, podendo estar em 
+áreas produtivas, não especificamente nos postos de trabalho, ou fora delas, em áreas de 
+lazer ou ainda posicionadas em diversos locais, conforme a melhor distribuição para seu uso. 
+Esses assentos para o descanso são mais simples e podem possuir características espe-
+cíficas para adaptação ao ambiente laboral – podendo ser fixos apenas com a existência 
+de encosto –, não necessitando de atendimento aos requisitos previstos no item 17.6.6 
+da NR17.
+17.7 Trabalhos com máquinas, equipamentos e ferramentas manuais. 
+17.7.1 O trabalho com máquinas e equipamentos deve atender, em consonância com a 
+Norma Regulamentadora nº 12 - Segurança no Trabalho em Máquinas e Equipamentos, 
+além das demais disposições desta NR, aos aspectos constantes neste Capítulo.
+COMENTÁRIOS
+A norma reforça que a adaptação de máquinas, equipamentos e ferramentas deve ser 
+concebida conforme determina a NR 12, que traz as referências técnicas, princípios 
+fundamentais e medidas de proteção para resguardar a saúde e a integridade física dos 
+trabalhadores, além de estabelecer requisitos mínimos para a prevenção de acidentes e 
+doenças do trabalho nas fases de projeto e de utilização de máquinas e equipamentos, 
+57
+573 COMENTÁRIOS SOBRE O NOVO TEXTO DA NR 17
+bem como a sua fabricação, importação, comercialização, exposição e cessão a qualquer 
+título, em todas as atividades econômicas. 
+De acordo com a NR 12, no que se refere aos aspectos ergonômicos, o trabalho em 
+máquinas e equipamentos deve respeitar as disposições contidas na NR 17, sendo que 
+as máquinas e equipamentos, nacionais ou importadas, fabricados a partir da vigência 
+do item 12.9.2, devem ser projetados e construídos de modo a atender às disposições 
+das normas técnicas oficiais ou das normas técnicas internacionais aplicáveis quanto aos 
+aspectos relacionados a ergonomia.
+É um comando normativo que faz uma inter-relação com a NR 12. Ficam garantidos, dessa 
+forma, os aspectos de segurança, bem como os requisitos de usabilidade e conforto de 
+forma que não se comprometa a saúde do trabalhador.
+17.7.2 Os fabricantes de máquinas e equipamentos devem projetar e construir os compo-
+nentes, como monitores de vídeo, sinais e comandos, de forma a possibilitar a interação 
+clara e precisa com o operador, objetivando reduzir possibilidades de erros de interpretação 
+ou retorno de informação, nos termos do item 12.9.2 da NR 12.
+17.7.2.1 A localização e o posicionamento do painel de controle e dos comandos devem 
+facilitar o acesso, o manejo fácil e seguro e a visibilidade da informação do processo. 
+COMENTÁRIOS
+Os componentes como monitores de vídeo, sinais, comandos e suas formas de interação 
+são planejados e instituídos na concepção da máquina ou equipamento. Dessa forma, 
+a NR 17 estabeleceu uma determinação aos fabricantes para que esses pontos sejam 
+analisados e ajustados ainda na fase de concepção do equipamento. 
+Sinais que não sejam claros, comandos dúbios, ou uma interação contraintuitiva do equi-
+pamento com o usuário podem gerar erros, perdas produtivas, acidentes e/ou sobrecarga 
+física e/ou cognitiva de forma que este tema é de fundamental importância. 
+Os aspectos cognitivos da interação humano-máquina, neste caso, devem ser avaliados na 
+concepção, ficando sob a responsabilidade do fabricante o fornecimento do equipamento 
+adequadamente ajustado e com usabilidade, de forma que não comprometa a segurança 
+e a saúde do trabalhador. Cabe às empresas compradoras observar o disposto na NR 17 
+no momento da aquisição.
+17.7.3 Os equipamentos utilizados no processamento eletrônico de dados com terminais 
+de vídeo devem permitir ao trabalhador ajustá-lo de acordo com as tarefas a serem 
+executadas.
+58
+NR 17 – ERGONOMIA | COMENTÁRIOS AO NOVO TEXTO (PORTARIA MTP 423, DE 07/10/2021)
+17.7.3.1 Os equipamentos devem ter condições de mobilidade suficiente para permitir o 
+ajuste da tela do equipamento à iluminação do ambiente, protegendo-a contra reflexos, 
+e proporcionar corretos ângulos de visibilidade ao trabalhador.
+17.7.3.2 Nas atividades com uso de computador portátil de forma não eventual em posto 
+de trabalho, devem ser previstas formas de adaptação do teclado, do mouse ou da tela, 
+a fim de permitir o ajuste às características antropométricas do trabalhador e à natureza 
+das tarefas a serem executadas.
+COMENTÁRIOS
+Os monitores devem permitir o ajuste de acordo com a tarefa executada, de forma que 
+não haja reflexos e se tenha um bom ângulo de visibilidade, com o devido ajuste de 
+iluminação do ambiente. 
+Sentar-se em frente a fonte luminosa, como uma janela, por exemplo, pode gerar ofus-
+camento indevido. Permitir que haja uma fonte luminosa atrás do indivíduo pode gerar 
+reflexos na tela. Esses são procedimentos considerados inadequados. Da mesma forma, os 
+monitores lateralizados, como visto em locais de atendimento ao público, poderão estar 
+desajustados em relação à tarefa, caso em que constituirão fonte de postura inadequada, 
+com rotação da coluna cervical do trabalhador. 
+Os computadores portáteis, em uso não eventual, devem dispor de adaptações adequadas, 
+que permitam apoio dos braços, teclado e mouse independentes da tela para permitir 
+adequada postura dos ombros e punhos, bem como suporte para a tela ou tela indepen-
+dente, para que seja possível adequação da visão mantendo-se uma postura apropriada 
+da coluna cervical e conforto visual.
+17.7.4 Devem ser dotados de dispositivo de sustentação os equipamentos e ferramentas 
+manuais cujos pesos e utilização na execução das tarefas forem passíveis de comprometer 
+a segurança ou a saúde dos trabalhadores ou adotada outra medida de prevenção, a partir 
+da avaliação ergonômica preliminar ou da AET.
+COMENTÁRIOS
+O peso do equipamento, bem como a forma de sua utilização (incluindo tempo de exposição, 
+presença de postura estática, vibração, gestos, postura adotada e distância da ferramenta 
+ou equipamento do corpo do trabalhador) podem requerer a utilização de dispositivo de 
+sustentação, para que seja evitada sobrecarga capaz de gerar o comprometimento da 
+segurança e da saúde dos trabalhadores. 
+Alternativamente, podem ser adotadas outras medidas de prevenção, previstas na AEP 
+ou na AET, conforme as características da tarefa e os requisitos que ensejaram o ajuste 
+ergonômico. 
+59
+593 COMENTÁRIOS SOBRE O NOVO TEXTO DA NR 17
+Uma análise técnica adequada, que leve em conta todos os fatores do risco, permite 
+a avaliação correta e a indicação da solução mais adequada a cada caso, conforme os 
+requisitos avaliados. 
+17.7.5 A concepção das ferramentas manuais deve atender, além dos demais itens desta 
+NR, aos seguintes aspectos:
+a) facilidade de uso e manuseio; e
+b) evitar a compressão da palma da mão ou de um ou mais dedos em arestas ou 
+quinas vivas.
+COMENTÁRIOS
+Diante da enorme variabilidade de ferramentas manuais para a mesma finalidade, faz-se 
+necessário avaliar a usabilidade no desempenho da tarefa, visando ao conforto e melhor 
+rendimento do trabalho. Uma ferramenta desconfortável ou de difícil manipulação irá 
+aumentar a probabilidade de perdas, erros, acidentes e adoecimentos, trazendo prejuízos 
+à segurança e à saúde dos trabalhadores. 
+Postura adotada, esforço necessário na utilização, presença de vibração, existência de 
+quinas vivas, material utilizado, peso da ferramenta e adequação da pega são alguns dos 
+fatores a serem avaliados, bem como a percepção do trabalhador quanto ao uso de sua 
+ferramenta de trabalho. Cada ferramenta trará desafios e considerações específicas dos 
+trabalhadores, conforme os requisitos de suas tarefas.
+Por essa razão, esse item da NR determina que as ferramentas manuais sejam concebidas 
+de forma a evitar compressão da palma da mão ou de um ou mais dedos em arestas ou 
+quinas vivas, considerando a facilidade de uso e manuseio.
+17.7.6 A organização deve selecionar as ferramentas manuais para que o tipo, formato e 
+a textura da empunhadura sejam apropriados à tarefa e ao eventual uso de luvas.
+COMENTÁRIOS
+Toda ferramenta manual tem duas extremidades: uma age sobre o material; outra, sobre 
+a mão. A extremidade na qual a pessoa segura deve adaptar-se à mão e à ação. Sua forma, 
+bem como sua espessura e comprimento são importantes para a execução segura da tarefa, 
+tanto sob o ponto de vista da ergonomia como no sentido de evitar acidentes mecânicos. 
+Considerando os aspectos ergonômicos, uma boa empunhadura permite que a ferramenta 
+seja utilizada com mais firmeza e maior controle, exigindo menos força do trabalhador. 
+Isso melhora a qualidade do trabalho que está sendo realizado e reduz o cansaço e os 
+riscos de lesões. 
+60
+NR 17 – ERGONOMIA | COMENTÁRIOS AO NOVO TEXTO (PORTARIA MTP 423, DE 07/10/2021)
+Durante o manuseio da ferramenta, é ideal que o punho permaneça em uma posição 
+neutra (similar à de um aperto de mãos). As luvas aumentam o tamanho das mãos, sendo 
+necessário experimentar, com as mãos enluvadas, o espaço disponível para a mão no cabo 
+da ferramenta. 
+Os cabos das ferramentas devem ter espessura suficiente para não provocar desconforto. 
+Para um manejo firme e seguro da ferramenta, deve ser possível que os quatro dedos 
+passem ao redor do seu cabo, permitindo que o polegar se coloque sobre o indicador. 
+Os cabos finos devem ser evitados, pois são muito desconfortáveis e prejudiciais. 
+O diâmetro apropriado costuma ser entre 3 cm e 4 cm. 
+Cabe considerar que as ferramentas são projetadas, geralmente, para uso masculino. 
+Quando se tratar de ferramentas para uso feminino, devem ser adequadas às características 
+dessas trabalhadoras, sempre que possível.
+No caso de ferramentas assimétricas (que oferecem empunhaduras diferentes para as 
+mãos direita e esquerda), deve-se considerar que, aproximadamente, 10% das pessoas 
+são canhotas (Papadatou-Pastou et al., 2020). 
+17.8 Condições de conforto no ambiente de trabalho. 
+17.8.1 Em todos os locais e situações de trabalho deve haver iluminação, natural ou 
+artificial, geral ou suplementar, apropriada à natureza da atividade.
+17.8.2 A iluminação deve ser projetada e instalada de forma a evitar ofuscamento, reflexos 
+incômodos, sombras e contrastes excessivos.
+17.8.3 Em todos os locais e situações de trabalho internos, deve haver iluminação em 
+conformidade com os níveis mínimos de iluminamento a serem observados nos locais de 
+trabalho estabelecidos na Norma de Higiene Ocupacional nº 11 (NHO 11) da Fundação 
+Jorge Duprat Figueiredo, de Segurança e Medicina do Trabalho - Fundacentro - Avaliação 
+dos Níveis de Iluminamento em Ambientes Internos de Trabalho, versão 2018.
+COMENTÁRIOS
+O iluminamento é um ponto muito importante no desempenho do trabalho, seja em carac-
+terísticas de interação homem-máquina, seja na visualização do plano de trabalho, seja, 
+até mesmo, na execução de tarefas especiais onde o iluminamento é fator determinante, 
+como, por exemplo, na análise de qualidade do produto ou em um centro cirúrgico. 
+Dada esta importância, a NR 17 determina que o iluminamento, natural ou artificial, 
+geral ou suplementar, deve ser ajustado à tarefa desempenhada, bem como ao ambiente 
+do trabalho. 
+61
+613 COMENTÁRIOS SOBRE O NOVO TEXTO DA NR 17
+Importante ressaltar que cada posto de trabalho possuiu um plano visual com os requi-
+sitos da tarefa. Dessa forma, a análise do iluminamento se dá no plano de visualização 
+da tarefa e é individual à execução dela, não se relacionando apenas ao iluminamento 
+médio do ambiente.
+Em geral, o planejamento luminoso do ambiente de trabalho deve considerar os requisitos 
+da tarefa, as características dos trabalhadores, a presença de reflexos, a distribuição 
+da presença luminosa em cada posto de trabalho, ofuscamentos e contrastes, entre 
+outros requisitos.
+A Norma de Higiene Ocupacional nº 11 (NHO 11) da Fundação Jorge Duprat Figueiredo de 
+Segurança e Medicina do Trabalho (Fundacentro) – Avaliação dos Níveis de Iluminamento 
+em Ambientes Internos de Trabalho, versão 2018, é a fonte de referência para ambientes 
+internos onde deverão ser realizados os estudos ergonômicos dos locais e situações de 
+trabalho internos.
+17.8.4 Nos locais de trabalho em ambientes internos onde são executadas atividades 
+que exijam manutenção da solicitação intelectual e atenção constantes, devem ser 
+adotadas medidas de conforto acústico e de conforto térmico, conforme disposto nos 
+subitens seguintes.
+17.8.4.1 A organização deve adotar medidas de controle do ruído nos ambientes internos, 
+com a finalidade de proporcionar conforto acústico nas situações de trabalho.
+17.8.4.1.1 O nível de ruído de fundo para o conforto deve respeitar os valores de referência 
+para ambientes internos, de acordo com sua finalidade de uso estabelecidos em normas 
+técnicas oficiais.
+17.8.4.1.2 Para os demais casos, o nível de ruído de fundo aceitável para efeito de conforto 
+acústico será de até sessenta e cinco decibéis dB(A), nível de pressão sonora contínuo 
+equivalente ponderado em A e no circuito de resposta Slow (S).
+17.8.4.2 A organização deve adotar medidas de controle da temperatura, da velocidade 
+do ar e da umidade, com a finalidade de proporcionar conforto térmico nas situações de 
+trabalho, observando-se o parâmetro de faixa de temperatura do ar entre dezoito e vinte 
+cinco graus Celsius para ambientes climatizados.
+17.8.4.2.1 Devem ser adotadas medidas de controle da ventilação ambiental para minimizar 
+a ocorrência de correntes de ar aplicadas diretamente sobre os trabalhadores.
+62
+NR 17 – ERGONOMIA | COMENTÁRIOS AO NOVO TEXTO (PORTARIA MTP 423, DE 07/10/2021)
+COMENTÁRIOS
+Primeiramente, cabe ressaltar que as medidas preconizadas na NR 17, em relação ao 
+ruído e à temperatura, têm como objetivo o conforto acústico e térmico. Dessa forma, 
+não devem ser confundidas com as medidas preventivas adotadas para mitigação do risco 
+ocupacional advindo do ruído excessivo ou das alterações excessivas de temperatura, 
+tratadas na NR 09. 
+Outro ponto importante, neste comando normativo, é que ele se faz necessário somente 
+na presença de atividades que exijam, concomitantemente, a manutenção da solicitação 
+intelectual e atenção constantes, ou seja não são aplicáveis a todas as tarefas. 
+Isso porque, a combinação da manutenção da solicitação intelectual e da atenção cons -
+tante ocorre em tarefas onde há demanda cognitiva – em especial de aprendizado – que 
+requerem uma atenção mantida. Isso ocorre em situações como trabalho em escritório 
+(relação da interação com meios informatizados), salas de controle, análises e projetos, 
+em laboratórios, entre outras atividades que podem requerer essa combinação de fatores. 
+Em relação ao texto normativo anterior, a NR 17 deixou de referenciar especificamente 
+a ABNT NBR 10152, trazendo agora que devem ser respeitados os valores de referência 
+para ambientes internos, de acordo com sua finalidade de uso, estabelecidos em normas 
+técnicas oficiais. Considerando que a versão da ABNT NBR 10152:2017 retira do seu escopo 
+a avaliação de conforto acústico ocupacional, sua aplicação na NR 17 se torna inviável. 
+Na ausência de uma referência específica o nível de ruído de fundo aceitável para efeito 
+de conforto acústico será de até 65,0 dB(A), nível de pressão sonora contínuo equivalente 
+ponderado em A e no circuito de resposta Slow (S). 
+Em relação aos parâmetros de temperatura também houve modificações. Na nova NR 17, 
+não há mais a descrição de parâmetro específico para medição da umidade relativa do 
+ar e da velocidade do vento. A temperatura, antes calculada pelo índice de temperatura 
+efetiva (20° a 23° graus Célsius) agora é relacionada diretamente à temperatura do ar, com 
+o parâmetro de 18° a 25° graus Célsius. Destaca-se que o novo parâmetro está relacionado 
+apenas a ambientes climatizados. 
+Mesmo com a presença das alterações nos parâmetros, a fundamentação básica da norma 
+segue preservada, pois, na presença de solicitação intelectual e atenção constantes, deve-
+rão ser adotadas medidas de controle para adequação do ruído, controle da velocidade 
+do vento e umidade do ar e temperatura (ambientes climatizados), sendo minimizada a 
+ocorrência de correntes de ar aplicadas diretamente sobre os trabalhadores de forma 
+que o trabalho nessas condições resulte em conforto para o trabalhador e seja mantido 
+o desempenho adequado. 
+63
+633 COMENTÁRIOS SOBRE O NOVO TEXTO DA NR 17
+17.8.5 Fica ressalvado o atendimento dos itens 17.8.3 e 17.8.4.2 nas situações em que 
+haja normativa específica, com a devida justificativa técnica de que não haverá prejuízo 
+à segurança ou à saúde dos trabalhadores.
+COMENTÁRIOS
+Determinadas tarefas específicas possuem normativas adicionais aplicáveis de outro 
+órgão fiscalizatório ou regulatório. Diante de eventual conflito de normas – com a devida 
+justificativa técnica e que não gere prejuízo à saúde dos trabalhadores – podem ser 
+adotados outros procedimentos, mesmo que diferentes dos previstos nos itens 17.8.3 e 
+17.8.4.2 da NR 17. 
+Um exemplo é o caso da indústria alimentícia, onde regras sanitárias ou de bem-estar 
+animal, por vezes, conflitam com pontos descritos na NR 17 nos requisitos de iluminamento 
+e temperatura. Desde que haja justificativa técnica e não gere prejuízo ao trabalhador 
+poderão ser adotados valores diferentes aos previstos nesses dois pontos da NR 17, 
+abrindo-se uma exceção e evitando o conflito normativo.
+
+65REFERÊNCIAS
+REFERÊNCIAS
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS – ABNT. NBR 13962: 2018: móveis 
+para escritório – cadeiras – requisitos e métodos de ensaio. Rio de Janeiro: ABNT, 2018. 
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS – ABNT. NBR ISO 11228-2:2017: ergo-
+nomia – movimentação manual. parte 2: empurrar e puxar. Rio de Janeiro: ABNT, 2017.
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS – ABNT. NBR 10152: 2020: acústica – 
+níveis de pressão sonora em ambientes internos e edificações. Rio de Janeiro: ABNT, 2020.
+BRASIL. Ministério do Trabalho. Manual de Aplicação da Norma Regulamentadora 
+Nº 17. Brasília: MTE, 2002. Disponível em: https://www.gov.br/trabalho-e-previdencia/
+pt-br/composicao/orgaos-especificos/secretaria-de-trabalho/inspecao/escola/e-biblioteca/
+manual-de-aplicacao-da-nr-17-ano-2002.pdf/view. Acesso em: 09 set. 2022.
+BRASIL. Ministério da Economia. Portaria SEPRT nº 6.730, de 09 de março de 2020. Aprova 
+a nova redação da Norma Regulamentadora nº 01 (Disposições Gerais e Gerenciamento 
+de Riscos Ocupacionais). Diário Oficial da União, Brasília, ed. 49, seção 1, p. 17, 2020c.
+BRASIL. Ministério da Economia. Portaria SEPRT n.º 916, de 30 de julho de 2019. Altera 
+a redação da Norma Regulamentadora n.º 12 (Segurança no Trabalho em Máquinas e 
+Equipamentos). Diário Oficial da União, Brasília, ed. 146, seção 1, p. 16, 2019a.
+BRASIL. Ministério da Economia. Portaria MTP n.º 423, de 07 de outubro de 2021. Altera a 
+redação da Norma Regulamentadora n.º 17 (Ergonomia). Diário Oficial da União, Brasília, 
+ed. 192, seção 1, p. 122, 2021.
+BRASIL. Ministério da Economia. Portaria SEPRT n.º 1.066, de 23 de setembro de 2019. 
+Aprova a nova redação da Norma Regulamentadora nº 24 (Condições de Higiene e Conforto 
+nos Locais de Trabalho). Diário Oficial da União, Brasília, ed. 185, seção 1, p. 32, 2019b.
+GRANDJEAN, E. Manual de Ergonomia: adaptando o trabalho ao homem. Porto Alegre: 
+Artes Médicas, 1998.
+IIDA, I; BUARQUE, L. Ergonomia projeto e produção. 3. ed. São Paulo: Blucher, 2016.
+Papadatou-Pastou, M., Ntolka, E., Schmitz, J., Martin, M., Munafò, M. R., Ocklenburg, S., & 
+Paracchini, S. (2020). Human handedness: A meta-analysis. Psychological Bulletin, 146(6), 
+481–524. Disponível em: https://doi.org/10.1037/bul0000229. Acesso em: 11/12/2023
+SESI – SERVIÇO SOCIAL DA INDÚSTRIA. Manual SESI para implantação de sistema de 
+gestão de segurança e saúde do trabalho. Brasília: SESI, 2010.
+
+CNI
+Antonio Ricardo Alvarez Alban
+Presidente
+Gabinete da Presidência
+Danusa Costa Lima e Silva de Amorim
+Chefe do Gabinete - Diretora
+DIRETORIA DE RELAÇÕES INSTITUCIONAIS
+Roberto de Oliveira Muniz
+Diretor de Relações Institucionais
+Gerência Executiva de Relações de Trabalho
+Sylvia Lorena Teixeira de Sousa
+Gerente Executiva de Relações do Trabalho
+Gerência de Assuntos de Segurança e Saúde 
+no Trabalho
+Rafael Ernesto Kieckbusch
+Gerente de Assuntos de Segurança e Saúde 
+no Trabalho
+Ana Cristina Fechine Pimentel 
+Wilson Brueckheimer Júnior 
+Equipe Técnica 
+Andreia de Sousa Lopes 
+Brenda Parada Granados 
+Gabriela da Silva Ramalho 
+Giselle F. Lima Raulino de Souza Lemos 
+Isabela Maria Pereira Cruzeiro 
+Juliana Faria Santiago
+Lucas Marinho Lima 
+Marcello Caio Ramon e Barros Ferreira 
+Pablo Rolim Carneiro
+Priscila Pereira Camargo
+Wilson Correa de Araújo Neto 
+Apoio Técnico
+DIRETORIA DE COMUNICAÇÃO – DIRCOM
+Ana Maria Curado
+Diretora
+Superintendência de Publicidade e Mídias Sociais
+Mariana Caetano Flores Pinto
+Superintendente de Publicidade e Mídias Sociais
+Sarah de Oliveira Santana
+Marcela Louise Moura Santana
+Produção Editorial
+DIRETORIA DE SERVIÇOS CORPORATIVOS – DSC
+Cid Carvalho Vianna
+Diretor de Serviços Corporativos
+Superintendência de Administração – SUPAD
+Alberico Carlos Morais de Amorim
+Superintendente Administrativo
+Alberto Nemoto Yamaguti
+Normalização
+_______________________________________
+Leonardo Rocha Rodrigues
+Consultor 
+Editorar Multimídia
+Projeto gráfico e diagramação
+SESI/DN
+Antonio Ricardo Alvarez Alban
+Diretor
+Rafael Esmeraldo Lucchesi Ramacciotti
+Diretor-Superintendente 
+DIRETORIA DE OPERAÇÕES
+Paulo Mól Junior
+Diretor de Operações
+Superintendência de Saúde e Segurança na Indústria
+Emmanuel de Souza Lacerda
+Superintendente de Saúde e Segurança na Indústria
+Gerência de Segurança e Saúde no Trabalho
+Katyana Aragao Menescal
+Gerente de Segurança e Saúde no Trabalho
+Migliane Reus de Mello
+Augusto Luis Nicezio Borges
+Dernival Barreto Medrado Neto
+Equipe Técnica 
+
+.cni.com.br
+/cnibrasil
+@CNI_br
+@cnibr 
+/cniweb
+/company/cni–brasil
+.sesi.org.br
+/SESINacional
+@SouSESI
+@sesinacional
+/sesi
+/company/sesi-nacional
