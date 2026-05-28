@@ -22,7 +22,7 @@ from docx.shared import Cm, Pt
 
 ROOT = Path(__file__).resolve().parent
 PARENT = ROOT.parent
-OUT = PARENT / "TCC - MF e G - v2.4.docx"
+OUT = PARENT / "TCC - MF e G - v2.5.docx"
 FIG = ROOT / "figures"
 
 
@@ -217,8 +217,9 @@ def build_pretextuais(doc):
            space_after=Pt(0), left_indent=Cm(8), first_line=Cm(0))
     r = p.add_run(
         "Trabalho de Conclusão de Curso apresentado ao Centro "
-        "Universitário de Maceió como um dos pré-requisitos para a "
-        "obtenção do grau de Bacharel em Ciência da Computação."
+        "Universitário Afya UNIMA-AL como um dos pré-requisitos "
+        "para a obtenção do grau de Bacharel em Ciência da "
+        "Computação."
     )
     r.font.name = "Arial"
     r.font.size = Pt(10)
@@ -423,7 +424,7 @@ def build_pretextuais(doc):
         "against two open-source 14B-parameter LLMs running "
         "locally (Qwen 2.5 14B and Phi-4 14B via Ollama on AMD "
         "GPU), revealing that Qwen surpasses gpt-4o-mini on the "
-        "copilot (Precision@1 = 0.8750 vs. 0.5000) and Phi-4 "
+        "copilot (Precision@1 = 0.8750 vs. 0.6500) and Phi-4 "
         "reaches zero regulatory hallucination with structural "
         "word range of 0.9400 in the narrator, evidencing the "
         "feasibility of partial migration to open-source models. "
@@ -1530,7 +1531,7 @@ def build_resultados(doc):
                 "76 citações válidas / 76"],
                ["Type-Token Ratio (diversidade de ações)", "0,0927", "/"],
                ["Entropia Shannon normalizada", "1,0000", "/"],
-               ["Latência p50", "7,09 s", "/"],
+               ["Latência p50", "7,1 s", "/"],
                ["Latência p95", "12,61 s", "/"],
                ["Latência p99", "15,08 s", "/"]],
               "Tabela 7 - Resultados do gerador 5W2H (gold v3, n=80, descrição cega)",
@@ -1827,9 +1828,9 @@ def build_resultados(doc):
                ["Narrador do PGR (com re-prompting)",
                 "47,3 s", "72,5 s", "~3.500", "0,0012"],
                ["Gerador de Plano 5W2H",
-                "9,5 s", "18,6 s", "~4.200", "0,0014"],
+                "7,1 s", "12,6 s", "~4.200", "0,0014"],
                ["Copiloto NR-01 (RAG)",
-                "5,8 s", "8,5 s", "~1.800", "0,0004"],
+                "6,1 s", "8,8 s", "~1.800", "0,0004"],
                ["Analisador qualitativo",
                 "~3 s", "~5 s", "~2.100", "0,0007"]],
               "Tabela 10 - Métricas operacionais por agente (gpt-4o-mini)",
@@ -1862,23 +1863,31 @@ def build_resultados(doc):
         "cenário de demonstração da plataforma (empresa fictícia com "
         "130 colaboradores em 8 setores, configurada via script "
         "determinístico de seed). A Tabela 11 consolida os tempos "
-        "observados."
+        "observados. Esses tempos correspondem ao cenário de "
+        "demonstração agregada e dependem do tamanho do payload, "
+        "da configuração de re-prompting e de cache de "
+        "respostas equivalentes. Diferem, portanto, dos tempos por "
+        "inferência reportados nas Tabelas 6, 7 e 10, que vêm de "
+        "100 payloads de avaliação com re-prompting ativo e "
+        "tamanhos variáveis."
     )
     add_table(doc,
               ["Métrica de uso", "Valor observado"],
               [["Tempo de processamento da campanha (130 respostas)",
                 "1,8 s"],
-               ["Tempo de devolução do Inventário pelo Narrador",
+               ["Tempo de devolução do Inventário pelo Narrador (payload demo, sem re-prompting)",
                 "5,2 s (mediana)"],
-               ["Tempo de geração do Plano de Ação 5W2H",
+               ["Tempo de geração do Plano de Ação 5W2H (cenário demo agregado)",
                 "14,1 s (mediana)"],
                ["Tempo de exportação do PDF assinado",
                 "0,9 s"],
                ["Taxa de sucesso na exportação PDF",
                 "100% (n = 20)"]],
-              "Tabela 11 - Métricas operacionais do site",
+              "Tabela 11 - Métricas operacionais do site (cenário demo)",
               "Fonte: dados da pesquisa (2026), execução em ambiente "
-              "local com seed determinístico.")
+              "local com seed determinístico. Latências menores que "
+              "as Tabelas 6 e 10 porque o cenário demo usa payload "
+              "menor e re-prompting desativado.")
     add_text(
         doc,
         "Os tempos confirmam que o ciclo completo de uma campanha, "
@@ -1955,8 +1964,9 @@ def build_discussao(doc):
         "generalizável que abordagens baseadas em BERT ou LLM em "
         "dados não vistos, dado que a heurística depende de listas "
         "fechadas de prenomes e padrões regex; essa limitação está "
-        "explícita na taxa de vazamento de 0,34 para matrícula e "
-        "0,28 para cargo identificador (Tabela 5b)."
+        "explícita na taxa de vazamento residual de 0,1455 para "
+        "telefone e 0,0800 para matrícula e nome composto "
+        "(Tabela 5b)."
     )
     add_text(
         doc,
@@ -2639,27 +2649,31 @@ def build_trabalhos_futuros(doc):
 def build_referencias(doc):
     add_h1(doc, "REFERÊNCIAS")
     refs = [
+        "ALIBABA CLOUD. Qwen2.5 technical report. arXiv preprint arXiv:2412.15115, 2024.",
         "ALSAAD, R.; ALSHAKHS, S.; THOMAS, R. Depression subtype classification from social media posts: few-shot prompting vs. fine-tuning of large language models. Frontiers in Digital Health, [s.l.], 2026.",
         "BORATTI, R. R.; ROCHA, K. B.; SANTOS, F. T. Adaptação transcultural do Copenhagen Psychosocial Questionnaire (COPSOQ-II) para o português brasileiro. Revista Brasileira de Saúde Ocupacional, v. 43, p. 1-12, 2018.",
+        "BRASIL. Lei n. 13.709, de 14 de agosto de 2018. Lei Geral de Proteção de Dados Pessoais (LGPD). Diário Oficial da União, Brasília, 15 ago. 2018.",
         "BRASIL. Ministério do Trabalho e Emprego. Norma Regulamentadora NR-01: Disposições Gerais e Gerenciamento de Riscos Ocupacionais. Brasília: MTE, 2022.",
         "BRASIL. Ministério do Trabalho e Emprego. Norma Regulamentadora NR-17: Ergonomia. Brasília: MTE, 2018.",
-        "BRASIL. Lei n. 13.709, de 14 de agosto de 2018. Lei Geral de Proteção de Dados Pessoais (LGPD). Diário Oficial da União, Brasília, 15 ago. 2018.",
         "COX, T.; GRIFFITHS, A. The nature and measurement of work-related psychosocial hazards: a frame of reference for the assessment of work stressors. Work & Stress, v. 9, n. 3-4, p. 244-261, 1995.",
-        "FEW, S. Now You See It: simple visualization techniques for quantitative analysis. Burlingame: Analytics Press, 2009.",
         "EFRON, B.; TIBSHIRANI, R. J. An Introduction to the Bootstrap. New York: Chapman & Hall, 1993.",
         "ES, S.; JAMES, J.; ESPINOSA-ANKE, L.; SCHOCKAERT, S. RAGAS: Automated Evaluation of Retrieval Augmented Generation. In: Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2024): System Demonstrations. Stroudsburg: ACL, 2024.",
+        "FEW, S. Now You See It: simple visualization techniques for quantitative analysis. Burlingame: Analytics Press, 2009.",
         "GIL, A. C. Como elaborar projetos de pesquisa. 4. ed. São Paulo: Atlas, 2002.",
         "HILLEBRAND, L.; BERGER, A.; UEDELHOVEN, D.; BERGHAUS, D.; WARNING, U.; DILMAGHANI, T.; KLIEM, B.; SCHMID, T.; LOITZ, R.; SIFA, R. Advancing Risk and Quality Assurance: a RAG Chatbot for Improved Regulatory Compliance. arXiv preprint arXiv:2507.16711, 2025.",
         "INSTITUTO NACIONAL DO SEGURO SOCIAL (INSS). Anuário Estatístico Previdenciário 2023. Brasília: INSS, 2024.",
         "INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. ISO 45003: Occupational health and safety management. Psychological health and safety at work. Guidelines for managing psychosocial risks. Geneva: ISO, 2021.",
         "JIANG, Y.; LIU, S.; FISHER, P. A. A comparative evaluation of structural topic models and BERTopic for short, open-ended survey responses. arXiv preprint arXiv:2605.23093, 2026.",
         "KARASEK, R.; THEORELL, T. Healthy Work: stress, productivity, and the reconstruction of working life. New York: Basic Books, 1990.",
+        "KNOWLES, M. S.; HOLTON III, E. F.; SWANSON, R. A. The Adult Learner: the definitive classic in adult education and human resource development. 8. ed. London: Routledge, 2015.",
         "KRISTENSEN, T. S.; HANNERZ, H.; HOGH, A.; BORG, V. The Copenhagen Psychosocial Questionnaire: a tool for the assessment and improvement of the psychosocial work environment. Scandinavian Journal of Work, Environment & Health, v. 31, n. 6, p. 438-449, 2010.",
         "LEWIS, P.; PEREZ, E.; PIKTUS, A.; PETRONI, F.; KARPUKHIN, V. et al. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. Advances in Neural Information Processing Systems (NeurIPS), v. 33, p. 9459-9474, 2020.",
         "MANNING, C. D.; RAGHAVAN, P.; SCHUTZE, H. Introduction to Information Retrieval. Cambridge: Cambridge University Press, 2008.",
         "MASLACH, C.; JACKSON, S. E. The measurement of experienced burnout. Journal of Organizational Behavior, v. 2, n. 2, p. 99-113, 1981.",
+        "MICROSOFT. Phi-4 technical report. arXiv preprint arXiv:2412.08905, 2024.",
         "ORGANIZACAO INTERNACIONAL DO TRABALHO (OIT). Mental Health at Work: policy brief. Genebra: ILO, 2022.",
         "ORGANIZACAO MUNDIAL DA SAUDE (OMS). WHO Guidelines on Mental Health at Work. Genebra: WHO, 2022.",
+        "RÖDER, M.; BOTH, A.; HINNEBURG, A. Exploring the space of topic coherence measures. In: WSDM '15: Proceedings of the Eighth ACM International Conference on Web Search and Data Mining. Shanghai: ACM, 2015. p. 399-408.",
         "SCHIEZARO, M.; ROSA, G.; CAMPOS, B. A. G.; PEDRINI, H. Guardians of the data: NER and LLMs for effective medical record anonymization in Brazilian Portuguese. Frontiers in Public Health, [s.l.], 2026.",
         "SHAO, Z.; WANG, X.; LIU, Z.; WANG, C.; SUBBALAKSHMI, K. P. Systematic evaluation of machine-generated reasoning and PHQ-9 labeling for depression detection using large language models. arXiv preprint arXiv:2505.17119, 2025.",
         "SHI, H.; LIU, J.; YANG, C.; SHANG, J.; ZENG, Y. Machine learning for predicting burnout among healthcare workers: a systematic review and meta-analysis. Contemporary Nurse, [s.l.], 2025.",
