@@ -22,7 +22,7 @@ from docx.shared import Cm, Pt
 
 ROOT = Path(__file__).resolve().parent
 PARENT = ROOT.parent
-OUT = PARENT / "TCC - MF e G - v2.5.docx"
+OUT = PARENT / "TCC - MF e G - v2.6.docx"
 FIG = ROOT / "figures"
 
 
@@ -605,7 +605,7 @@ def build_introducao(doc):
     add_h1(doc, "1 INTRODUÇÃO")
     paras = [
         "A saúde mental no trabalho passou a ocupar papel estratégico nas organizações em razão do aumento expressivo dos afastamentos relacionados a transtornos mentais e comportamentais. Segundo o Anuário Estatístico Previdenciário do Instituto Nacional do Seguro Social (INSS, 2024), os transtornos mentais e comportamentais (Capítulo V da CID-10, classes F00 a F99) figuraram entre as três principais causas de afastamento do trabalho no Brasil, com mais de 200 mil benefícios concedidos no período. Esse cenário se agravou no período pós-pandemia e levou organizações internacionais como a Organização Mundial da Saúde (WHO, 2022) e a Organização Internacional do Trabalho (ILO, 2022) a publicar diretrizes específicas para a proteção da saúde mental no ambiente laboral.",
-        "No Brasil, a atualização da Norma Regulamentadora NR-01, publicada pelo Ministério do Trabalho e Emprego em 2022, instituiu o Gerenciamento de Riscos Ocupacionais (GRO) e tornou explícito o dever do empregador de identificar, avaliar e controlar os riscos psicossociais como parte integrante do Programa de Gerenciamento de Riscos (PGR). Soma-se a esse arcabouço a NR-17 (BRASIL, 2018), que trata dos fatores ergonômicos cognitivos e organizacionais, e a norma internacional ISO 45003 (2021), dedicada exclusivamente a saúde e segurança psicológica no trabalho. Nesse contexto, empresas, clínicas de medicina ocupacional e consultorias de Saúde e Segurança do Trabalho (SST) precisam realizar avaliações periódicas com instrumentos psicométricos validados, interpretar os resultados, gerar evidências auditáveis de conformidade e transformar os achados em planos de ação efetivos. Entretanto, a interpretação das respostas e a redação dos documentos exigidos pela NR-01 permanecem majoritariamente manuais, demoradas, dependentes da subjetividade de cada profissional de SST e com baixa rastreabilidade do raciocínio empregado.",
+        "No Brasil, a atualização da Norma Regulamentadora NR-01, publicada pelo Ministério do Trabalho e Emprego em 2022, instituiu o Gerenciamento de Riscos Ocupacionais (GRO). Posteriormente, a Portaria MTE nº 1.419/2024 incluiu de forma explícita os fatores de risco psicossocial entre os perigos a serem identificados, avaliados e controlados no Programa de Gerenciamento de Riscos (PGR). A Portaria MTE nº 765/2025 fixou a vigência fiscalizável dessa obrigação em 26 de maio de 2026, mantendo o período anterior em caráter educativo. Soma-se a esse arcabouço a NR-17 (BRASIL, 2018), que trata dos fatores ergonômicos cognitivos e organizacionais, e a norma internacional ISO 45003 (2021), dedicada exclusivamente a saúde e segurança psicológica no trabalho. Nesse contexto, e considerando que o presente trabalho é entregue pouco depois do início da exigibilidade da obrigação, empresas, clínicas de medicina ocupacional e consultorias de Saúde e Segurança do Trabalho (SST) precisam realizar avaliações periódicas com instrumentos psicométricos validados, interpretar os resultados, gerar evidências auditáveis de conformidade e transformar os achados em planos de ação efetivos. Entretanto, a interpretação das respostas e a redação dos documentos exigidos pela NR-01 permanecem majoritariamente manuais, demoradas, dependentes da subjetividade de cada profissional de SST e com baixa rastreabilidade do raciocínio empregado.",
         "A maturação dos Modelos de Linguagem de Grande Escala (Large Language Models, LLM) baseados em arquiteturas Transformer (VASWANI et al., 2017) e, em especial, da técnica de Geração Aumentada por Recuperação (Retrieval-Augmented Generation, RAG), proposta por Lewis et al. (2020), abriu novas possibilidades para a automação da interpretação de instrumentos psicométricos. Em vez de uma simples mecanização de fórmulas, as LLM permitem traduzir matrizes de escores em narrativas técnicas auditáveis, ancorar respostas em fontes normativas recuperadas dinamicamente e agrupar respostas abertas por similaridade semântica sem expor respondentes individualmente. No campo da saúde ocupacional, todavia, sua adoção esbarra em três restrições não negociáveis: a hipersensibilidade dos dados (LGPD trata dados de saúde como sensíveis), o risco de alucinação característico das LLM e a exigência de que cada conclusão seja rastreável até evidências aceitas pelo arcabouço normativo.",
         "Este trabalho delimita-se a um estudo de viabilidade técnica conduzido integralmente sobre dados sintéticos algoritmicamente gerados. Nenhum respondente humano foi avaliado e nenhum dado clínico ou ocupacional real foi coletado; a validação em campo, sujeita a aprovação por comitê de ética em pesquisa, permanece como trabalho futuro inegociável.",
     ]
@@ -701,10 +701,14 @@ def build_aspectos_teoricos(doc):
         "A plataforma proposta tem como referência regulatória três "
         "pilares principais. O primeiro é a Norma Regulamentadora "
         "NR-01 (BRASIL, 2022), que instituiu o Gerenciamento de "
-        "Riscos Ocupacionais (GRO) e tornou explícita a necessidade "
-        "de identificação, avaliação e controle dos riscos "
-        "psicossociais no Programa de Gerenciamento de Riscos (PGR). "
-        "O segundo é a NR-17 (BRASIL, 2018), que trata dos fatores "
+        "Riscos Ocupacionais (GRO), e a Portaria MTE nº 1.419/2024 "
+        "(BRASIL, 2024), que incluiu de forma explícita os fatores "
+        "de risco psicossocial entre os perigos a serem "
+        "identificados, avaliados e controlados no Programa de "
+        "Gerenciamento de Riscos (PGR), com vigência fiscalizável "
+        "a partir de 26 de maio de 2026 fixada pela Portaria MTE "
+        "nº 765/2025 (BRASIL, 2025). O segundo é a NR-17 "
+        "(BRASIL, 2018), que trata dos fatores "
         "ergonômicos cognitivos e organizacionais. O terceiro é a "
         "ISO 45003:2021, dedicada a saúde e segurança psicológica no "
         "trabalho. A esses pilares soma-se a Lei Geral de Proteção "
@@ -2655,6 +2659,8 @@ def build_referencias(doc):
         "BRASIL. Lei n. 13.709, de 14 de agosto de 2018. Lei Geral de Proteção de Dados Pessoais (LGPD). Diário Oficial da União, Brasília, 15 ago. 2018.",
         "BRASIL. Ministério do Trabalho e Emprego. Norma Regulamentadora NR-01: Disposições Gerais e Gerenciamento de Riscos Ocupacionais. Brasília: MTE, 2022.",
         "BRASIL. Ministério do Trabalho e Emprego. Norma Regulamentadora NR-17: Ergonomia. Brasília: MTE, 2018.",
+        "BRASIL. Ministério do Trabalho e Emprego. Portaria nº 1.419, de 27 de agosto de 2024. Altera a Norma Regulamentadora nº 01 (NR-01) para incluir os fatores de risco psicossocial relacionados ao trabalho. Diário Oficial da União, Brasília, 28 ago. 2024.",
+        "BRASIL. Ministério do Trabalho e Emprego. Portaria nº 765, de 7 de maio de 2025. Estabelece o prazo de adequação para fiscalização das disposições da NR-01 relativas aos fatores de risco psicossocial, fixando o início da vigência fiscalizável em 26 de maio de 2026. Diário Oficial da União, Brasília, 8 maio 2025.",
         "COX, T.; GRIFFITHS, A. The nature and measurement of work-related psychosocial hazards: a frame of reference for the assessment of work stressors. Work & Stress, v. 9, n. 3-4, p. 244-261, 1995.",
         "EFRON, B.; TIBSHIRANI, R. J. An Introduction to the Bootstrap. New York: Chapman & Hall, 1993.",
         "ES, S.; JAMES, J.; ESPINOSA-ANKE, L.; SCHOCKAERT, S. RAGAS: Automated Evaluation of Retrieval Augmented Generation. In: Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2024): System Demonstrations. Stroudsburg: ACL, 2024.",
@@ -2668,11 +2674,11 @@ def build_referencias(doc):
         "KNOWLES, M. S.; HOLTON III, E. F.; SWANSON, R. A. The Adult Learner: the definitive classic in adult education and human resource development. 8. ed. London: Routledge, 2015.",
         "KRISTENSEN, T. S.; HANNERZ, H.; HOGH, A.; BORG, V. The Copenhagen Psychosocial Questionnaire: a tool for the assessment and improvement of the psychosocial work environment. Scandinavian Journal of Work, Environment & Health, v. 31, n. 6, p. 438-449, 2010.",
         "LEWIS, P.; PEREZ, E.; PIKTUS, A.; PETRONI, F.; KARPUKHIN, V. et al. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. Advances in Neural Information Processing Systems (NeurIPS), v. 33, p. 9459-9474, 2020.",
-        "MANNING, C. D.; RAGHAVAN, P.; SCHUTZE, H. Introduction to Information Retrieval. Cambridge: Cambridge University Press, 2008.",
+        "MANNING, C. D.; RAGHAVAN, P.; SCHÜTZE, H. Introduction to Information Retrieval. Cambridge: Cambridge University Press, 2008.",
         "MASLACH, C.; JACKSON, S. E. The measurement of experienced burnout. Journal of Organizational Behavior, v. 2, n. 2, p. 99-113, 1981.",
         "MICROSOFT. Phi-4 technical report. arXiv preprint arXiv:2412.08905, 2024.",
-        "ORGANIZACAO INTERNACIONAL DO TRABALHO (OIT). Mental Health at Work: policy brief. Genebra: ILO, 2022.",
-        "ORGANIZACAO MUNDIAL DA SAUDE (OMS). WHO Guidelines on Mental Health at Work. Genebra: WHO, 2022.",
+        "ORGANIZAÇÃO INTERNACIONAL DO TRABALHO (OIT). Mental Health at Work: policy brief. Genebra: ILO, 2022.",
+        "ORGANIZAÇÃO MUNDIAL DA SAÚDE (OMS). WHO Guidelines on Mental Health at Work. Genebra: WHO, 2022.",
         "RÖDER, M.; BOTH, A.; HINNEBURG, A. Exploring the space of topic coherence measures. In: WSDM '15: Proceedings of the Eighth ACM International Conference on Web Search and Data Mining. Shanghai: ACM, 2015. p. 399-408.",
         "SCHIEZARO, M.; ROSA, G.; CAMPOS, B. A. G.; PEDRINI, H. Guardians of the data: NER and LLMs for effective medical record anonymization in Brazilian Portuguese. Frontiers in Public Health, [s.l.], 2026.",
         "SHAO, Z.; WANG, X.; LIU, Z.; WANG, C.; SUBBALAKSHMI, K. P. Systematic evaluation of machine-generated reasoning and PHQ-9 labeling for depression detection using large language models. arXiv preprint arXiv:2505.17119, 2025.",

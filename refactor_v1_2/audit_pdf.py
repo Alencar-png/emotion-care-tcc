@@ -2,7 +2,7 @@
 from pypdf import PdfReader
 import re
 
-PDF = r'C:\Users\Pichau\Documents\Dev\tcc\TCC - MF e G - v2.5.pdf'
+PDF = r'C:\Users\Pichau\Documents\Dev\tcc\TCC - MF e G - v2.6.pdf'
 r = PdfReader(PDF)
 full = ''
 for page in r.pages:
