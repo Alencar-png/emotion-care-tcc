@@ -22,7 +22,7 @@ from docx.shared import Cm, Pt
 
 ROOT = Path(__file__).resolve().parent
 PARENT = ROOT.parent
-OUT = PARENT / "TCC - MF e G - v2.6.docx"
+OUT = PARENT / "TCC - MF e G - v2.7.docx"
 FIG = ROOT / "figures"
 
 
@@ -2660,7 +2660,7 @@ def build_referencias(doc):
         "BRASIL. Ministério do Trabalho e Emprego. Norma Regulamentadora NR-01: Disposições Gerais e Gerenciamento de Riscos Ocupacionais. Brasília: MTE, 2022.",
         "BRASIL. Ministério do Trabalho e Emprego. Norma Regulamentadora NR-17: Ergonomia. Brasília: MTE, 2018.",
         "BRASIL. Ministério do Trabalho e Emprego. Portaria nº 1.419, de 27 de agosto de 2024. Altera a Norma Regulamentadora nº 01 (NR-01) para incluir os fatores de risco psicossocial relacionados ao trabalho. Diário Oficial da União, Brasília, 28 ago. 2024.",
-        "BRASIL. Ministério do Trabalho e Emprego. Portaria nº 765, de 7 de maio de 2025. Estabelece o prazo de adequação para fiscalização das disposições da NR-01 relativas aos fatores de risco psicossocial, fixando o início da vigência fiscalizável em 26 de maio de 2026. Diário Oficial da União, Brasília, 8 maio 2025.",
+        "BRASIL. Ministério do Trabalho e Emprego. Portaria nº 765, de 15 de maio de 2025. Estabelece o prazo de adequação para fiscalização das disposições da NR-01 relativas aos fatores de risco psicossocial, fixando o início da vigência fiscalizável em 26 de maio de 2026. Diário Oficial da União, Brasília, 16 maio 2025.",
         "COX, T.; GRIFFITHS, A. The nature and measurement of work-related psychosocial hazards: a frame of reference for the assessment of work stressors. Work & Stress, v. 9, n. 3-4, p. 244-261, 1995.",
         "EFRON, B.; TIBSHIRANI, R. J. An Introduction to the Bootstrap. New York: Chapman & Hall, 1993.",
         "ES, S.; JAMES, J.; ESPINOSA-ANKE, L.; SCHOCKAERT, S. RAGAS: Automated Evaluation of Retrieval Augmented Generation. In: Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2024): System Demonstrations. Stroudsburg: ACL, 2024.",
