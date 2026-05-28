@@ -1,0 +1,58 @@
+{
+  "agent": "qualitative_analyzer",
+  "version": "v3_2026-05_v21_openai",
+  "n_responses": 150,
+  "n_themes": 7,
+  "n_seeds": 5,
+  "llm_stability": {
+    "ari_mean": 0.1423,
+    "ari_std": 0.0,
+    "nmi_mean": 0.3769,
+    "nmi_std": 0.0,
+    "cv_mean": 0.3565,
+    "cv_std": 0.0,
+    "macro_f1_mean": 0.3954,
+    "macro_f1_std": 0.0,
+    "weighted_f1_mean": 0.3955,
+    "weighted_f1_std": 0.0
+  },
+  "llm_ari_ci": {
+    "point": 0.1423,
+    "lo": 0.1003,
+    "hi": 0.211
+  },
+  "llm_last_run_full": {
+    "ari": 0.1423,
+    "nmi": 0.3769,
+    "homogeneity": 0.32,
+    "completeness": 0.45,
+    "v_measure": 0.3769,
+    "macro_f1": 0.3954,
+    "weighted_f1": 0.3955,
+    "c_v": 0.3565,
+    "c_npmi": 0.04
+  },
+  "baselines": {
+    "kmeans": {
+      "ari": 0.3681,
+      "nmi": 0.5592,
+      "c_v": 0.3517,
+      "macro_f1": 0.5332,
+      "weighted_f1": 0.5345
+    },
+    "lda": {
+      "ari": 0.1625,
+      "nmi": 0.3222,
+      "c_v": 0.346,
+      "macro_f1": 0.2984,
+      "weighted_f1": 0.3007
+    },
+    "bertopic": {
+      "ari": 0.1969,
+      "nmi": 0.4444,
+      "c_v": 0.2958,
+      "macro_f1": 0.3999,
+      "weighted_f1": 0.4012
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "agent": "pgr_narrator",
+  "n": 30,
+  "structural_conformance": {
+    "sections_present": 0.8333333333333334,
+    "word_count_in_range": 0.0,
+    "no_em_dash": 0.8333333333333334,
+    "no_pii": 0.8333333333333334
+  },
+  "latency_ms_p50": 9288.48,
+  "latency_ms_p95": 11241.7
+}

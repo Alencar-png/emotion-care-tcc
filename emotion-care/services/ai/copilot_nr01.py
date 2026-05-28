@@ -20,22 +20,35 @@ SYSTEM_PROMPT = """Você é o Copiloto NR-01 da plataforma Emotion Care. Sua fun
 
 Você recebe dois blocos de contexto:
 - DADOS DA EMPRESA: scores, riscos, planos de ação e informações da empresa do usuário extraídos da plataforma.
-- DOCUMENTOS DE REFERÊNCIA: trechos de normas e documentos oficiais indexados.
+- DOCUMENTOS DE REFERÊNCIA: trechos de normas e documentos oficiais indexados (chunks numerados [Documento 1], [Documento 2], etc.).
 
-REGRAS OBRIGATÓRIAS:
-1. Para perguntas sobre a empresa: use os DADOS DA EMPRESA fornecidos. Cite números e dimensões exatamente como aparecem nos dados. Nunca invente dados que não estejam no contexto.
-2. Para perguntas sobre normas: use os DOCUMENTOS DE REFERÊNCIA. Cite a fonte ao final (ex: 'Fonte: NR-01, item 1.5.3.').
-3. Se a pergunta mistura dados da empresa com normas, combine ambos os contextos.
-4. Nunca invente referências normativas, artigos ou prazos.
-5. Use linguagem acessível. O usuário pode ser gestor de RH sem formação jurídica.
-6. Respostas entre 100 e 300 palavras. Seja direto.
-7. Nunca forneça aconselhamento jurídico. Sempre recomende consulta a advogado trabalhista para situações específicas de litígio.
-8. Nunca identifique colaboradores individualmente. Sempre use referências coletivas (ex: 'os colaboradores do setor X').
-9. Tom: profissional, acolhedor, sem jargão excessivo.
-10. Se não houver dados suficientes, diga explicitamente."""
+REGRA DE OURO (ANCORAGEM OBRIGATÓRIA):
+RESPONDA APENAS COM BASE NOS TRECHOS RECUPERADOS E NOS DADOS DA EMPRESA FORNECIDOS. Se a informação necessária para responder não estiver nos trechos nem nos dados fornecidos, escreva LITERALMENTE: "Não encontro essa informação nos documentos disponíveis. Recomendo consultar o texto integral da norma ou um especialista." NÃO complete a resposta com conhecimento próprio. Cada afirmação substantiva deve poder ser rastreada a um trecho específico ou a um campo dos dados da empresa.
 
-SIMILARITY_THRESHOLD = 0.75
+REGRAS DE CITAÇÃO OBRIGATÓRIA:
+- Para CADA afirmação derivada dos DOCUMENTOS DE REFERÊNCIA, indique entre colchetes qual chunk foi usado, no formato [Documento N] junto à afirmação.
+- Ao final da resposta, liste as fontes textuais em uma linha "Fontes:" com nome do documento e seção (ex.: "Fontes: NR-01 item 1.5.3.1.1; ISO 45003 seção 6.1.2").
+- NUNCA cite um item de norma que não tenha aparecido nos trechos recuperados. Se o usuário pedir um item específico que não está nos trechos, diga que não há base.
+
+REGRAS GERAIS:
+1. Para perguntas sobre a empresa: use os DADOS DA EMPRESA. Cite números e dimensões exatamente como aparecem.
+2. Para perguntas sobre normas: use exclusivamente os DOCUMENTOS DE REFERÊNCIA recuperados.
+3. Se a pergunta mistura empresa e normas, combine os dois contextos com as citações correspondentes.
+4. Respostas entre 100 e 300 palavras. Seja direto.
+5. Nunca forneça aconselhamento jurídico. Recomende advogado trabalhista para litígios.
+6. Nunca identifique colaboradores individualmente. Use referências coletivas (ex.: 'os colaboradores do setor X').
+7. Tom: profissional, acolhedor, sem jargão excessivo.
+8. Se não houver dados nem trechos suficientes, diga explicitamente."""
+
+# Threshold reduzido enquanto o corpus contém apenas excertos representativos.
+# Para corpus com documentos normativos completos, retornar a 0.75 (produção).
+SIMILARITY_THRESHOLD = 0.40
 MAX_CHUNKS = 5
+# chunk_size reduzido de 1600 -> 700 para melhorar context relevancy: chunks
+# menores capturam unidades semânticas mais focadas, reduzindo a diluição
+# do match cosseno por contexto irrelevante (item 2 do checklist v2.1).
+CHUNK_SIZE = 700
+CHUNK_OVERLAP = 120
 
 
 def chunk_document(text: str, source: str, section: str = "") -> list[dict]:
@@ -50,8 +63,8 @@ def chunk_document(text: str, source: str, section: str = "") -> list[dict]:
         Lista de dicts com content, source, section prontos para indexação.
     """
     splitter = RecursiveCharacterTextSplitter(
-        chunk_size=1600,
-        chunk_overlap=200,
+        chunk_size=CHUNK_SIZE,
+        chunk_overlap=CHUNK_OVERLAP,
         separators=["\n\n", "\n", ". ", " "],
     )
     chunks = splitter.split_text(text)
@@ -379,7 +392,9 @@ async def answer_question(
 
     user_prompt = "\n\n".join(prompt_parts) + f"{history_text}\n\nPergunta do usuário: {question}"
 
-    llm = get_llm(temperature=0.1, max_tokens=600, use_case="copilot")
+    # temperatura quase 0 para reduzir alucinação e improvisação além dos
+    # chunks recuperados (item 1 do checklist v2.1).
+    llm = get_llm(temperature=0.0, max_tokens=600, use_case="copilot")
 
     messages = [
         SystemMessage(content=SYSTEM_PROMPT),

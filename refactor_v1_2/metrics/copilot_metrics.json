@@ -1,0 +1,13 @@
+{
+  "agent": "copilot_nr01",
+  "n": 40,
+  "precision@1": 0.1,
+  "precision@3": 0.03333,
+  "precision@5": 0.02,
+  "recall@1": 0.1,
+  "recall@3": 0.1,
+  "recall@5": 0.1,
+  "mrr": 0.1,
+  "latency_ms_p50": 1162.55,
+  "latency_ms_p95": 6202.9
+}

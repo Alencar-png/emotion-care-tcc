@@ -1,0 +1,752 @@
+[
+  {
+    "id": "q_120",
+    "text": "Aqui na empresa, gestor cobra mas não orienta",
+    "true_theme": "Liderança"
+  },
+  {
+    "id": "q_130",
+    "text": "Meu gestor não dá suporte quando preciso.",
+    "true_theme": "Liderança"
+  },
+  {
+    "id": "q_122",
+    "text": "meu gestor não dá suporte quando preciso",
+    "true_theme": "Liderança"
+  },
+  {
+    "id": "q_086",
+    "text": "informações chegam tarde demais",
+    "true_theme": "Comunicação"
+  },
+  {
+    "id": "q_037",
+    "text": "ninguém percebe o que faço por aqui.",
+    "true_theme": "Reconhecimento"
+  },
+  {
+    "id": "q_007",
+    "text": "as metas são impossíveis no prazo definido.",
+    "true_theme": "Sobrecarga"
+  },
+  {
+    "id": "q_104",
+    "text": "Sinto que não vejo plano de evolução claro",
+    "true_theme": "Carreira"
+  },
+  {
+    "id": "q_094",
+    "text": "estagnado no mesmo nível há anos.",
+    "true_theme": "Carreira"
+  },
+  {
+    "id": "q_051",
+    "text": "iluminação ruim no posto de trabalho.",
+    "true_theme": "Ambiente físico"
+  },
+  {
+    "id": "q_146",
+    "text": "Aqui na empresa, horário de almoço inflexível",
+    "true_theme": "Outros"
+  },
+  {
+    "id": "q_023",
+    "text": "Sinto que a empresa não reconhece esforço extra",
+    "true_theme": "Reconhecimento"
+  },
+  {
+    "id": "q_092",
+    "text": "não vejo plano de evolução claro",
+    "true_theme": "Carreira"
+  },
+  {
+    "id": "q_062",
+    "text": "iluminação ruim no posto de trabalho",
+    "true_theme": "Ambiente físico"
+  },
+  {
+    "id": "q_024",
+    "text": "ninguém percebe o que faço por aqui",
+    "true_theme": "Reconhecimento"
+  },
+  {
+    "id": "q_003",
+    "text": "trabalho até tarde quase todo dia.",
+    "true_theme": "Sobrecarga"
+  },
+  {
+    "id": "q_139",
+    "text": "estacionamento insuficiente.",
+    "true_theme": "Outros"
+  },
+  {
+    "id": "q_046",
+    "text": "espaço apertado para a quantidade de pessoas.",
+    "true_theme": "Ambiente físico"
+  },
+  {
+    "id": "q_128",
+    "text": "decisões verticais sem participação",
+    "true_theme": "Liderança"
+  },
+  {
+    "id": "q_055",
+    "text": "Sinto que as cadeiras são desconfortáveis",
+    "true_theme": "Ambiente físico"
+  },
+  {
+    "id": "q_093",
+    "text": "Sinto que não há perspectiva de crescimento",
+    "true_theme": "Carreira"
+  },
+  {
+    "id": "q_084",
+    "text": "Sinto que comunicação entre setores é falha",
+    "true_theme": "Comunicação"
+  },
+  {
+    "id": "q_150",
+    "text": "tenho dificuldade com o sistema atual",
+    "true_theme": "Outros"
+  },
+  {
+    "id": "q_145",
+    "text": "Sinto que horário de almoço inflexível",
+    "true_theme": "Outros"
+  },
+  {
+    "id": "q_073",
+    "text": "Aqui na empresa, informações chegam tarde demais",
+    "true_theme": "Comunicação"
+  },
+  {
+    "id": "q_045",
+    "text": "iluminação ruim no posto de trabalho.",
+    "true_theme": "Ambiente físico"
+  },
+  {
+    "id": "q_151",
+    "text": "transporte da empresa precisa melhorar.",
+    "true_theme": "Outros"
+  },
+  {
+    "id": "q_063",
+    "text": "o ar-condicionado nunca funciona direito",
+    "true_theme": "Ambiente físico"
+  },
+  {
+    "id": "q_153",
+    "text": "Vale-refeição abaixo do mercado.",
+    "true_theme": "Outros"
+  },
+  {
+    "id": "q_056",
+    "text": "Aqui na empresa, espaço apertado para a quantidade de pessoas",
+    "true_theme": "Ambiente físico"
+  },
+  {
+    "id": "q_042",
+    "text": "falta feedback positivo quando o resultado vem.",
+    "true_theme": "Reconhecimento"
+  },
+  {
+    "id": "q_118",
+    "text": "decisões verticais sem participação",
+    "true_theme": "Liderança"
+  },
+  {
+    "id": "q_142",
+    "text": "Sinto que transporte da empresa precisa melhorar",
+    "true_theme": "Outros"
+  },
+  {
+    "id": "q_018",
+    "text": "Aqui na empresa, a equipe está reduzida e o volume não cai",
+    "true_theme": "Sobrecarga"
+  },
+  {
+    "id": "q_067",
+    "text": "Aqui na empresa, falta clareza sobre o que esperam de mim",
+    "true_theme": "Comunicação"
+  },
+  {
+    "id": "q_038",
+    "text": "A empresa não reconhece esforço extra.",
+    "true_theme": "Reconhecimento"
+  },
+  {
+    "id": "q_014",
+    "text": "tenho carga excessiva de tarefas e poucas pausas",
+    "true_theme": "Sobrecarga"
+  },
+  {
+    "id": "q_061",
+    "text": "O barulho no setor atrapalha a concentração.",
+    "true_theme": "Ambiente físico"
+  },
+  {
+    "id": "q_053",
+    "text": "Espaço apertado para a quantidade de pessoas.",
+    "true_theme": "Ambiente físico"
+  },
+  {
+    "id": "q_076",
+    "text": "Sinto que informações chegam tarde demais",
+    "true_theme": "Comunicação"
+  },
+  {
+    "id": "q_040",
+    "text": "a empresa não reconhece esforço extra",
+    "true_theme": "Reconhecimento"
+  },
+  {
+    "id": "q_065",
+    "text": "as cadeiras são desconfortáveis",
+    "true_theme": "Ambiente físico"
+  },
+  {
+    "id": "q_119",
+    "text": "Sinto que decisões verticais sem participação",
+    "true_theme": "Liderança"
+  },
+  {
+    "id": "q_030",
+    "text": "Minha entrega não é valorizada pela liderança.",
+    "true_theme": "Reconhecimento"
+  },
+  {
+    "id": "q_144",
+    "text": "vale-refeição abaixo do mercado.",
+    "true_theme": "Outros"
+  },
+  {
+    "id": "q_077",
+    "text": "Aqui na empresa, reuniões sem objetivo definido consomem o dia",
+    "true_theme": "Comunicação"
+  },
+  {
+    "id": "q_085",
+    "text": "Aqui na empresa, falta clareza sobre o que esperam de mim",
+    "true_theme": "Comunicação"
+  },
+  {
+    "id": "q_102",
+    "text": "falta plano de carreira estruturado.",
+    "true_theme": "Carreira"
+  },
+  {
+    "id": "q_107",
+    "text": "falta plano de carreira estruturado",
+    "true_theme": "Carreira"
+  },
+  {
+    "id": "q_108",
+    "text": "estagnado no mesmo nível há anos",
+    "true_theme": "Carreira"
+  },
+  {
+    "id": "q_141",
+    "text": "vale-refeição abaixo do mercado.",
+    "true_theme": "Outros"
+  },
+  {
+    "id": "q_147",
+    "text": "transporte da empresa precisa melhorar.",
+    "true_theme": "Outros"
+  },
+  {
+    "id": "q_149",
+    "text": "Vale-refeição abaixo do mercado.",
+    "true_theme": "Outros"
+  },
+  {
+    "id": "q_110",
+    "text": "lideranças autoritárias não escutam a equipe",
+    "true_theme": "Liderança"
+  },
+  {
+    "id": "q_123",
+    "text": "meu gestor não dá suporte quando preciso",
+    "true_theme": "Liderança"
+  },
+  {
+    "id": "q_017",
+    "text": "A equipe está reduzida e o volume não cai.",
+    "true_theme": "Sobrecarga"
+  },
+  {
+    "id": "q_101",
+    "text": "Aqui na empresa, não há perspectiva de crescimento",
+    "true_theme": "Carreira"
+  },
+  {
+    "id": "q_074",
+    "text": "informações chegam tarde demais.",
+    "true_theme": "Comunicação"
+  },
+  {
+    "id": "q_035",
+    "text": "Sinto que promoções não chegam para quem se dedica",
+    "true_theme": "Reconhecimento"
+  },
+  {
+    "id": "q_021",
+    "text": "a equipe está reduzida e o volume não cai",
+    "true_theme": "Sobrecarga"
+  },
+  {
+    "id": "q_106",
+    "text": "não vejo plano de evolução claro",
+    "true_theme": "Carreira"
+  },
+  {
+    "id": "q_095",
+    "text": "não vejo plano de evolução claro",
+    "true_theme": "Carreira"
+  },
+  {
+    "id": "q_005",
+    "text": "acumulo funções há meses sem reposição.",
+    "true_theme": "Sobrecarga"
+  },
+  {
+    "id": "q_113",
+    "text": "meu gestor não dá suporte quando preciso.",
+    "true_theme": "Liderança"
+  },
+  {
+    "id": "q_100",
+    "text": "Sinto que treinamentos prometidos nunca acontecem",
+    "true_theme": "Carreira"
+  },
+  {
+    "id": "q_002",
+    "text": "Aqui na empresa, acumulo funções há meses sem reposição",
+    "true_theme": "Sobrecarga"
+  },
+  {
+    "id": "q_033",
+    "text": "falta feedback positivo quando o resultado vem.",
+    "true_theme": "Reconhecimento"
+  },
+  {
+    "id": "q_075",
+    "text": "Aqui na empresa, informações chegam tarde demais",
+    "true_theme": "Comunicação"
+  },
+  {
+    "id": "q_039",
+    "text": "Minha entrega não é valorizada pela liderança.",
+    "true_theme": "Reconhecimento"
+  },
+  {
+    "id": "q_140",
+    "text": "Sinto que transporte da empresa precisa melhorar",
+    "true_theme": "Outros"
+  },
+  {
+    "id": "q_088",
+    "text": "Aqui na empresa, estagnado no mesmo nível há anos",
+    "true_theme": "Carreira"
+  },
+  {
+    "id": "q_031",
+    "text": "promoções não chegam para quem se dedica",
+    "true_theme": "Reconhecimento"
+  },
+  {
+    "id": "q_027",
+    "text": "a empresa não reconhece esforço extra",
+    "true_theme": "Reconhecimento"
+  },
+  {
+    "id": "q_015",
+    "text": "trabalho até tarde quase todo dia.",
+    "true_theme": "Sobrecarga"
+  },
+  {
+    "id": "q_129",
+    "text": "Aqui na empresa, decisões verticais sem participação",
+    "true_theme": "Liderança"
+  },
+  {
+    "id": "q_026",
+    "text": "Aqui na empresa, falta feedback positivo quando o resultado vem",
+    "true_theme": "Reconhecimento"
+  },
+  {
+    "id": "q_041",
+    "text": "promoções não chegam para quem se dedica",
+    "true_theme": "Reconhecimento"
+  },
+  {
+    "id": "q_059",
+    "text": "Iluminação ruim no posto de trabalho.",
+    "true_theme": "Ambiente físico"
+  },
+  {
+    "id": "q_043",
+    "text": "minha entrega não é valorizada pela liderança",
+    "true_theme": "Reconhecimento"
+  },
+  {
+    "id": "q_109",
+    "text": "Não há perspectiva de crescimento.",
+    "true_theme": "Carreira"
+  },
+  {
+    "id": "q_072",
+    "text": "Informações chegam tarde demais.",
+    "true_theme": "Comunicação"
+  },
+  {
+    "id": "q_070",
+    "text": "comunicação entre setores é falha.",
+    "true_theme": "Comunicação"
+  },
+  {
+    "id": "q_134",
+    "text": "Aqui na empresa, vale-refeição abaixo do mercado",
+    "true_theme": "Outros"
+  },
+  {
+    "id": "q_000",
+    "text": "Aqui na empresa, a equipe está reduzida e o volume não cai",
+    "true_theme": "Sobrecarga"
+  },
+  {
+    "id": "q_125",
+    "text": "Sinto que falta de empatia da chefia direta",
+    "true_theme": "Liderança"
+  },
+  {
+    "id": "q_135",
+    "text": "Vale-refeição abaixo do mercado.",
+    "true_theme": "Outros"
+  },
+  {
+    "id": "q_058",
+    "text": "as cadeiras são desconfortáveis.",
+    "true_theme": "Ambiente físico"
+  },
+  {
+    "id": "q_057",
+    "text": "o ar-condicionado nunca funciona direito",
+    "true_theme": "Ambiente físico"
+  },
+  {
+    "id": "q_016",
+    "text": "acumulo funções há meses sem reposição",
+    "true_theme": "Sobrecarga"
+  },
+  {
+    "id": "q_049",
+    "text": "Sinto que iluminação ruim no posto de trabalho",
+    "true_theme": "Ambiente físico"
+  },
+  {
+    "id": "q_052",
+    "text": "O ar-condicionado nunca funciona direito.",
+    "true_theme": "Ambiente físico"
+  },
+  {
+    "id": "q_011",
+    "text": "acumulo funções há meses sem reposição.",
+    "true_theme": "Sobrecarga"
+  },
+  {
+    "id": "q_121",
+    "text": "Aqui na empresa, meu gestor não dá suporte quando preciso",
+    "true_theme": "Liderança"
+  },
+  {
+    "id": "q_098",
+    "text": "falta plano de carreira estruturado.",
+    "true_theme": "Carreira"
+  },
+  {
+    "id": "q_050",
+    "text": "Sinto que o ar-condicionado nunca funciona direito",
+    "true_theme": "Ambiente físico"
+  },
+  {
+    "id": "q_020",
+    "text": "Trabalho até tarde quase todo dia.",
+    "true_theme": "Sobrecarga"
+  },
+  {
+    "id": "q_078",
+    "text": "Sinto que as decisões mudam toda semana sem aviso",
+    "true_theme": "Comunicação"
+  },
+  {
+    "id": "q_064",
+    "text": "Aqui na empresa, as cadeiras são desconfortáveis",
+    "true_theme": "Ambiente físico"
+  },
+  {
+    "id": "q_066",
+    "text": "Comunicação entre setores é falha.",
+    "true_theme": "Comunicação"
+  },
+  {
+    "id": "q_089",
+    "text": "Aqui na empresa, falta plano de carreira estruturado",
+    "true_theme": "Carreira"
+  },
+  {
+    "id": "q_069",
+    "text": "Sinto que comunicação entre setores é falha",
+    "true_theme": "Comunicação"
+  },
+  {
+    "id": "q_044",
+    "text": "Sinto que o ar-condicionado nunca funciona direito",
+    "true_theme": "Ambiente físico"
+  },
+  {
+    "id": "q_099",
+    "text": "Não vejo plano de evolução claro.",
+    "true_theme": "Carreira"
+  },
+  {
+    "id": "q_137",
+    "text": "transporte da empresa precisa melhorar.",
+    "true_theme": "Outros"
+  },
+  {
+    "id": "q_028",
+    "text": "Aqui na empresa, minha entrega não é valorizada pela liderança",
+    "true_theme": "Reconhecimento"
+  },
+  {
+    "id": "q_112",
+    "text": "Decisões verticais sem participação.",
+    "true_theme": "Liderança"
+  },
+  {
+    "id": "q_138",
+    "text": "estacionamento insuficiente.",
+    "true_theme": "Outros"
+  },
+  {
+    "id": "q_111",
+    "text": "Sinto que meu gestor não dá suporte quando preciso",
+    "true_theme": "Liderança"
+  },
+  {
+    "id": "q_124",
+    "text": "Sinto que falta de empatia da chefia direta",
+    "true_theme": "Liderança"
+  },
+  {
+    "id": "q_127",
+    "text": "Sinto que gestor cobra mas não orienta",
+    "true_theme": "Liderança"
+  },
+  {
+    "id": "q_096",
+    "text": "Treinamentos prometidos nunca acontecem.",
+    "true_theme": "Carreira"
+  },
+  {
+    "id": "q_001",
+    "text": "Sinto que a equipe está reduzida e o volume não cai",
+    "true_theme": "Sobrecarga"
+  },
+  {
+    "id": "q_091",
+    "text": "treinamentos prometidos nunca acontecem.",
+    "true_theme": "Carreira"
+  },
+  {
+    "id": "q_022",
+    "text": "Sinto que minha entrega não é valorizada pela liderança",
+    "true_theme": "Reconhecimento"
+  },
+  {
+    "id": "q_032",
+    "text": "minha entrega não é valorizada pela liderança",
+    "true_theme": "Reconhecimento"
+  },
+  {
+    "id": "q_131",
+    "text": "decisões verticais sem participação",
+    "true_theme": "Liderança"
+  },
+  {
+    "id": "q_152",
+    "text": "Sinto que tenho dificuldade com o sistema atual",
+    "true_theme": "Outros"
+  },
+  {
+    "id": "q_117",
+    "text": "Sinto que meu gestor não dá suporte quando preciso",
+    "true_theme": "Liderança"
+  },
+  {
+    "id": "q_025",
+    "text": "A empresa não reconhece esforço extra.",
+    "true_theme": "Reconhecimento"
+  },
+  {
+    "id": "q_087",
+    "text": "informações chegam tarde demais.",
+    "true_theme": "Comunicação"
+  },
+  {
+    "id": "q_009",
+    "text": "Aqui na empresa, tenho carga excessiva de tarefas e poucas pausas",
+    "true_theme": "Sobrecarga"
+  },
+  {
+    "id": "q_047",
+    "text": "Aqui na empresa, iluminação ruim no posto de trabalho",
+    "true_theme": "Ambiente físico"
+  },
+  {
+    "id": "q_136",
+    "text": "Tenho dificuldade com o sistema atual.",
+    "true_theme": "Outros"
+  },
+  {
+    "id": "q_081",
+    "text": "Comunicação entre setores é falha.",
+    "true_theme": "Comunicação"
+  },
+  {
+    "id": "q_083",
+    "text": "Sinto que falta clareza sobre o que esperam de mim",
+    "true_theme": "Comunicação"
+  },
+  {
+    "id": "q_132",
+    "text": "vale-refeição abaixo do mercado",
+    "true_theme": "Outros"
+  },
+  {
+    "id": "q_148",
+    "text": "horário de almoço inflexível.",
+    "true_theme": "Outros"
+  },
+  {
+    "id": "q_013",
+    "text": "acumulo funções há meses sem reposição",
+    "true_theme": "Sobrecarga"
+  },
+  {
+    "id": "q_114",
+    "text": "Falta de empatia da chefia direta.",
+    "true_theme": "Liderança"
+  },
+  {
+    "id": "q_029",
+    "text": "Sinto que minha entrega não é valorizada pela liderança",
+    "true_theme": "Reconhecimento"
+  },
+  {
+    "id": "q_012",
+    "text": "acumulo funções há meses sem reposição",
+    "true_theme": "Sobrecarga"
+  },
+  {
+    "id": "q_036",
+    "text": "promoções não chegam para quem se dedica",
+    "true_theme": "Reconhecimento"
+  },
+  {
+    "id": "q_060",
+    "text": "Aqui na empresa, o ar-condicionado nunca funciona direito",
+    "true_theme": "Ambiente físico"
+  },
+  {
+    "id": "q_068",
+    "text": "reuniões sem objetivo definido consomem o dia.",
+    "true_theme": "Comunicação"
+  },
+  {
+    "id": "q_006",
+    "text": "Sinto que tenho carga excessiva de tarefas e poucas pausas",
+    "true_theme": "Sobrecarga"
+  },
+  {
+    "id": "q_048",
+    "text": "as cadeiras são desconfortáveis.",
+    "true_theme": "Ambiente físico"
+  },
+  {
+    "id": "q_116",
+    "text": "Sinto que meu gestor não dá suporte quando preciso",
+    "true_theme": "Liderança"
+  },
+  {
+    "id": "q_103",
+    "text": "falta plano de carreira estruturado",
+    "true_theme": "Carreira"
+  },
+  {
+    "id": "q_034",
+    "text": "Sinto que minha entrega não é valorizada pela liderança",
+    "true_theme": "Reconhecimento"
+  },
+  {
+    "id": "q_004",
+    "text": "Sinto que acumulo funções há meses sem reposição",
+    "true_theme": "Sobrecarga"
+  },
+  {
+    "id": "q_079",
+    "text": "as decisões mudam toda semana sem aviso",
+    "true_theme": "Comunicação"
+  },
+  {
+    "id": "q_090",
+    "text": "Não vejo plano de evolução claro.",
+    "true_theme": "Carreira"
+  },
+  {
+    "id": "q_143",
+    "text": "transporte da empresa precisa melhorar.",
+    "true_theme": "Outros"
+  },
+  {
+    "id": "q_010",
+    "text": "Sinto que a equipe está reduzida e o volume não cai",
+    "true_theme": "Sobrecarga"
+  },
+  {
+    "id": "q_071",
+    "text": "reuniões sem objetivo definido consomem o dia.",
+    "true_theme": "Comunicação"
+  },
+  {
+    "id": "q_008",
+    "text": "Aqui na empresa, tenho carga excessiva de tarefas e poucas pausas",
+    "true_theme": "Sobrecarga"
+  },
+  {
+    "id": "q_019",
+    "text": "Aqui na empresa, trabalho até tarde quase todo dia",
+    "true_theme": "Sobrecarga"
+  },
+  {
+    "id": "q_082",
+    "text": "Sinto que informações chegam tarde demais",
+    "true_theme": "Comunicação"
+  },
+  {
+    "id": "q_115",
+    "text": "Sinto que meu gestor não dá suporte quando preciso",
+    "true_theme": "Liderança"
+  },
+  {
+    "id": "q_080",
+    "text": "as decisões mudam toda semana sem aviso",
+    "true_theme": "Comunicação"
+  },
+  {
+    "id": "q_126",
+    "text": "Sinto que decisões verticais sem participação",
+    "true_theme": "Liderança"
+  }
+]

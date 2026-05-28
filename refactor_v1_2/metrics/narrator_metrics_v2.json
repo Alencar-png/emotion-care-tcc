@@ -1,0 +1,16 @@
+{
+  "agent": "pgr_narrator_v2_with_reprompting",
+  "n": 30,
+  "structural_conformance": {
+    "sections_present": 0.9667,
+    "word_count_in_range": 0.8333,
+    "no_em_dash": 0.9667,
+    "no_pii": 0.9667
+  },
+  "word_count_initial_avg": 413.6,
+  "word_count_final_avg": 743.7,
+  "retries_avg": 1.1,
+  "retries_max": 2,
+  "latency_ms_p50": 41786.57,
+  "latency_ms_p95": 71297.1
+}

@@ -1,0 +1,42 @@
+{
+  "agent": "pgr_narrator",
+  "version": "v3_2026-05_v21_openai",
+  "n_payloads": 100,
+  "n_success": 100,
+  "bertscore": {
+    "available": true,
+    "f1_mean": 0.7623,
+    "precision_mean": 0.74,
+    "recall_mean": 0.78,
+    "f1_per_doc": []
+  },
+  "rouge": {
+    "available": true,
+    "rouge1_f1_mean": 0.4382,
+    "rougeL_f1_mean": 0.241,
+    "rouge1_per_doc": [],
+    "rougeL_per_doc": []
+  },
+  "hallucination_regulatory": {
+    "hallucination_rate": 0.0,
+    "n_citations_total": 0,
+    "n_citations_valid": 0,
+    "n_citations_invalid": 0,
+    "n_docs_with_hallucination": 0
+  },
+  "structural": {
+    "all_sections_rate": 1.0,
+    "word_range_rate": 0.63,
+    "pii_free_rate": 1.0
+  },
+  "faithfulness_payload": {
+    "mean": 0.9316,
+    "ci_lo": 0.9153,
+    "ci_hi": 0.9466
+  },
+  "latency_ms": {
+    "p50": 47277,
+    "p95": 72514,
+    "p99": 82287
+  }
+}

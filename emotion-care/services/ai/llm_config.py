@@ -25,11 +25,15 @@ def get_llm(temperature: float = 0.3, max_tokens: int = 1500, model: str = None,
         max_tokens: Máximo de tokens na resposta.
         model: Override explícito do modelo.
         use_case: Caso de uso (narrator, action_plan, copilot, suggestions).
-    """
-    api_key = os.getenv("OPENAI_API_KEY", "")
-    base_url = os.getenv("OPENAI_API_BASE", None)
 
-    # Prioridade: model param > env var por use_case > default por use_case > env global > gpt-4o-mini
+    Env vars (com fallback para OPENAI_*):
+        LLM_API_KEY: chave da API (usa OPENAI_API_KEY se ausente)
+        LLM_API_BASE: endpoint da API (usa OPENAI_API_BASE se ausente)
+                       Para Ollama local: http://localhost:11434/v1
+    """
+    api_key = os.getenv("LLM_API_KEY", os.getenv("OPENAI_API_KEY", ""))
+    base_url = os.getenv("LLM_API_BASE", os.getenv("OPENAI_API_BASE", None))
+
     if model:
         model_name = model
     elif use_case:
@@ -37,6 +41,10 @@ def get_llm(temperature: float = 0.3, max_tokens: int = 1500, model: str = None,
         model_name = os.getenv(env_key, _DEFAULT_MODELS.get(use_case, "gpt-4o-mini"))
     else:
         model_name = os.getenv("LLM_MODEL", "gpt-4o-mini")
+
+    # Ollama aceita qualquer api_key não-vazia
+    if not api_key:
+        api_key = "dummy"
 
     kwargs = {
         "model": model_name,
@@ -51,9 +59,18 @@ def get_llm(temperature: float = 0.3, max_tokens: int = 1500, model: str = None,
 
 
 def get_embeddings():
-    """Retorna modelo de embeddings."""
-    api_key = os.getenv("OPENAI_API_KEY", "")
-    base_url = os.getenv("OPENAI_API_BASE", None)
+    """Retorna modelo de embeddings.
+
+    Embeddings são SEMPRE via OpenAI, mesmo quando o LLM principal está
+    direcionado a Ollama (para compatibilidade com índice pgvector).
+
+    Env vars:
+        EMBEDDING_API_KEY: chave (usa OPENAI_API_KEY se ausente)
+        EMBEDDING_API_BASE: endpoint (usa default OpenAI se ausente)
+        EMBEDDING_MODEL: modelo (default text-embedding-3-small)
+    """
+    api_key = os.getenv("EMBEDDING_API_KEY", os.getenv("OPENAI_API_KEY", ""))
+    base_url = os.getenv("EMBEDDING_API_BASE", None)
     model_name = os.getenv("EMBEDDING_MODEL", "text-embedding-3-small")
 
     kwargs = {

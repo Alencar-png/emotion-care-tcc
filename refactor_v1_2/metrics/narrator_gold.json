@@ -1,0 +1,3102 @@
+[
+  {
+    "id": "narr_saudavel_medio_0",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #43",
+      "empresa_setor": "Saúde",
+      "empresa_porte": "medio",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 130,
+      "taxa_resposta": 70.4789277006087,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 16,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 24,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 19,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 29,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 26,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 18,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 29,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 30,
+          "classificacao": "Verde"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 47
+        },
+        {
+          "setor": "TI",
+          "score": 56
+        },
+        {
+          "setor": "Operações",
+          "score": 43
+        },
+        {
+          "setor": "Comercial",
+          "score": 59
+        },
+        {
+          "setor": "Marketing",
+          "score": 74
+        }
+      ],
+      "dimensoes_vermelhas": [],
+      "dimensoes_amarelas": [],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "saudavel"
+  },
+  {
+    "id": "narr_saudavel_medio_1",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #143",
+      "empresa_setor": "Indústria",
+      "empresa_porte": "medio",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 130,
+      "taxa_resposta": 73.46947285757132,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 20,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 16,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 15,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 22,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 19,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 22,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 17,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 28,
+          "classificacao": "Verde"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 28
+        },
+        {
+          "setor": "TI",
+          "score": 68
+        },
+        {
+          "setor": "Operações",
+          "score": 25
+        },
+        {
+          "setor": "Comercial",
+          "score": 57
+        },
+        {
+          "setor": "Marketing",
+          "score": 38
+        }
+      ],
+      "dimensoes_vermelhas": [],
+      "dimensoes_amarelas": [],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "saudavel"
+  },
+  {
+    "id": "narr_saudavel_medio_2",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #243",
+      "empresa_setor": "TI",
+      "empresa_porte": "medio",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 130,
+      "taxa_resposta": 70.09248593969139,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 31,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 25,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 28,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 16,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 29,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 24,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 20,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 23,
+          "classificacao": "Verde"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 43
+        },
+        {
+          "setor": "TI",
+          "score": 71
+        },
+        {
+          "setor": "Operações",
+          "score": 40
+        },
+        {
+          "setor": "Comercial",
+          "score": 56
+        },
+        {
+          "setor": "Marketing",
+          "score": 63
+        }
+      ],
+      "dimensoes_vermelhas": [],
+      "dimensoes_amarelas": [],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "saudavel"
+  },
+  {
+    "id": "narr_saudavel_medio_3",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #343",
+      "empresa_setor": "TI",
+      "empresa_porte": "medio",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 130,
+      "taxa_resposta": 76.25832291372127,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 21,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 30,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 20,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 29,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 17,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 31,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 25,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 28,
+          "classificacao": "Verde"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 30
+        },
+        {
+          "setor": "TI",
+          "score": 70
+        },
+        {
+          "setor": "Operações",
+          "score": 31
+        },
+        {
+          "setor": "Comercial",
+          "score": 64
+        },
+        {
+          "setor": "Marketing",
+          "score": 28
+        }
+      ],
+      "dimensoes_vermelhas": [],
+      "dimensoes_amarelas": [],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "saudavel"
+  },
+  {
+    "id": "narr_saudavel_medio_4",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #443",
+      "empresa_setor": "TI",
+      "empresa_porte": "medio",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 130,
+      "taxa_resposta": 78.79396607883649,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 19,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 15,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 23,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 25,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 24,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 18,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 23,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 22,
+          "classificacao": "Verde"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 65
+        },
+        {
+          "setor": "TI",
+          "score": 56
+        },
+        {
+          "setor": "Operações",
+          "score": 65
+        },
+        {
+          "setor": "Comercial",
+          "score": 54
+        },
+        {
+          "setor": "Marketing",
+          "score": 52
+        }
+      ],
+      "dimensoes_vermelhas": [],
+      "dimensoes_amarelas": [],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "saudavel"
+  },
+  {
+    "id": "narr_saudavel_grande_0",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #43",
+      "empresa_setor": "Saúde",
+      "empresa_porte": "grande",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 500,
+      "taxa_resposta": 70.4789277006087,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 16,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 24,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 19,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 29,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 26,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 18,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 29,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 30,
+          "classificacao": "Verde"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 47
+        },
+        {
+          "setor": "TI",
+          "score": 56
+        },
+        {
+          "setor": "Operações",
+          "score": 43
+        },
+        {
+          "setor": "Comercial",
+          "score": 59
+        },
+        {
+          "setor": "Marketing",
+          "score": 74
+        }
+      ],
+      "dimensoes_vermelhas": [],
+      "dimensoes_amarelas": [],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "saudavel"
+  },
+  {
+    "id": "narr_saudavel_grande_1",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #143",
+      "empresa_setor": "Indústria",
+      "empresa_porte": "grande",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 500,
+      "taxa_resposta": 73.46947285757132,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 20,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 16,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 15,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 22,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 19,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 22,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 17,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 28,
+          "classificacao": "Verde"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 28
+        },
+        {
+          "setor": "TI",
+          "score": 68
+        },
+        {
+          "setor": "Operações",
+          "score": 25
+        },
+        {
+          "setor": "Comercial",
+          "score": 57
+        },
+        {
+          "setor": "Marketing",
+          "score": 38
+        }
+      ],
+      "dimensoes_vermelhas": [],
+      "dimensoes_amarelas": [],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "saudavel"
+  },
+  {
+    "id": "narr_saudavel_grande_2",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #243",
+      "empresa_setor": "TI",
+      "empresa_porte": "grande",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 500,
+      "taxa_resposta": 70.09248593969139,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 31,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 25,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 28,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 16,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 29,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 24,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 20,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 23,
+          "classificacao": "Verde"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 43
+        },
+        {
+          "setor": "TI",
+          "score": 71
+        },
+        {
+          "setor": "Operações",
+          "score": 40
+        },
+        {
+          "setor": "Comercial",
+          "score": 56
+        },
+        {
+          "setor": "Marketing",
+          "score": 63
+        }
+      ],
+      "dimensoes_vermelhas": [],
+      "dimensoes_amarelas": [],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "saudavel"
+  },
+  {
+    "id": "narr_saudavel_grande_3",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #343",
+      "empresa_setor": "TI",
+      "empresa_porte": "grande",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 500,
+      "taxa_resposta": 76.25832291372127,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 21,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 30,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 20,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 29,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 17,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 31,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 25,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 28,
+          "classificacao": "Verde"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 30
+        },
+        {
+          "setor": "TI",
+          "score": 70
+        },
+        {
+          "setor": "Operações",
+          "score": 31
+        },
+        {
+          "setor": "Comercial",
+          "score": 64
+        },
+        {
+          "setor": "Marketing",
+          "score": 28
+        }
+      ],
+      "dimensoes_vermelhas": [],
+      "dimensoes_amarelas": [],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "saudavel"
+  },
+  {
+    "id": "narr_saudavel_grande_4",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #443",
+      "empresa_setor": "TI",
+      "empresa_porte": "grande",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 500,
+      "taxa_resposta": 78.79396607883649,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 19,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 15,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 23,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 25,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 24,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 18,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 23,
+          "classificacao": "Verde"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 22,
+          "classificacao": "Verde"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 65
+        },
+        {
+          "setor": "TI",
+          "score": 56
+        },
+        {
+          "setor": "Operações",
+          "score": 65
+        },
+        {
+          "setor": "Comercial",
+          "score": 54
+        },
+        {
+          "setor": "Marketing",
+          "score": 52
+        }
+      ],
+      "dimensoes_vermelhas": [],
+      "dimensoes_amarelas": [],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "saudavel"
+  },
+  {
+    "id": "narr_intermediario_medio_0",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #9",
+      "empresa_setor": "Indústria",
+      "empresa_porte": "medio",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 130,
+      "taxa_resposta": 82.56955200130521,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 48,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 53,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 45,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 42,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 38,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 39,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 55,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 34,
+          "classificacao": "Amarelo"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 77
+        },
+        {
+          "setor": "TI",
+          "score": 58
+        },
+        {
+          "setor": "Operações",
+          "score": 25
+        },
+        {
+          "setor": "Comercial",
+          "score": 41
+        },
+        {
+          "setor": "Marketing",
+          "score": 55
+        }
+      ],
+      "dimensoes_vermelhas": [],
+      "dimensoes_amarelas": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 48
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 53
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 45
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 42
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 38
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 39
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 55
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 34
+        }
+      ],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "intermediario"
+  },
+  {
+    "id": "narr_intermediario_medio_1",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #109",
+      "empresa_setor": "Saúde",
+      "empresa_porte": "medio",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 130,
+      "taxa_resposta": 82.45101577720979,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 42,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 41,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 48,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 48,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 51,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 35,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 37,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 41,
+          "classificacao": "Amarelo"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 39
+        },
+        {
+          "setor": "TI",
+          "score": 56
+        },
+        {
+          "setor": "Operações",
+          "score": 78
+        },
+        {
+          "setor": "Comercial",
+          "score": 53
+        },
+        {
+          "setor": "Marketing",
+          "score": 25
+        }
+      ],
+      "dimensoes_vermelhas": [],
+      "dimensoes_amarelas": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 42
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 41
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 48
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 48
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 51
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 35
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 37
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 41
+        }
+      ],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "intermediario"
+  },
+  {
+    "id": "narr_intermediario_medio_2",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #209",
+      "empresa_setor": "Saúde",
+      "empresa_porte": "medio",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 130,
+      "taxa_resposta": 74.5634046342115,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 51,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 55,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 34,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 39,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 52,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 43,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 36,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 54,
+          "classificacao": "Amarelo"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 43
+        },
+        {
+          "setor": "TI",
+          "score": 30
+        },
+        {
+          "setor": "Operações",
+          "score": 65
+        },
+        {
+          "setor": "Comercial",
+          "score": 34
+        },
+        {
+          "setor": "Marketing",
+          "score": 79
+        }
+      ],
+      "dimensoes_vermelhas": [],
+      "dimensoes_amarelas": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 51
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 55
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 34
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 39
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 52
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 43
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 36
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 54
+        }
+      ],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "intermediario"
+  },
+  {
+    "id": "narr_intermediario_medio_3",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #309",
+      "empresa_setor": "Saúde",
+      "empresa_porte": "medio",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 130,
+      "taxa_resposta": 88.67916784519905,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 36,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 43,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 34,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 38,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 40,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 41,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 40,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 41,
+          "classificacao": "Amarelo"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 74
+        },
+        {
+          "setor": "TI",
+          "score": 51
+        },
+        {
+          "setor": "Operações",
+          "score": 23
+        },
+        {
+          "setor": "Comercial",
+          "score": 31
+        },
+        {
+          "setor": "Marketing",
+          "score": 73
+        }
+      ],
+      "dimensoes_vermelhas": [],
+      "dimensoes_amarelas": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 36
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 43
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 34
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 38
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 40
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 41
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 40
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 41
+        }
+      ],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "intermediario"
+  },
+  {
+    "id": "narr_intermediario_medio_4",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #409",
+      "empresa_setor": "TI",
+      "empresa_porte": "medio",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 130,
+      "taxa_resposta": 80.83040793874015,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 60,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 50,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 51,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 49,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 38,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 51,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 47,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 54,
+          "classificacao": "Amarelo"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 70
+        },
+        {
+          "setor": "TI",
+          "score": 64
+        },
+        {
+          "setor": "Operações",
+          "score": 32
+        },
+        {
+          "setor": "Comercial",
+          "score": 53
+        },
+        {
+          "setor": "Marketing",
+          "score": 25
+        }
+      ],
+      "dimensoes_vermelhas": [],
+      "dimensoes_amarelas": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 60
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 50
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 51
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 49
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 38
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 51
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 47
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 54
+        }
+      ],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "intermediario"
+  },
+  {
+    "id": "narr_intermediario_grande_0",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #9",
+      "empresa_setor": "Indústria",
+      "empresa_porte": "grande",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 500,
+      "taxa_resposta": 82.56955200130521,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 48,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 53,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 45,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 42,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 38,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 39,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 55,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 34,
+          "classificacao": "Amarelo"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 77
+        },
+        {
+          "setor": "TI",
+          "score": 58
+        },
+        {
+          "setor": "Operações",
+          "score": 25
+        },
+        {
+          "setor": "Comercial",
+          "score": 41
+        },
+        {
+          "setor": "Marketing",
+          "score": 55
+        }
+      ],
+      "dimensoes_vermelhas": [],
+      "dimensoes_amarelas": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 48
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 53
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 45
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 42
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 38
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 39
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 55
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 34
+        }
+      ],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "intermediario"
+  },
+  {
+    "id": "narr_intermediario_grande_1",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #109",
+      "empresa_setor": "Saúde",
+      "empresa_porte": "grande",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 500,
+      "taxa_resposta": 82.45101577720979,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 42,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 41,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 48,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 48,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 51,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 35,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 37,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 41,
+          "classificacao": "Amarelo"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 39
+        },
+        {
+          "setor": "TI",
+          "score": 56
+        },
+        {
+          "setor": "Operações",
+          "score": 78
+        },
+        {
+          "setor": "Comercial",
+          "score": 53
+        },
+        {
+          "setor": "Marketing",
+          "score": 25
+        }
+      ],
+      "dimensoes_vermelhas": [],
+      "dimensoes_amarelas": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 42
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 41
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 48
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 48
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 51
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 35
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 37
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 41
+        }
+      ],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "intermediario"
+  },
+  {
+    "id": "narr_intermediario_grande_2",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #209",
+      "empresa_setor": "Saúde",
+      "empresa_porte": "grande",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 500,
+      "taxa_resposta": 74.5634046342115,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 51,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 55,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 34,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 39,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 52,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 43,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 36,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 54,
+          "classificacao": "Amarelo"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 43
+        },
+        {
+          "setor": "TI",
+          "score": 30
+        },
+        {
+          "setor": "Operações",
+          "score": 65
+        },
+        {
+          "setor": "Comercial",
+          "score": 34
+        },
+        {
+          "setor": "Marketing",
+          "score": 79
+        }
+      ],
+      "dimensoes_vermelhas": [],
+      "dimensoes_amarelas": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 51
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 55
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 34
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 39
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 52
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 43
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 36
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 54
+        }
+      ],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "intermediario"
+  },
+  {
+    "id": "narr_intermediario_grande_3",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #309",
+      "empresa_setor": "Saúde",
+      "empresa_porte": "grande",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 500,
+      "taxa_resposta": 88.67916784519905,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 36,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 43,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 34,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 38,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 40,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 41,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 40,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 41,
+          "classificacao": "Amarelo"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 74
+        },
+        {
+          "setor": "TI",
+          "score": 51
+        },
+        {
+          "setor": "Operações",
+          "score": 23
+        },
+        {
+          "setor": "Comercial",
+          "score": 31
+        },
+        {
+          "setor": "Marketing",
+          "score": 73
+        }
+      ],
+      "dimensoes_vermelhas": [],
+      "dimensoes_amarelas": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 36
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 43
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 34
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 38
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 40
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 41
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 40
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 41
+        }
+      ],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "intermediario"
+  },
+  {
+    "id": "narr_intermediario_grande_4",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #409",
+      "empresa_setor": "TI",
+      "empresa_porte": "grande",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 500,
+      "taxa_resposta": 80.83040793874015,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 60,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 50,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 51,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 49,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 38,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 51,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 47,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 54,
+          "classificacao": "Amarelo"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 70
+        },
+        {
+          "setor": "TI",
+          "score": 64
+        },
+        {
+          "setor": "Operações",
+          "score": 32
+        },
+        {
+          "setor": "Comercial",
+          "score": 53
+        },
+        {
+          "setor": "Marketing",
+          "score": 25
+        }
+      ],
+      "dimensoes_vermelhas": [],
+      "dimensoes_amarelas": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 60
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 50
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 51
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 49
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 38
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 51
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 47
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 54
+        }
+      ],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "intermediario"
+  },
+  {
+    "id": "narr_em_risco_medio_0",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #85",
+      "empresa_setor": "TI",
+      "empresa_porte": "medio",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 130,
+      "taxa_resposta": 81.53052854861274,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 66,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 82,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 79,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 86,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 63,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 70,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 88,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 66,
+          "classificacao": "Amarelo"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 69
+        },
+        {
+          "setor": "TI",
+          "score": 74
+        },
+        {
+          "setor": "Operações",
+          "score": 78
+        },
+        {
+          "setor": "Comercial",
+          "score": 42
+        },
+        {
+          "setor": "Marketing",
+          "score": 57
+        }
+      ],
+      "dimensoes_vermelhas": [
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 82
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 79
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 86
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 70
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 88
+        }
+      ],
+      "dimensoes_amarelas": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 66
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 63
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 66
+        }
+      ],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "em_risco"
+  },
+  {
+    "id": "narr_em_risco_medio_1",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #185",
+      "empresa_setor": "Saúde",
+      "empresa_porte": "medio",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 130,
+      "taxa_resposta": 82.13408680188098,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 88,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 87,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 85,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 63,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 64,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 64,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 69,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 87,
+          "classificacao": "Vermelho"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 67
+        },
+        {
+          "setor": "TI",
+          "score": 45
+        },
+        {
+          "setor": "Operações",
+          "score": 31
+        },
+        {
+          "setor": "Comercial",
+          "score": 20
+        },
+        {
+          "setor": "Marketing",
+          "score": 57
+        }
+      ],
+      "dimensoes_vermelhas": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 88
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 87
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 85
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 69
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 87
+        }
+      ],
+      "dimensoes_amarelas": [
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 63
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 64
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 64
+        }
+      ],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "em_risco"
+  },
+  {
+    "id": "narr_em_risco_medio_2",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #285",
+      "empresa_setor": "Indústria",
+      "empresa_porte": "medio",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 130,
+      "taxa_resposta": 79.8580706604752,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 78,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 69,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 72,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 78,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 78,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 74,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 62,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 68,
+          "classificacao": "Vermelho"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 49
+        },
+        {
+          "setor": "TI",
+          "score": 23
+        },
+        {
+          "setor": "Operações",
+          "score": 43
+        },
+        {
+          "setor": "Comercial",
+          "score": 50
+        },
+        {
+          "setor": "Marketing",
+          "score": 73
+        }
+      ],
+      "dimensoes_vermelhas": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 78
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 69
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 72
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 78
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 78
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 74
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 68
+        }
+      ],
+      "dimensoes_amarelas": [
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 62
+        }
+      ],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "em_risco"
+  },
+  {
+    "id": "narr_em_risco_medio_3",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #385",
+      "empresa_setor": "TI",
+      "empresa_porte": "medio",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 130,
+      "taxa_resposta": 84.30784899303339,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 62,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 86,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 75,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 72,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 76,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 69,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 60,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 72,
+          "classificacao": "Vermelho"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 76
+        },
+        {
+          "setor": "TI",
+          "score": 71
+        },
+        {
+          "setor": "Operações",
+          "score": 43
+        },
+        {
+          "setor": "Comercial",
+          "score": 53
+        },
+        {
+          "setor": "Marketing",
+          "score": 78
+        }
+      ],
+      "dimensoes_vermelhas": [
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 86
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 75
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 72
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 76
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 69
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 72
+        }
+      ],
+      "dimensoes_amarelas": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 62
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 60
+        }
+      ],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "em_risco"
+  },
+  {
+    "id": "narr_em_risco_medio_4",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #485",
+      "empresa_setor": "Indústria",
+      "empresa_porte": "medio",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 130,
+      "taxa_resposta": 81.7705263155681,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 64,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 64,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 84,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 65,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 75,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 87,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 70,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 71,
+          "classificacao": "Vermelho"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 57
+        },
+        {
+          "setor": "TI",
+          "score": 73
+        },
+        {
+          "setor": "Operações",
+          "score": 66
+        },
+        {
+          "setor": "Comercial",
+          "score": 67
+        },
+        {
+          "setor": "Marketing",
+          "score": 51
+        }
+      ],
+      "dimensoes_vermelhas": [
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 84
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 75
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 87
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 70
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 71
+        }
+      ],
+      "dimensoes_amarelas": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 64
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 64
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 65
+        }
+      ],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "em_risco"
+  },
+  {
+    "id": "narr_em_risco_grande_0",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #85",
+      "empresa_setor": "TI",
+      "empresa_porte": "grande",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 500,
+      "taxa_resposta": 81.53052854861274,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 66,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 82,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 79,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 86,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 63,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 70,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 88,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 66,
+          "classificacao": "Amarelo"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 69
+        },
+        {
+          "setor": "TI",
+          "score": 74
+        },
+        {
+          "setor": "Operações",
+          "score": 78
+        },
+        {
+          "setor": "Comercial",
+          "score": 42
+        },
+        {
+          "setor": "Marketing",
+          "score": 57
+        }
+      ],
+      "dimensoes_vermelhas": [
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 82
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 79
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 86
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 70
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 88
+        }
+      ],
+      "dimensoes_amarelas": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 66
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 63
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 66
+        }
+      ],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "em_risco"
+  },
+  {
+    "id": "narr_em_risco_grande_1",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #185",
+      "empresa_setor": "Saúde",
+      "empresa_porte": "grande",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 500,
+      "taxa_resposta": 82.13408680188098,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 88,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 87,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 85,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 63,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 64,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 64,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 69,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 87,
+          "classificacao": "Vermelho"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 67
+        },
+        {
+          "setor": "TI",
+          "score": 45
+        },
+        {
+          "setor": "Operações",
+          "score": 31
+        },
+        {
+          "setor": "Comercial",
+          "score": 20
+        },
+        {
+          "setor": "Marketing",
+          "score": 57
+        }
+      ],
+      "dimensoes_vermelhas": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 88
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 87
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 85
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 69
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 87
+        }
+      ],
+      "dimensoes_amarelas": [
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 63
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 64
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 64
+        }
+      ],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "em_risco"
+  },
+  {
+    "id": "narr_em_risco_grande_2",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #285",
+      "empresa_setor": "Indústria",
+      "empresa_porte": "grande",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 500,
+      "taxa_resposta": 79.8580706604752,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 78,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 69,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 72,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 78,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 78,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 74,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 62,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 68,
+          "classificacao": "Vermelho"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 49
+        },
+        {
+          "setor": "TI",
+          "score": 23
+        },
+        {
+          "setor": "Operações",
+          "score": 43
+        },
+        {
+          "setor": "Comercial",
+          "score": 50
+        },
+        {
+          "setor": "Marketing",
+          "score": 73
+        }
+      ],
+      "dimensoes_vermelhas": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 78
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 69
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 72
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 78
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 78
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 74
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 68
+        }
+      ],
+      "dimensoes_amarelas": [
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 62
+        }
+      ],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "em_risco"
+  },
+  {
+    "id": "narr_em_risco_grande_3",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #385",
+      "empresa_setor": "TI",
+      "empresa_porte": "grande",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 500,
+      "taxa_resposta": 84.30784899303339,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 62,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 86,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 75,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 72,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 76,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 69,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 60,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 72,
+          "classificacao": "Vermelho"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 76
+        },
+        {
+          "setor": "TI",
+          "score": 71
+        },
+        {
+          "setor": "Operações",
+          "score": 43
+        },
+        {
+          "setor": "Comercial",
+          "score": 53
+        },
+        {
+          "setor": "Marketing",
+          "score": 78
+        }
+      ],
+      "dimensoes_vermelhas": [
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 86
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 75
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 72
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 76
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 69
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 72
+        }
+      ],
+      "dimensoes_amarelas": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 62
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 60
+        }
+      ],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "em_risco"
+  },
+  {
+    "id": "narr_em_risco_grande_4",
+    "payload": {
+      "empresa_nome": "Empresa Sintética #485",
+      "empresa_setor": "Indústria",
+      "empresa_porte": "grande",
+      "data_coleta": "2026-05-01",
+      "total_respondentes": 500,
+      "taxa_resposta": 81.7705263155681,
+      "scores_geral": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 64,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 64,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 84,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 65,
+          "classificacao": "Amarelo"
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 75,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 87,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 70,
+          "classificacao": "Vermelho"
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 71,
+          "classificacao": "Vermelho"
+        }
+      ],
+      "scores_por_setor": [
+        {
+          "setor": "RH",
+          "score": 57
+        },
+        {
+          "setor": "TI",
+          "score": 73
+        },
+        {
+          "setor": "Operações",
+          "score": 66
+        },
+        {
+          "setor": "Comercial",
+          "score": 67
+        },
+        {
+          "setor": "Marketing",
+          "score": 51
+        }
+      ],
+      "dimensoes_vermelhas": [
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 84
+        },
+        {
+          "dimensao": "Organização do Trabalho",
+          "score": 75
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 87
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 70
+        },
+        {
+          "dimensao": "Saúde Geral",
+          "score": 71
+        }
+      ],
+      "dimensoes_amarelas": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 64
+        },
+        {
+          "dimensao": "Exigências Cognitivas",
+          "score": 64
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 65
+        }
+      ],
+      "instrumento_nome": "COPSOQ II-Br",
+      "instrumento_codigo": "copsoq_ii",
+      "afastamentos_por_setor": []
+    },
+    "expected_profile": "em_risco"
+  }
+]

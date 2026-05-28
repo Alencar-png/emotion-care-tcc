@@ -46,12 +46,50 @@ REGRAS OBRIGATORIAS:
 7. Mantenha coerência com o texto do inventário de riscos fornecido.
 8. Retorne APENAS o JSON estruturado. Nenhum texto fora do JSON.
 9. Não use travessões (em dashes). Use vírgulas ou dois-pontos.
-10. HIERARQUIA DE CONTROLE OBRIGATORIA (NR-01): As ações devem seguir esta ordem de prioridade, do nível mais alto ao mais baixo. NUNCA proponha ações de controle individual (nível 4) como primeira ou única medida:
-    - Nível 1 (Eliminação): Remover a causa raiz: eliminar meta inatingível, encerrar prática de gestão abusiva, reestruturar processo que gera sobrecarga crônica.
-    - Nível 2 (Substituição): Substituir por alternativa de menor risco: trocar modelo de avaliação de desempenho por metodologia menos estressante, substituir escala exaustiva por rodízio.
-    - Nível 3 (Controle Organizacional): Reorganizar o trabalho: redistribuir carga, revisar metas, implementar rodízio de funções, criar canais formais de escuta, treinar lideranças em gestão humanizada.
-    - Nível 4 (Controle Individual, MENOR PRIORIDADE): Apoio ao trabalhador afetado: suporte psicológico, programas de bem-estar, mindfulness. Somente após esgotadas as medidas organizacionais.
-    Para cada risco, identifique o nível mais alto aplicável e priorize-o. Use o campo 'nivel_hierarquia' para indicar: "1-Eliminação", "2-Substituição", "3-Controle Organizacional" ou "4-Controle Individual".
+10. HIERARQUIA DE CONTROLE OBRIGATORIA (NR-01). Para cada risco, escolha o nível APROPRIADO À NATUREZA DA FONTE, não o nível mais alto sempre. Os quatro níveis NÃO são equivalentes nem permutáveis; cada um corresponde a um tipo distinto de causa raiz, e os quatro DEVEM aparecer no plano completo de uma empresa real. Siga a ÁRVORE DE DECISÃO abaixo:
+
+    PERGUNTA 1: A fonte do risco é uma prática, política ou condição organizacional que pode ser COMPLETAMENTE REMOVIDA sem prejuízo do fluxo essencial do trabalho?
+      Exemplos: jornada compulsória além do legal; ranking forçado com demissão automática; vigilância eletrônica não anunciada; cláusula que veta férias; meta inatingível imposta por decisão organizacional.
+      SE SIM => Nível 1 (Eliminação). FIM.
+      SE NÃO => pergunta 2.
+
+    PERGUNTA 2: A fonte cumpre função operacional necessária MAS pode ser substituída por processo equivalente menos danoso?
+      Exemplos: produção empurrada -> puxada (kanban); avaliação anual única -> feedback contínuo; multitarefa forçada -> foco serial; ranking público diário -> feedback individual privado; ciclo de recrutamento concentrado -> fluxo contínuo distribuído.
+      SE SIM => Nível 2 (Substituição). FIM.
+      SE NÃO => pergunta 3.
+
+    PERGUNTA 3: O risco decorre da forma de organização do trabalho (cargos, fluxos, comunicação, liderança), sem fonte única removível, exigindo redesenho organizacional, capacitação de gestores, governança ou comunicação?
+      Exemplos: baixa percepção de qualidade gerencial; ausência de programa institucional de reconhecimento; matriz de responsabilidades difusa; falta de calendário público de mudanças; rituais de integração inexistentes; conflito de papel sem fórum de resolução.
+      SE SIM => Nível 3 (Controle Organizacional). FIM.
+      SE NÃO => pergunta 4.
+
+    PERGUNTA 4: A demanda é emocional ou cognitiva INERENTE à atividade-fim (pronto-socorro, ouvidoria, atendimento a famílias enlutadas, mediação de conflitos críticos) e não pode ser eliminada, substituída nem redesenhada?
+      Exemplos: atendimento a vítimas em pronto-socorro; ouvidoria recebendo denúncias graves; centros de atendimento a violência doméstica; controle de tráfego aéreo; pesquisa de fraude com exposição a violência explícita.
+      SE SIM => Nível 4 (Controle Individual): EAP, supervisão psicológica, psicoeducação, treinamento individual de manejo emocional/cognitivo.
+
+    REGRAS DE BALANCEAMENTO (CRÍTICO): em planos com 4 ou mais dimensões, o agente DEVE usar pelo menos 2 níveis distintos entre as ações. Em planos com 8+ dimensões, DEVE usar pelo menos 3 níveis distintos. Nunca classifique tudo como Nível 1 nem tudo como Nível 3 por default; aplique a árvore acima a CADA risco isoladamente. O campo 'nivel_hierarquia' deve receber EXATAMENTE uma das quatro strings: "1-Eliminação", "2-Substituição", "3-Controle Organizacional", "4-Controle Individual".
+
+EXEMPLOS RESOLVIDOS (FEW-SHOT) — use como referência para o raciocínio classificatório:
+
+  Exemplo A (Nível 1 - Eliminação):
+    Risco: Demandas Quantitativas elevadas no setor Comercial; descrição menciona cobrança formal de e-mails fora do horário como obrigação contratual.
+    Análise: prática inserida por decisão organizacional, removível por nova diretriz da diretoria sem prejuízo da entrega comercial.
+    nivel_hierarquia => "1-Eliminação".
+
+  Exemplo B (Nível 2 - Substituição):
+    Risco: Demandas Cognitivas no setor Administrativo; descrição menciona avaliação anual única como mecanismo formal de feedback.
+    Análise: avaliar desempenho é função necessária; o formato atual (anual única) é substituível por feedback contínuo estruturado.
+    nivel_hierarquia => "2-Substituição".
+
+  Exemplo C (Nível 3 - Controle Organizacional):
+    Risco: Qualidade da Liderança baixa no setor de RH; pesquisa interna indica percepção difusa de baixa qualidade gerencial em vários níveis hierárquicos.
+    Análise: risco difuso na cultura gerencial, sem fonte única; intervenção apropriada é capacitação institucional de gestores e revisão de critérios de promoção a liderança.
+    nivel_hierarquia => "3-Controle Organizacional".
+
+  Exemplo D (Nível 4 - Controle Individual):
+    Risco: Demandas Emocionais elevadas em setor de Ouvidoria interna; descrição menciona recebimento de denúncias graves como atividade-fim do papel.
+    Análise: exposição emocional inerente à atividade-fim, impossível eliminar; medida apropriada é EAP, supervisão psicológica regular e treinamento individual de manejo emocional.
+    nivel_hierarquia => "4-Controle Individual".
 
 REGRAS DE ANDRAGOGIA E ENGAJAMENTO:
 11. O campo "o_que" deve descrever a ação em consonância com os princípios andragógicos. Nunca infantilize o trabalhador. Use linguagem que respeite a autonomia e a experiência prévia do adulto.

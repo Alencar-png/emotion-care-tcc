@@ -1,0 +1,202 @@
+[
+  [
+    "rag_01",
+    "O que a NR-01 exige sobre riscos psicossociais?",
+    "NR-01"
+  ],
+  [
+    "rag_02",
+    "Qual o piso de respondentes para gerar PGR por setor?",
+    "Política k-anonymity"
+  ],
+  [
+    "rag_03",
+    "Como o COPSOQ-II classifica os scores em cores?",
+    "COPSOQ-II"
+  ],
+  [
+    "rag_04",
+    "O que diz a NR-17 sobre fatores ergonômicos cognitivos?",
+    "NR-17"
+  ],
+  [
+    "rag_05",
+    "Qual é a hierarquia de controle prevista na NR-01?",
+    "NR-01"
+  ],
+  [
+    "rag_06",
+    "Quantas dimensões compõem o COPSOQ II-Br?",
+    "COPSOQ-II"
+  ],
+  [
+    "rag_07",
+    "Qual a periodicidade mínima da reavaliação de riscos?",
+    "NR-01"
+  ],
+  [
+    "rag_08",
+    "Que medidas de eliminação são exemplificadas pela NR-01?",
+    "NR-01"
+  ],
+  [
+    "rag_09",
+    "Como tratar dados sensíveis sob a LGPD em saúde ocupacional?",
+    "LGPD"
+  ],
+  [
+    "rag_10",
+    "Qual a diferença entre riscos físicos e psicossociais segundo a NR-01?",
+    "NR-01"
+  ],
+  [
+    "rag_11",
+    "Quais são as sete dimensões do COPSOQ II-Br?",
+    "COPSOQ-II"
+  ],
+  [
+    "rag_12",
+    "O que é o Programa de Gerenciamento de Riscos?",
+    "NR-01"
+  ],
+  [
+    "rag_13",
+    "Quais documentos devem compor o PGR?",
+    "NR-01"
+  ],
+  [
+    "rag_14",
+    "O que diz a ISO 45003 sobre saúde mental no trabalho?",
+    "ISO 45003"
+  ],
+  [
+    "rag_15",
+    "Como o suporte social impacta o burnout?",
+    "COPSOQ-II"
+  ],
+  [
+    "rag_16",
+    "Quais são as escalas de resposta do COPSOQ?",
+    "COPSOQ-II"
+  ],
+  [
+    "rag_17",
+    "Que tipos de medidas de substituição podem ser adotadas?",
+    "NR-01"
+  ],
+  [
+    "rag_18",
+    "Qual a diferença entre dimensão e domínio no COPSOQ?",
+    "COPSOQ-II"
+  ],
+  [
+    "rag_19",
+    "O que é controle organizacional na hierarquia da NR-01?",
+    "NR-01"
+  ],
+  [
+    "rag_20",
+    "Como a NR-17 trata a carga mental de trabalho?",
+    "NR-17"
+  ],
+  [
+    "rag_21",
+    "Quem assina o PGR conforme a NR-01?",
+    "NR-01"
+  ],
+  [
+    "rag_22",
+    "O que é o GRO segundo a NR-01?",
+    "NR-01"
+  ],
+  [
+    "rag_23",
+    "Como agregar riscos por GHE no PGR?",
+    "NR-01"
+  ],
+  [
+    "rag_24",
+    "O que caracteriza a dimensão Exigências Emocionais?",
+    "COPSOQ-II"
+  ],
+  [
+    "rag_25",
+    "Qual é o modelo demanda-controle de Karasek?",
+    "Aspectos Teóricos"
+  ],
+  [
+    "rag_26",
+    "Qual é o modelo esforço-recompensa de Siegrist?",
+    "Aspectos Teóricos"
+  ],
+  [
+    "rag_27",
+    "Quais são os domínios de exigências do COPSOQ?",
+    "COPSOQ-II"
+  ],
+  [
+    "rag_28",
+    "Quais dimensões avaliam organização do trabalho?",
+    "COPSOQ-II"
+  ],
+  [
+    "rag_29",
+    "Como mensurar burnout via MBI?",
+    "Aspectos Teóricos"
+  ],
+  [
+    "rag_30",
+    "Qual o limite mínimo de exposição admitido?",
+    "NR-01"
+  ],
+  [
+    "rag_31",
+    "Quais riscos devem entrar no Inventário?",
+    "NR-01"
+  ],
+  [
+    "rag_32",
+    "O que é controle individual e quando aplicar?",
+    "NR-01"
+  ],
+  [
+    "rag_33",
+    "Como a NR-01 trata os afastamentos previdenciários?",
+    "NR-01"
+  ],
+  [
+    "rag_34",
+    "O que diz a ISO 45003 sobre intervenções organizacionais?",
+    "ISO 45003"
+  ],
+  [
+    "rag_35",
+    "Como elaborar um plano 5W2H aderente à NR-01?",
+    "NR-01"
+  ],
+  [
+    "rag_36",
+    "Quem deve compor a equipe avaliadora do PGR?",
+    "NR-01"
+  ],
+  [
+    "rag_37",
+    "Qual é a granularidade mínima exigida pelo COPSOQ-II?",
+    "COPSOQ-II"
+  ],
+  [
+    "rag_38",
+    "O que define um GHE para a NR-01?",
+    "NR-01"
+  ],
+  [
+    "rag_39",
+    "Qual o papel da CIPA no monitoramento dos riscos?",
+    "NR-01"
+  ],
+  [
+    "rag_40",
+    "Como a LGPD impacta a coleta de respostas anônimas?",
+    "LGPD"
+  ]
+]

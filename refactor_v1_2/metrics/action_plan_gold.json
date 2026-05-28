@@ -1,0 +1,504 @@
+[
+  {
+    "id": "plan_00",
+    "input": {
+      "empresa_nome": "Empresa 0",
+      "empresa_setor": "TI",
+      "total_colaboradores": 298,
+      "riscos_criticos": [
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 68,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 83,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        }
+      ],
+      "riscos_intermediarios": [],
+      "texto_inventario_aprovado": "Resumo: alto nível de exposição em algumas dimensões."
+    },
+    "expected_hierarchies": [
+      "3-Controle Organizacional",
+      "3-Controle Organizacional"
+    ]
+  },
+  {
+    "id": "plan_01",
+    "input": {
+      "empresa_nome": "Empresa 1",
+      "empresa_setor": "TI",
+      "total_colaboradores": 180,
+      "riscos_criticos": [
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 69,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        }
+      ],
+      "riscos_intermediarios": [],
+      "texto_inventario_aprovado": "Resumo: alto nível de exposição em algumas dimensões."
+    },
+    "expected_hierarchies": [
+      "3-Controle Organizacional"
+    ]
+  },
+  {
+    "id": "plan_02",
+    "input": {
+      "empresa_nome": "Empresa 2",
+      "empresa_setor": "TI",
+      "total_colaboradores": 234,
+      "riscos_criticos": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 69,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        }
+      ],
+      "riscos_intermediarios": [],
+      "texto_inventario_aprovado": "Resumo: alto nível de exposição em algumas dimensões."
+    },
+    "expected_hierarchies": [
+      "3-Controle Organizacional"
+    ]
+  },
+  {
+    "id": "plan_03",
+    "input": {
+      "empresa_nome": "Empresa 3",
+      "empresa_setor": "TI",
+      "total_colaboradores": 116,
+      "riscos_criticos": [
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 84,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        }
+      ],
+      "riscos_intermediarios": [],
+      "texto_inventario_aprovado": "Resumo: alto nível de exposição em algumas dimensões."
+    },
+    "expected_hierarchies": [
+      "3-Controle Organizacional"
+    ]
+  },
+  {
+    "id": "plan_04",
+    "input": {
+      "empresa_nome": "Empresa 4",
+      "empresa_setor": "TI",
+      "total_colaboradores": 419,
+      "riscos_criticos": [
+        {
+          "dimensao": "Suporte Social",
+          "score": 70,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        }
+      ],
+      "riscos_intermediarios": [],
+      "texto_inventario_aprovado": "Resumo: alto nível de exposição em algumas dimensões."
+    },
+    "expected_hierarchies": [
+      "3-Controle Organizacional"
+    ]
+  },
+  {
+    "id": "plan_05",
+    "input": {
+      "empresa_nome": "Empresa 5",
+      "empresa_setor": "TI",
+      "total_colaboradores": 480,
+      "riscos_criticos": [
+        {
+          "dimensao": "Suporte Social",
+          "score": 90,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 89,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 67,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        }
+      ],
+      "riscos_intermediarios": [],
+      "texto_inventario_aprovado": "Resumo: alto nível de exposição em algumas dimensões."
+    },
+    "expected_hierarchies": [
+      "3-Controle Organizacional",
+      "3-Controle Organizacional",
+      "3-Controle Organizacional"
+    ]
+  },
+  {
+    "id": "plan_06",
+    "input": {
+      "empresa_nome": "Empresa 6",
+      "empresa_setor": "TI",
+      "total_colaboradores": 389,
+      "riscos_criticos": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 82,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 68,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        },
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 71,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        }
+      ],
+      "riscos_intermediarios": [],
+      "texto_inventario_aprovado": "Resumo: alto nível de exposição em algumas dimensões."
+    },
+    "expected_hierarchies": [
+      "3-Controle Organizacional",
+      "3-Controle Organizacional",
+      "3-Controle Organizacional"
+    ]
+  },
+  {
+    "id": "plan_07",
+    "input": {
+      "empresa_nome": "Empresa 7",
+      "empresa_setor": "TI",
+      "total_colaboradores": 470,
+      "riscos_criticos": [
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 79,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        },
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 69,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        }
+      ],
+      "riscos_intermediarios": [],
+      "texto_inventario_aprovado": "Resumo: alto nível de exposição em algumas dimensões."
+    },
+    "expected_hierarchies": [
+      "3-Controle Organizacional",
+      "3-Controle Organizacional"
+    ]
+  },
+  {
+    "id": "plan_08",
+    "input": {
+      "empresa_nome": "Empresa 8",
+      "empresa_setor": "TI",
+      "total_colaboradores": 114,
+      "riscos_criticos": [
+        {
+          "dimensao": "Suporte Social",
+          "score": 79,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        }
+      ],
+      "riscos_intermediarios": [],
+      "texto_inventario_aprovado": "Resumo: alto nível de exposição em algumas dimensões."
+    },
+    "expected_hierarchies": [
+      "3-Controle Organizacional"
+    ]
+  },
+  {
+    "id": "plan_09",
+    "input": {
+      "empresa_nome": "Empresa 9",
+      "empresa_setor": "TI",
+      "total_colaboradores": 145,
+      "riscos_criticos": [
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 78,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 71,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        }
+      ],
+      "riscos_intermediarios": [],
+      "texto_inventario_aprovado": "Resumo: alto nível de exposição em algumas dimensões."
+    },
+    "expected_hierarchies": [
+      "3-Controle Organizacional",
+      "3-Controle Organizacional"
+    ]
+  },
+  {
+    "id": "plan_10",
+    "input": {
+      "empresa_nome": "Empresa 10",
+      "empresa_setor": "TI",
+      "total_colaboradores": 286,
+      "riscos_criticos": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 80,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 85,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        },
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 73,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        }
+      ],
+      "riscos_intermediarios": [],
+      "texto_inventario_aprovado": "Resumo: alto nível de exposição em algumas dimensões."
+    },
+    "expected_hierarchies": [
+      "3-Controle Organizacional",
+      "3-Controle Organizacional",
+      "3-Controle Organizacional"
+    ]
+  },
+  {
+    "id": "plan_11",
+    "input": {
+      "empresa_nome": "Empresa 11",
+      "empresa_setor": "TI",
+      "total_colaboradores": 487,
+      "riscos_criticos": [
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 81,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        },
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 83,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        }
+      ],
+      "riscos_intermediarios": [],
+      "texto_inventario_aprovado": "Resumo: alto nível de exposição em algumas dimensões."
+    },
+    "expected_hierarchies": [
+      "3-Controle Organizacional",
+      "3-Controle Organizacional"
+    ]
+  },
+  {
+    "id": "plan_12",
+    "input": {
+      "empresa_nome": "Empresa 12",
+      "empresa_setor": "TI",
+      "total_colaboradores": 229,
+      "riscos_criticos": [
+        {
+          "dimensao": "Suporte Social",
+          "score": 88,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        },
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 88,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        }
+      ],
+      "riscos_intermediarios": [],
+      "texto_inventario_aprovado": "Resumo: alto nível de exposição em algumas dimensões."
+    },
+    "expected_hierarchies": [
+      "3-Controle Organizacional",
+      "3-Controle Organizacional"
+    ]
+  },
+  {
+    "id": "plan_13",
+    "input": {
+      "empresa_nome": "Empresa 13",
+      "empresa_setor": "TI",
+      "total_colaboradores": 168,
+      "riscos_criticos": [
+        {
+          "dimensao": "Suporte Social",
+          "score": 88,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 87,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        }
+      ],
+      "riscos_intermediarios": [],
+      "texto_inventario_aprovado": "Resumo: alto nível de exposição em algumas dimensões."
+    },
+    "expected_hierarchies": [
+      "3-Controle Organizacional",
+      "3-Controle Organizacional"
+    ]
+  },
+  {
+    "id": "plan_14",
+    "input": {
+      "empresa_nome": "Empresa 14",
+      "empresa_setor": "TI",
+      "total_colaboradores": 436,
+      "riscos_criticos": [
+        {
+          "dimensao": "Exigências Emocionais",
+          "score": 89,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        }
+      ],
+      "riscos_intermediarios": [],
+      "texto_inventario_aprovado": "Resumo: alto nível de exposição em algumas dimensões."
+    },
+    "expected_hierarchies": [
+      "3-Controle Organizacional"
+    ]
+  },
+  {
+    "id": "plan_15",
+    "input": {
+      "empresa_nome": "Empresa 15",
+      "empresa_setor": "TI",
+      "total_colaboradores": 426,
+      "riscos_criticos": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 83,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        }
+      ],
+      "riscos_intermediarios": [],
+      "texto_inventario_aprovado": "Resumo: alto nível de exposição em algumas dimensões."
+    },
+    "expected_hierarchies": [
+      "3-Controle Organizacional"
+    ]
+  },
+  {
+    "id": "plan_16",
+    "input": {
+      "empresa_nome": "Empresa 16",
+      "empresa_setor": "TI",
+      "total_colaboradores": 166,
+      "riscos_criticos": [
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 82,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 80,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        }
+      ],
+      "riscos_intermediarios": [],
+      "texto_inventario_aprovado": "Resumo: alto nível de exposição em algumas dimensões."
+    },
+    "expected_hierarchies": [
+      "3-Controle Organizacional",
+      "3-Controle Organizacional"
+    ]
+  },
+  {
+    "id": "plan_17",
+    "input": {
+      "empresa_nome": "Empresa 17",
+      "empresa_setor": "TI",
+      "total_colaboradores": 410,
+      "riscos_criticos": [
+        {
+          "dimensao": "Qualidade da Liderança",
+          "score": 76,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        },
+        {
+          "dimensao": "Suporte Social",
+          "score": 76,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 89,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        }
+      ],
+      "riscos_intermediarios": [],
+      "texto_inventario_aprovado": "Resumo: alto nível de exposição em algumas dimensões."
+    },
+    "expected_hierarchies": [
+      "3-Controle Organizacional",
+      "3-Controle Organizacional",
+      "3-Controle Organizacional"
+    ]
+  },
+  {
+    "id": "plan_18",
+    "input": {
+      "empresa_nome": "Empresa 18",
+      "empresa_setor": "TI",
+      "total_colaboradores": 279,
+      "riscos_criticos": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 88,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        }
+      ],
+      "riscos_intermediarios": [],
+      "texto_inventario_aprovado": "Resumo: alto nível de exposição em algumas dimensões."
+    },
+    "expected_hierarchies": [
+      "3-Controle Organizacional"
+    ]
+  },
+  {
+    "id": "plan_19",
+    "input": {
+      "empresa_nome": "Empresa 19",
+      "empresa_setor": "TI",
+      "total_colaboradores": 227,
+      "riscos_criticos": [
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 83,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        },
+        {
+          "dimensao": "Exigências Quantitativas",
+          "score": 83,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        },
+        {
+          "dimensao": "Ritmo de Trabalho",
+          "score": 79,
+          "expected_hierarchy_level": "3-Controle Organizacional"
+        }
+      ],
+      "riscos_intermediarios": [],
+      "texto_inventario_aprovado": "Resumo: alto nível de exposição em algumas dimensões."
+    },
+    "expected_hierarchies": [
+      "3-Controle Organizacional",
+      "3-Controle Organizacional",
+      "3-Controle Organizacional"
+    ]
+  }
+]

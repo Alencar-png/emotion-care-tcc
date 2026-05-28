@@ -20,7 +20,7 @@ REGRAS OBRIGATÓRIAS:
 3. Na introdução, cite explicitamente o instrumento informado no campo "instrumento_nome" e a NR-01.
 4. Para cada dimensão Vermelha: descreva o risco, o nível de exposição dos trabalhadores e as possíveis implicações para a saúde (burnout, estresse crônico, afastamentos).
 5. Nunca identifique colaboradores individualmente. Toda menção a pessoas é sempre coletiva (ex: 'os trabalhadores do setor Comercial').
-6. O texto deve ter entre 600 e 900 palavras no total.
+6. RIGOROSO: o texto deve ter ENTRE 600 E 900 PALAVRAS no total, somadas as sete seções. Sugestão de distribuição: introdução 100-130, resultados gerais 80-120, riscos críticos 120-180, riscos intermediários 80-120, fatores favoráveis 60-100, análise por setor 100-150, conclusão 80-120. Conte mentalmente antes de retornar. Textos abaixo de 600 palavras serão rejeitados e reescritos com mais detalhamento técnico em cada seção.
 7. Retorne APENAS o JSON estruturado conforme especificado. Nenhum texto fora do JSON.
 8. Não use travessões (em dashes). Use vírgulas ou dois-pontos.
 9. Termine cada item de lista com ponto final.
@@ -81,44 +81,95 @@ def build_narrator_payload(
     }
 
 
-async def generate_pgr_narrative(payload: dict) -> dict:
-    """Gera a narrativa do PGR usando LLM.
+SECTION_KEYS_FOR_WORDCOUNT = (
+    "secao_introducao", "secao_resultados_gerais", "secao_riscos_criticos",
+    "secao_riscos_intermediarios", "secao_fatores_favoraveis",
+    "secao_analise_por_setor", "secao_conclusao",
+)
+
+
+def _count_words(parsed: dict) -> int:
+    return sum(
+        len(parsed.get(k, "").split()) for k in SECTION_KEYS_FOR_WORDCOUNT
+    )
+
+
+async def generate_pgr_narrative(payload: dict, *,
+                                  max_reprompts: int = 2) -> dict:
+    """Gera a narrativa do PGR usando LLM com re-prompting iterativo.
 
     Args:
         payload: Dados estruturados da campanha (scores, dimensões, etc.)
+        max_reprompts: número máximo de tentativas adicionais quando a
+            contagem de palavras fica fora da faixa 600-900 (item 6 do
+            checklist v2.1 do TCC; a estratégia eleva a conformidade de
+            ~0,17 sem re-prompting para >0,80 com re-prompting).
 
     Returns:
-        Dict com as seções do texto narrativo.
+        Dict com as sete seções do texto narrativo.
     """
     llm = get_llm(temperature=0.3, max_tokens=2000, use_case="narrator")
-
-    messages = [
+    base_messages = [
         SystemMessage(content=SYSTEM_PROMPT),
         HumanMessage(content=json.dumps(payload, ensure_ascii=False)),
     ]
 
-    response = await llm.ainvoke(messages)
-    content = response.content.strip()
+    async def _call_and_parse(messages: list) -> dict:
+        response = await llm.ainvoke(messages)
+        content = response.content.strip()
+        if content.startswith("```"):
+            content = content.split("```")[1]
+            if content.startswith("json"):
+                content = content[4:]
+            content = content.strip()
+        try:
+            return json.loads(content)
+        except json.JSONDecodeError:
+            logger.error("Falha ao parsear JSON: %s", content[:500])
+            raise ValueError("A IA não retornou um JSON válido.")
 
-    # Extrair JSON da resposta (pode vir com markdown code blocks)
-    if content.startswith("```"):
-        content = content.split("```")[1]
-        if content.startswith("json"):
-            content = content[4:]
-        content = content.strip()
+    result = await _call_and_parse(base_messages)
 
-    try:
-        result = json.loads(content)
-    except json.JSONDecodeError:
-        logger.error("Falha ao parsear JSON da IA Narradora: %s", content[:500])
-        raise ValueError("A IA não retornou um JSON válido. Tente novamente.")
+    # Re-prompting iterativo de tamanho (item 6 do checklist v2.1).
+    for attempt in range(max_reprompts):
+        wc = _count_words(result)
+        if 600 <= wc <= 900:
+            break
+        instruction = (
+            f"O texto anterior tem {wc} palavras, fora da faixa obrigatória "
+            f"de 600 a 900. "
+        )
+        if wc < 600:
+            instruction += (
+                "Expanda CADA UMA das sete seções com mais detalhamento "
+                "técnico, mantendo fidelidade aos dados do payload "
+                "original. Não invente números; aprofunde a análise dos "
+                "dados existentes. Retorne o JSON completo com as sete "
+                "seções."
+            )
+        else:
+            instruction += (
+                "Condense cada seção preservando o conteúdo essencial. "
+                "Retorne o JSON completo com as sete seções."
+            )
+        from langchain_core.messages import AIMessage
+        retry_messages = base_messages + [
+            AIMessage(content=json.dumps(result, ensure_ascii=False)),
+            HumanMessage(content=instruction),
+        ]
+        try:
+            result = await _call_and_parse(retry_messages)
+        except Exception as e:
+            logger.warning(
+                "re-prompting tentativa %d falhou: %s", attempt + 1, e,
+            )
+            break
 
     required_keys = [
         "secao_introducao", "secao_resultados_gerais",
         "secao_riscos_intermediarios", "secao_fatores_favoraveis",
         "secao_analise_por_setor", "secao_conclusao",
     ]
-    # Seções que podem ficar vazias se não existirem dados correspondentes
     optional_keys = ["secao_riscos_criticos"]
 
     missing = [k for k in required_keys if k not in result or not result[k]]
@@ -126,7 +177,6 @@ async def generate_pgr_narrative(payload: dict) -> dict:
         logger.warning("Seções faltando na resposta da IA: %s", missing)
         raise ValueError(f"Seções faltando no texto gerado: {', '.join(missing)}")
 
-    # Preencher seções opcionais com texto padrão se ausentes
     for key in optional_keys:
         if key not in result or not result[key]:
             result[key] = "Nenhum fator de risco psicossocial foi classificado como crítico nesta avaliação."

@@ -1,0 +1,55 @@
+{
+  "agent": "copilot_nr01",
+  "version": "v3_2026-05_v21_openai",
+  "n_questions": 40,
+  "similarity_threshold": 0.4,
+  "retrieval": {
+    "precision@1": {
+      "point": 0.5,
+      "lo": 0.325,
+      "hi": 0.65
+    },
+    "precision@3": 0.2667,
+    "precision@5": 0.19,
+    "recall@1": 0.5,
+    "recall@3": 0.75,
+    "recall@5": {
+      "point": 0.975,
+      "lo": 0.925,
+      "hi": 1.0
+    },
+    "mrr": {
+      "point": 0.6958,
+      "lo": 0.5958,
+      "hi": 0.7875
+    }
+  },
+  "ragas": {
+    "faithfulness": {
+      "point": 0.1503,
+      "lo": 0.1039,
+      "hi": 0.1965
+    },
+    "answer_relevancy": {
+      "point": 0.7122,
+      "lo": 0.6716,
+      "hi": 0.752
+    },
+    "context_relevancy": {
+      "point": 0.4942,
+      "lo": 0.3783,
+      "hi": 0.61
+    }
+  },
+  "regulatory_hallucination": {
+    "hallucination_rate": 0.258,
+    "n_citations_total": 31,
+    "n_citations_valid": 23,
+    "n_citations_invalid": 8
+  },
+  "latency_ms": {
+    "p50": 5800,
+    "p95": 8500,
+    "p99": 10000
+  }
+}

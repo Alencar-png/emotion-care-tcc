@@ -1,0 +1,127 @@
+{
+  "agent": "pii_validator",
+  "gold_size": 200,
+  "n_positives": 84,
+  "n_negatives": 116,
+  "document_level": {
+    "level": "documento",
+    "tp": 82,
+    "fp": 0,
+    "fn": 2,
+    "tn": 116,
+    "precision": 1.0,
+    "recall": 0.9762,
+    "sensibilidade": 0.9762,
+    "especificidade": 1.0,
+    "f1": 0.988,
+    "acuracia": 0.99,
+    "latency_ms_p50": 0.017,
+    "latency_ms_p95": 0.027,
+    "latency_ms_p99": 0.076
+  },
+  "category_level": {
+    "per_category": {
+      "email": {
+        "tp": 15,
+        "fp": 0,
+        "fn": 0,
+        "tn": 185,
+        "precision": 1.0,
+        "recall": 1.0,
+        "sensibilidade": 1.0,
+        "especificidade": 1.0,
+        "f1": 1.0,
+        "acuracia": 1.0
+      },
+      "cpf": {
+        "tp": 10,
+        "fp": 0,
+        "fn": 0,
+        "tn": 190,
+        "precision": 1.0,
+        "recall": 1.0,
+        "sensibilidade": 1.0,
+        "especificidade": 1.0,
+        "f1": 1.0,
+        "acuracia": 1.0
+      },
+      "cnpj": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "tn": 192,
+        "precision": 1.0,
+        "recall": 1.0,
+        "sensibilidade": 1.0,
+        "especificidade": 1.0,
+        "f1": 1.0,
+        "acuracia": 1.0
+      },
+      "telefone": {
+        "tp": 9,
+        "fp": 4,
+        "fn": 1,
+        "tn": 186,
+        "precision": 0.6923,
+        "recall": 0.9,
+        "sensibilidade": 0.9,
+        "especificidade": 0.9789,
+        "f1": 0.7826,
+        "acuracia": 0.975
+      },
+      "matricula": {
+        "tp": 6,
+        "fp": 1,
+        "fn": 0,
+        "tn": 193,
+        "precision": 0.8571,
+        "recall": 1.0,
+        "sensibilidade": 1.0,
+        "especificidade": 0.9948,
+        "f1": 0.9231,
+        "acuracia": 0.995
+      },
+      "cargo_identificador": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "tn": 192,
+        "precision": 1.0,
+        "recall": 1.0,
+        "sensibilidade": 1.0,
+        "especificidade": 1.0,
+        "f1": 1.0,
+        "acuracia": 1.0
+      },
+      "titulo_nome": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "tn": 192,
+        "precision": 1.0,
+        "recall": 1.0,
+        "sensibilidade": 1.0,
+        "especificidade": 1.0,
+        "f1": 1.0,
+        "acuracia": 1.0
+      },
+      "nome": {
+        "tp": 18,
+        "fp": 0,
+        "fn": 1,
+        "tn": 181,
+        "precision": 1.0,
+        "recall": 0.9474,
+        "sensibilidade": 0.9474,
+        "especificidade": 1.0,
+        "f1": 0.973,
+        "acuracia": 0.995
+      }
+    },
+    "macro": {
+      "precision": 0.9437,
+      "recall": 0.9809,
+      "f1": 0.9598
+    }
+  }
+}

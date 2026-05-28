@@ -1,0 +1,10 @@
+{
+  "agent": "qualitative_analyzer",
+  "n_responses": 150,
+  "n_clusters_returned": 7,
+  "adjusted_rand_index": 0.0,
+  "normalized_mutual_info": 0.0,
+  "homogeneity": 0.0,
+  "completeness": 1.0,
+  "v_measure": 0.0
+}

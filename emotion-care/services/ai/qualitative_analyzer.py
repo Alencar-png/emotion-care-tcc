@@ -38,6 +38,32 @@ REGRAS:
 6. NUNCA invente respostas ou números. Use apenas o que foi fornecido.
 7. Se houver respostas fora do tema ou sem conteúdo relevante, agrupe-as em "Outros".
 
+FRONTEIRAS SEMÂNTICAS (CRÍTICO PARA EVITAR COLAPSO DE TEMAS):
+
+Os seguintes temas devem ser distinguidos com critérios PRÓPRIOS, sem fundir entre si:
+
+- "Sobrecarga de trabalho": respostas sobre volume, ritmo, horas extras, multitarefa, pressão de tempo, fadiga física e mental decorrentes da QUANTIDADE de trabalho.
+  Sinais lexicais: "muito trabalho", "horas extras", "prazos apertados", "sem tempo", "exausto", "demanda enorme".
+
+- "Reconhecimento": respostas sobre falta de valorização, ausência de feedback positivo, sentir-se invisível ou não recompensado. Sobre o JULGAMENTO percebido do esforço.
+  Sinais lexicais: "não sou reconhecido", "ninguém valoriza", "sem feedback", "esforço não é visto", "elogio nunca".
+
+- "Liderança": respostas sobre comportamento, comunicação e gestão dos superiores hierárquicos. Sobre o ESTILO de quem manda.
+  Sinais lexicais: "chefe", "gestor", "liderança", "supervisor", "gerente", "comunicação do líder", "decisão sem consulta".
+
+- "Carreira": respostas sobre crescimento profissional, oportunidades de promoção, trilhas de desenvolvimento, plano de carreira. Sobre o FUTURO profissional.
+  Sinais lexicais: "promoção", "crescer", "carreira", "futuro na empresa", "oportunidade", "plano de carreira", "desenvolvimento", "estagnação".
+
+- "Ambiente físico": respostas sobre instalações, equipamentos, temperatura, ruído, ergonomia física do espaço de trabalho.
+  Sinais lexicais: "cadeira", "iluminação", "temperatura", "espaço", "ergonomia", "barulho", "equipamento".
+
+- "Comunicação": respostas sobre clareza de informações, fluxo entre áreas, transparência institucional, ruído organizacional. Distinta de "Liderança" (foco no superior) e de "Reconhecimento" (foco no julgamento).
+  Sinais lexicais: "informação não chega", "ninguém comunica", "alinhamento entre áreas", "transparência", "ruído".
+
+- "Outros": APENAS para respostas que NÃO se encaixam claramente em nenhum dos temas acima. Use com parcimônia. Se a resposta menciona algum dos temas, classifique-a no tema correspondente mesmo que parcialmente, em vez de "Outros".
+
+Quando uma resposta menciona mais de um tema, escolha o tema PRINCIPAL (o mais explorado pelo respondente), não os secundários.
+
 Retorne APENAS um JSON válido no seguinte formato, sem markdown ou explicação adicional:
 {
   "clusters": [
@@ -80,7 +106,9 @@ async def cluster_responses(
         f"Agrupe estas respostas em no máximo {max_clusters} clusters temáticos."
     )
 
-    llm = get_llm(temperature=0.1, max_tokens=1000, use_case="qualitative")
+    # temperatura 0 para maximizar reprodutibilidade entre seeds
+    # (item 14 do checklist v2.1)
+    llm = get_llm(temperature=0.0, max_tokens=1000, use_case="qualitative")
 
     try:
         messages = [

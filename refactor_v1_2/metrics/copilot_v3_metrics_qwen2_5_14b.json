@@ -1,0 +1,56 @@
+{
+  "agent": "copilot_nr01",
+  "version": "v3_2026-05",
+  "n_questions": 40,
+  "similarity_threshold": 0.4,
+  "retrieval": {
+    "precision@1": {
+      "point": 0.875,
+      "lo": 0.775,
+      "hi": 0.975
+    },
+    "precision@3": 0.3249674999999999,
+    "precision@5": 0.19500000000000012,
+    "recall@1": 0.875,
+    "recall@3": 0.975,
+    "recall@5": {
+      "point": 0.975,
+      "lo": 0.925,
+      "hi": 1.0
+    },
+    "mrr": {
+      "point": 0.925,
+      "lo": 0.85,
+      "hi": 0.975
+    }
+  },
+  "ragas": {
+    "faithfulness": {
+      "point": 0.21928250000000005,
+      "lo": 0.15173750000000003,
+      "hi": 0.28838
+    },
+    "answer_relevancy": {
+      "point": 0.7075075000000001,
+      "lo": 0.6679399999999999,
+      "hi": 0.74417
+    },
+    "context_relevancy": {
+      "point": 0.4941649999999999,
+      "lo": 0.37833249999999996,
+      "hi": 0.6099974999999999
+    }
+  },
+  "regulatory_hallucination": {
+    "n_citations_total": 16,
+    "n_citations_valid": 12,
+    "n_citations_invalid": 4,
+    "n_docs_with_hallucination": 3,
+    "hallucination_rate": 0.25
+  },
+  "latency_ms": {
+    "p50": 11245.292600011453,
+    "p95": 21353.20603991858,
+    "p99": 23895.90710103279
+  }
+}

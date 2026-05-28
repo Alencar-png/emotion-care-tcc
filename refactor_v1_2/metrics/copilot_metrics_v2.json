@@ -1,0 +1,14 @@
+{
+  "agent": "copilot_nr01_v2",
+  "threshold_similarity": 0.4,
+  "n": 40,
+  "precision@1": 0.475,
+  "precision@3": 0.275,
+  "precision@5": 0.17,
+  "recall@1": 0.475,
+  "recall@3": 0.825,
+  "recall@5": 0.85,
+  "mrr": 0.6425,
+  "latency_ms_p50": 6012.71,
+  "latency_ms_p95": 10499.72
+}

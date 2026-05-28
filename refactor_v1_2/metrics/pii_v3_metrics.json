@@ -1,0 +1,343 @@
+{
+  "agent": "pii_validator",
+  "version": "v3_2026-05",
+  "gold": {
+    "total": 1025,
+    "positives": 445,
+    "negatives": 580,
+    "spans_total": 485
+  },
+  "doc_level": {
+    "tp": 419,
+    "tn": 580,
+    "fp": 0,
+    "fn": 26,
+    "precision": {
+      "point": 1.0,
+      "lo": 1.0,
+      "hi": 1.0,
+      "se": 0.0
+    },
+    "recall": {
+      "point": 0.9415730337078652,
+      "lo": 0.918918918918919,
+      "hi": 0.9629629629629629,
+      "se": 0.010887285079866148
+    },
+    "f1": {
+      "point": 0.9699074074074074,
+      "lo": 0.9577464788732395,
+      "hi": 0.9811320754716981,
+      "se": 0.00578419408377237
+    },
+    "f2_primary": {
+      "point": 0.952705775352433,
+      "lo": 0.934065934065934,
+      "hi": 0.9701492537313433,
+      "se": 0.008921554767202088
+    }
+  },
+  "span_level_partial": {
+    "macro": {
+      "precision": 1.0,
+      "recall": 0.9375,
+      "f2": 0.9480240330645984,
+      "n_categories": 8
+    },
+    "micro": {
+      "tp": 457,
+      "fp": 0,
+      "fn": 28,
+      "precision": 1.0,
+      "recall": 0.9422680412371134,
+      "f2": 0.9532749269920734,
+      "f1": 0.970276008492569
+    },
+    "macro_precision": {
+      "point": 1.0,
+      "lo": 1.0,
+      "hi": 1.0,
+      "se": 0.0
+    },
+    "macro_recall": {
+      "point": 0.9375,
+      "lo": 0.917384548482213,
+      "hi": 0.9562925769321118,
+      "se": 0.01009699047515739
+    },
+    "macro_f2_primary": {
+      "point": 0.9480240330645984,
+      "lo": 0.9300753512490366,
+      "hi": 0.964117132867133,
+      "se": 0.008776334201956624
+    },
+    "micro_f2": {
+      "point": 0.9532749269920734,
+      "lo": 0.9367194004995837,
+      "hi": 0.9686727122835943,
+      "se": 0.008115701469207441
+    },
+    "per_category": {
+      "email": {
+        "tp": 80,
+        "fp": 0,
+        "fn": 0,
+        "support": 80,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "f2": 1.0
+      },
+      "cpf": {
+        "tp": 75,
+        "fp": 0,
+        "fn": 0,
+        "support": 75,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "f2": 1.0
+      },
+      "cnpj": {
+        "tp": 50,
+        "fp": 0,
+        "fn": 0,
+        "support": 50,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "f2": 1.0
+      },
+      "telefone": {
+        "tp": 44,
+        "fp": 0,
+        "fn": 11,
+        "support": 55,
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.888888888888889,
+        "f2": 0.8333333333333334
+      },
+      "matricula": {
+        "tp": 39,
+        "fp": 0,
+        "fn": 11,
+        "support": 50,
+        "precision": 1.0,
+        "recall": 0.78,
+        "f1": 0.8764044943820225,
+        "f2": 0.8158995815899582
+      },
+      "cargo_identificador": {
+        "tp": 50,
+        "fp": 0,
+        "fn": 0,
+        "support": 50,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "f2": 1.0
+      },
+      "titulo_nome": {
+        "tp": 50,
+        "fp": 0,
+        "fn": 0,
+        "support": 50,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "f2": 1.0
+      },
+      "nome": {
+        "tp": 69,
+        "fp": 0,
+        "fn": 6,
+        "support": 75,
+        "precision": 1.0,
+        "recall": 0.92,
+        "f1": 0.9583333333333334,
+        "f2": 0.934959349593496
+      }
+    }
+  },
+  "span_level_exact": {
+    "macro": {
+      "precision": 0.875,
+      "recall": 0.84,
+      "f2": 0.8460365853658538,
+      "n_categories": 8
+    },
+    "micro": {
+      "tp": 418,
+      "fp": 39,
+      "fn": 67,
+      "precision": 0.9146608315098468,
+      "recall": 0.8618556701030928,
+      "f2": 0.8719232373800584,
+      "f1": 0.8874734607218684
+    },
+    "macro_f2": {
+      "point": 0.8460365853658538,
+      "lo": 0.8331278296279434,
+      "hi": 0.858345060949109,
+      "se": 0.0064592741389136775
+    },
+    "per_category": {
+      "email": {
+        "tp": 80,
+        "fp": 0,
+        "fn": 0,
+        "support": 80,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "f2": 1.0
+      },
+      "cpf": {
+        "tp": 75,
+        "fp": 0,
+        "fn": 0,
+        "support": 75,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "f2": 1.0
+      },
+      "cnpj": {
+        "tp": 50,
+        "fp": 0,
+        "fn": 0,
+        "support": 50,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "f2": 1.0
+      },
+      "telefone": {
+        "tp": 44,
+        "fp": 0,
+        "fn": 11,
+        "support": 55,
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.888888888888889,
+        "f2": 0.8333333333333334
+      },
+      "matricula": {
+        "tp": 0,
+        "fp": 39,
+        "fn": 50,
+        "support": 50,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "f2": 0.0
+      },
+      "cargo_identificador": {
+        "tp": 50,
+        "fp": 0,
+        "fn": 0,
+        "support": 50,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "f2": 1.0
+      },
+      "titulo_nome": {
+        "tp": 50,
+        "fp": 0,
+        "fn": 0,
+        "support": 50,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "f2": 1.0
+      },
+      "nome": {
+        "tp": 69,
+        "fp": 0,
+        "fn": 6,
+        "support": 75,
+        "precision": 1.0,
+        "recall": 0.92,
+        "f1": 0.9583333333333334,
+        "f2": 0.934959349593496
+      }
+    }
+  },
+  "leakage_rate_per_category": {
+    "email": {
+      "category": "email",
+      "docs_with_category": 80,
+      "docs_with_leak": 0,
+      "leakage_rate": 0.0
+    },
+    "cpf": {
+      "category": "cpf",
+      "docs_with_category": 75,
+      "docs_with_leak": 0,
+      "leakage_rate": 0.0
+    },
+    "cnpj": {
+      "category": "cnpj",
+      "docs_with_category": 50,
+      "docs_with_leak": 0,
+      "leakage_rate": 0.0
+    },
+    "telefone": {
+      "category": "telefone",
+      "docs_with_category": 55,
+      "docs_with_leak": 11,
+      "leakage_rate": 0.2
+    },
+    "matricula": {
+      "category": "matricula",
+      "docs_with_category": 50,
+      "docs_with_leak": 11,
+      "leakage_rate": 0.22
+    },
+    "cargo_identificador": {
+      "category": "cargo_identificador",
+      "docs_with_category": 50,
+      "docs_with_leak": 0,
+      "leakage_rate": 0.0
+    },
+    "titulo_nome": {
+      "category": "titulo_nome",
+      "docs_with_category": 50,
+      "docs_with_leak": 0,
+      "leakage_rate": 0.0
+    },
+    "nome": {
+      "category": "nome",
+      "docs_with_category": 75,
+      "docs_with_leak": 6,
+      "leakage_rate": 0.08
+    }
+  },
+  "operational": {
+    "n": 1025,
+    "p50_ms": 0.01950003206729889,
+    "p95_ms": 0.04012007266283033,
+    "p99_ms": 0.06898408755660056,
+    "max_ms": 0.3293000627309084,
+    "mean_ms": 0.022272290889082884
+  },
+  "comparison_schiezaro_2026": {
+    "presente_trabalho": {
+      "dataset": "sintético, n=1025 (445 positivos / 580 negativos)",
+      "f1_doc_level": 0.9699074074074074,
+      "f1_doc_level_ci": [
+        0.9577464788732395,
+        0.9811320754716981
+      ]
+    },
+    "schiezaro_2026": {
+      "dataset": "clínico real, n=2962 (Frontiers in Public Health)",
+      "f1_reported": 0.927,
+      "modelo": "BERTimbau-leNER"
+    },
+    "diferenca_descritiva": 0.042907407407407394,
+    "observacao": "Comparação é descritiva: datasets distintos (sintético ocupacional vs. clínico real). Bootstrap pareado inferencial requer mesmo dataset; aqui reportamos apenas a diferença de ponto e os respectivos IC95% individuais."
+  }
+}

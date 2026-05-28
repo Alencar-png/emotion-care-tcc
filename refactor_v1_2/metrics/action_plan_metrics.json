@@ -1,0 +1,12 @@
+{
+  "agent": "action_plan_generator",
+  "n": 20,
+  "structural": {
+    "full_fields_rate": 1.0,
+    "how_subsections_rate": 1.0,
+    "no_pii_rate": 1.0
+  },
+  "hierarchy_accuracy": 1.0,
+  "latency_ms_p50": 14107.48,
+  "latency_ms_p95": 31326.26
+}

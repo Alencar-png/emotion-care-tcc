@@ -58,16 +58,27 @@ _CNPJ = re.compile(
     r"(?<!\d)(?:\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2}|\d{14})(?!\d)"
 )
 
-# Telefones BR. Ordem: formato mais específico primeiro (com DDD entre parênteses).
+# Telefones BR — exige formato com separador explícito (parêntese, hífen ou
+# espaço) para evitar casar com sequências longas de dígitos (CPF/CNPJ sem
+# máscara). A detecção é feita APÓS CPF/CNPJ no scan, sobre o texto já
+# expurgado dessas categorias.
 _PHONE = re.compile(
-    r"(?:\+?55\s?)?"                    # +55 opcional
-    r"(?:\(\d{2}\)|\d{2})\s?"           # DDD com ou sem parênteses
-    r"(?:9?\d{4})[-\s]?\d{4}\b"         # 8 ou 9 dígitos com separador opcional
+    r"(?:\+?55[\s\-])?"               # +55 com separador explícito (opcional)
+    r"(?:"
+    r"\(\d{2}\)\s?\d{4,5}[-\s]\d{4}"  # (DDD) + 8 ou 9 dígitos com separador
+    r"|"
+    r"\d{2}\s\d{4,5}[-\s]\d{4}"        # DDD + 9 dígitos com espaço e hífen
+    r")"
+    r"(?!\d)"
 )
 
-# Matrícula / crachá — heurística: palavra-chave + dígitos.
+# Matrícula / crachá — gatilhos ampliados e formatos variados.
 _ENROLLMENT = re.compile(
-    r"\b(?:matr[íi]cula|crach[aá]|registro)\s*(?:n[º°ºo]\s*)?\d{3,}\b",
+    r"\b(?:matr[íi]cula|matr\.|crach[aá]|cr\.|registro|reg\.|cadastro|"
+    r"funcional|c[óo]digo[\s\-]rh|id[\s\-]?(?:interno|funcional)|"
+    r"n[º°ºo°]?\s*funcional|prontu[áa]rio)"
+    r"\s*(?:n[º°ºo°]\s*)?"
+    r"(?:\d{3,}[\-/]?\d*|[a-z]{0,3}[-]?\d{3,})\b",
     re.IGNORECASE,
 )
 
@@ -99,19 +110,94 @@ _COMMON_FIRST_NAMES = frozenset({
 })
 
 
-# Cargos específicos que, sozinhos, costumam identificar. Lista propositalmente
-# pequena — ampliar conforme incidentes reais em produção.
+# Cargos específicos que, sozinhos, costumam identificar. Lista ampliada
+# com base nas observações de vazamento (cargo, na avaliação span-level).
 _IDENTIFYING_ROLE_MARKERS = re.compile(
-    r"\b(CEO|CFO|COO|CTO|CIO|presidente|diretor[-\s]?(?:executivo|geral|financeiro|"
-    r"presidente)|ger[eê]nte\s+geral)\b",
+    r"\b("
+    r"CEO|CFO|COO|CTO|CIO|CMO|CHRO|CPO|"
+    r"presidente|vice[\s\-]presidente|"
+    r"diretor[-\s]?(?:executivo|geral|financeiro|presidente|de\s+opera[çc][õo]es|"
+    r"de\s+tecnologia|jur[íi]dico|comercial|industrial|"
+    r"de\s+recursos\s+humanos|de\s+marketing|"
+    r"de\s+ti)?|"
+    r"diretora[-\s]?(?:executiva|geral|financeira|de\s+opera[çc][õo]es|"
+    r"de\s+tecnologia|jur[íi]dica|comercial|industrial)|"
+    r"superintendente(?:\s+(?:geral|t[ée]cnico|t[ée]cnica))?|"
+    r"ger[eê]nte\s+(?:geral|s[êe]nior|executivo|executiva|de\s+opera[çc][õo]es)|"
+    r"head\s+of\s+\w+|"
+    r"chief\s+\w+\s+officer|"
+    r"founder|cofounder|s[óo]cio[\s\-]fundador"
+    r")\b",
     re.IGNORECASE,
 )
 
 
-# Título + prenome capitalizado (ex.: "Sr. Pereira", "Dra. Fernanda")
+# Título + nome completo (ex.: "Sr. Pereira", "Dra. Fernanda Almeida",
+# "Prof. João da Silva Souza"). Captura o nome composto inteiro para
+# evitar duplicação span-level com a heurística de nome composto.
 _TITLE_PLUS_NAME = re.compile(
-    r"\b(?:Sr|Sra|Srta|Dr|Dra|Prof|Profa|Eng)\.?\s+[A-ZÁ-ÚÂ-ÛÃ-Õ][A-Za-zÁ-ÚÂ-ÛÃ-Õá-úâ-ûã-õ]+"
+    r"\b(?:Sr|Sra|Srta|Dr|Dra|Prof|Profa|Eng|Ms)\.?\s+"
+    r"[A-ZÁ-ÚÂ-ÛÃ-Õ][A-Za-zÁ-ÚÂ-ÛÃ-Õá-úâ-ûã-õ]+"
+    r"(?:\s+(?:da|de|do|das|dos|e)\s+[A-ZÁ-ÚÂ-ÛÃ-Õ][A-Za-zÁ-ÚÂ-ÛÃ-Õá-úâ-ûã-õ]+"
+    r"|\s+[A-ZÁ-ÚÂ-ÛÃ-Õ][A-Za-zÁ-ÚÂ-ÛÃ-Õá-úâ-ûã-õ]+)*"
 )
+
+
+# Tokens institucionais que NÃO devem ser considerados nomes próprios,
+# mesmo se aparecerem em sequência capitalizada (item 8 do checklist v2.1).
+# A lista é grande de propósito: false positive em compliance é caro.
+_INSTITUTIONAL_TOKENS = frozenset({
+    "plano", "ação", "acao", "programa", "norma", "politica", "política",
+    "recursos", "humanos", "rh", "tecnologia", "informação", "informacao",
+    "comissão", "comissao", "interna", "prevenção", "prevencao", "acidentes",
+    "centro", "universitário", "universitario", "afya", "unima", "cesmac",
+    "curso", "ciência", "ciencia", "computação", "computacao",
+    "ministério", "ministerio", "trabalho", "emprego",
+    "organização", "organizacao", "mundial", "saúde", "saude",
+    "internacional", "lei", "geral", "proteção", "protecao", "dados",
+    "modelo", "demanda", "controle", "esforço", "esforco", "recompensa",
+    "saúde", "mental", "serviço", "servico", "segurança", "seguranca",
+    "diário", "diario", "oficial", "união", "uniao", "banco", "central",
+    "universidade", "federal", "alagoas", "sistema", "único", "unico",
+    "tribunal", "superior", "conselho", "medicina", "instituto", "brasileiro",
+    "geografia", "estatística", "estatistica", "gestão", "gestao", "pessoas",
+    "atendimento", "cliente", "boletim", "técnico", "tecnico", "manual",
+    "procedimentos", "privacidade", "termo", "consentimento", "livre",
+    "esclarecido", "pessoal", "pessoais", "constituição", "constituicao",
+    "decreto", "legislativo", "senado", "resolução", "resolucao", "normativa",
+    "inventário", "inventario", "riscos", "psicossociais", "psicossocial",
+    "gerenciamento", "matriz", "ishikawa", "investigação", "investigacao",
+    "hierarquia", "controles", "boletim", "manual", "diretoria",
+    "convocação", "convocacao", "ata", "reunião", "reuniao",
+    "nordic", "knowles", "kolb", "karasek", "siegrist",
+    "norte", "sul", "leste", "oeste", "estado", "alagoas", "pernambuco",
+    "indústria", "industria", "comercial", "logística", "logistica",
+    "operações", "operacoes", "marketing", "produção", "producao",
+    "administrativo", "comércio", "comercio", "educação", "educacao",
+    "serviços", "servicos", "vale", "refeição", "refeicao", "bradesco",
+    "sindicato", "bancários", "bancarios", "federação", "federacao",
+    "indústrias", "industrias", "isbn", "iso", "abnt",
+})
+
+
+# Sobrenomes brasileiros comuns para reforçar a heurística de nome composto:
+# exige que, além de um prenome conhecido, haja TAMBÉM um sobrenome
+# conhecido OU um conector + sobrenome conhecido. Isso reduz drasticamente
+# falsos positivos em sequências como "Plano de Ação" e "Recursos Humanos".
+_COMMON_LAST_NAMES = frozenset({
+    "silva", "santos", "oliveira", "souza", "lima", "pereira", "carvalho",
+    "almeida", "rodrigues", "costa", "gomes", "martins", "araújo", "araujo",
+    "rocha", "cardoso", "mendes", "barbosa", "ribeiro", "castro", "moreira",
+    "andrade", "nascimento", "ferreira", "correia", "pinto", "cavalcanti",
+    "pacheco", "vieira", "mota", "teixeira", "alves", "fernandes", "monteiro",
+    "freitas", "machado", "campos", "torres", "ramos", "borges", "lopes",
+    "dias", "duarte", "esteves", "neves", "moura", "azevedo", "siqueira",
+    "barreto", "magalhães", "magalhaes", "valente", "miranda", "guimarães",
+    "guimaraes", "porto", "antunes", "sales", "barros", "rezende", "resende",
+    "amaral", "leal", "leite", "garcia", "souto", "ferraz", "henriques",
+    "queiroz", "couto", "marinho", "freire", "salgado", "noronha", "nóbrega",
+    "nobrega", "jatobá", "jatoba",
+})
 
 
 @dataclass(frozen=True)
@@ -154,16 +240,20 @@ def _collect(pattern: re.Pattern[str], kind: str, text: str) -> Iterable[PIIViol
 
 
 def _find_capitalized_name_sequences(text: str) -> list[PIIViolation]:
-    """Heurística para nomes próprios PT-BR.
+    """Heurística refinada para nomes próprios PT-BR (item 8 do checklist).
 
-    Regra: sequências de 2+ palavras começando com maiúscula (incluindo
-    acentuadas) onde pelo menos uma das palavras bate com a lista de prenomes
-    comuns. Evita disparar em "Plano de Ação" ou "Recursos Humanos".
+    Regra (v2.1): sequências de 2 ou mais palavras começando com maiúscula
+    (incluindo acentuadas) que satisfaçam TODAS as condições:
+      1) Pelo menos um prenome conhecido (_COMMON_FIRST_NAMES);
+      2) Pelo menos um sobrenome conhecido (_COMMON_LAST_NAMES) OU dois
+         prenomes em sequência;
+      3) Nenhum dos tokens não-conector seja um token institucional
+         (_INSTITUTIONAL_TOKENS), o que rejeita sequências como
+         "Plano de Ação", "Recursos Humanos", "Universidade Federal".
     """
     out: list[PIIViolation] = []
-    # token = palavra capitalizada (incluindo acento) com tamanho >= 2
     token_re = re.compile(r"[A-ZÁ-ÚÂ-ÛÃ-Õ][A-Za-zÁ-ÚÂ-ÛÃ-Õá-úâ-ûã-õ'-]{1,}")
-    # sequência de 2+ tokens separados por espaço / "da" / "de" / "dos" / etc.
+    connectors = {"da", "de", "do", "das", "dos", "e"}
     connector = r"(?:\s+(?:da|de|do|das|dos|e)\s+|\s+)"
     seq_re = re.compile(
         rf"{token_re.pattern}(?:{connector}{token_re.pattern})+"
@@ -173,10 +263,43 @@ def _find_capitalized_name_sequences(text: str) -> list[PIIViolation]:
         words = re.findall(r"[A-Za-zÁ-ÚÂ-ÛÃ-Õá-úâ-ûã-õ'-]+", span)
         if not words:
             continue
-        # exige ao menos um prenome conhecido na sequência
-        if any(w.lower() in _COMMON_FIRST_NAMES for w in words):
-            out.append(PIIViolation(kind="nome", value=span, start=m.start(), end=m.end()))
+        lower_words = [w.lower() for w in words]
+        # Rejeita se contém token institucional fora de conectores
+        non_connector_tokens = [w for w in lower_words if w not in connectors]
+        if any(t in _INSTITUTIONAL_TOKENS for t in non_connector_tokens):
+            continue
+        # Requer pelo menos um prenome conhecido
+        prenomes_count = sum(
+            1 for w in lower_words if w in _COMMON_FIRST_NAMES
+        )
+        if prenomes_count == 0:
+            continue
+        # E pelo menos um sobrenome conhecido OU dois prenomes
+        sobrenomes_count = sum(
+            1 for w in lower_words if w in _COMMON_LAST_NAMES
+        )
+        if sobrenomes_count == 0 and prenomes_count < 2:
+            continue
+        out.append(PIIViolation(
+            kind="nome", value=span, start=m.start(), end=m.end(),
+        ))
     return out
+
+
+def _mask_spans(text: str, spans: list[tuple[int, int]]) -> str:
+    """Substitui os intervalos por '#' do mesmo tamanho, preservando offsets.
+
+    Usado para evitar que regex posteriores (item 7 do checklist v2.1)
+    casem com sequências numéricas já consumidas por CPF, CNPJ ou e-mail.
+    """
+    if not spans:
+        return text
+    chars = list(text)
+    for s, e in spans:
+        for i in range(s, e):
+            if i < len(chars):
+                chars[i] = "#"
+    return "".join(chars)
 
 
 def scan(text: str) -> PIIScanResult:
@@ -184,19 +307,55 @@ def scan(text: str) -> PIIScanResult:
 
     Nunca muta, nunca levanta (exceto TypeError em input inválido).
     Não loga por si — cabe ao chamador decidir.
+
+    Ordem de detecção (v2.1): categorias com formato mais específico
+    rodam primeiro e suas posições são mascaradas no texto antes de
+    categorias mais genéricas. Isso elimina o falso positivo de
+    telefone casando com CPF/CNPJ sem máscara, identificado na
+    avaliação span-level (item 7 do checklist v2.1).
     """
     if not isinstance(text, str):
         raise TypeError(f"texto deve ser str, recebi {type(text).__name__}")
 
     violations: list[PIIViolation] = []
-    violations.extend(_collect(_EMAIL, "email", text))
-    violations.extend(_collect(_CNPJ, "cnpj", text))  # CNPJ antes de CPF para não colidir
-    violations.extend(_collect(_CPF, "cpf", text))
-    violations.extend(_collect(_PHONE, "telefone", text))
-    violations.extend(_collect(_ENROLLMENT, "matricula", text))
-    violations.extend(_collect(_IDENTIFYING_ROLE_MARKERS, "cargo_identificador", text))
-    violations.extend(_collect(_TITLE_PLUS_NAME, "titulo_nome", text))
-    violations.extend(_find_capitalized_name_sequences(text))
+
+    # Etapa 1 — categorias estruturadas (regex específico). Coletamos e
+    # mascaramos os intervalos para a etapa 2.
+    early_categories = [
+        (_EMAIL, "email"),
+        (_CNPJ, "cnpj"),
+        (_CPF, "cpf"),
+    ]
+    consumed_spans: list[tuple[int, int]] = []
+    for pat, kind in early_categories:
+        for v in _collect(pat, kind, text):
+            violations.append(v)
+            consumed_spans.append((v.start, v.end))
+
+    masked = _mask_spans(text, consumed_spans)
+
+    # Etapa 2 — categorias que sofriam colisão com CPF/CNPJ sem máscara.
+    later_categories = [
+        (_PHONE, "telefone"),
+        (_ENROLLMENT, "matricula"),
+        (_IDENTIFYING_ROLE_MARKERS, "cargo_identificador"),
+        (_TITLE_PLUS_NAME, "titulo_nome"),
+    ]
+    for pat, kind in later_categories:
+        violations.extend(_collect(pat, kind, masked))
+
+    # Etapa 3 — heurística de nome composto sobre texto mascarado.
+    # Filtra spans de "nome" que estão integralmente dentro de um span de
+    # "titulo_nome" já detectado, evitando duplicação span-level (item 8
+    # do checklist v2.1).
+    title_spans = [
+        (v.start, v.end) for v in violations if v.kind == "titulo_nome"
+    ]
+    for v in _find_capitalized_name_sequences(masked):
+        contained = any(s <= v.start and v.end <= e for s, e in title_spans)
+        if contained:
+            continue
+        violations.append(v)
 
     # Dedupe — duas regras podem marcar o mesmo span; mantém a primeira.
     seen: set[tuple[int, int, str]] = set()

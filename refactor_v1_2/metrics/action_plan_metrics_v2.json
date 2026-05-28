@@ -1,0 +1,91 @@
+{
+  "agent": "action_plan_generator_v2_balanced_gold",
+  "n": 20,
+  "hierarchy_accuracy": 1.0,
+  "macro_f1": 1.0,
+  "structural": {
+    "full_fields_rate": 1.0,
+    "how_subsections_rate": 1.0,
+    "no_pii_rate": 1.0
+  },
+  "confusion_matrix": [
+    [
+      5,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      5,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      5,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      5
+    ]
+  ],
+  "labels": [
+    "1-Eliminação",
+    "2-Substituição",
+    "3-Controle Organizacional",
+    "4-Controle Individual"
+  ],
+  "per_class": {
+    "1-Eliminação": {
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "tn": 15,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "sensibilidade": 1.0,
+      "especificidade": 1.0
+    },
+    "2-Substituição": {
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "tn": 15,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "sensibilidade": 1.0,
+      "especificidade": 1.0
+    },
+    "3-Controle Organizacional": {
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "tn": 15,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "sensibilidade": 1.0,
+      "especificidade": 1.0
+    },
+    "4-Controle Individual": {
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "tn": 15,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "sensibilidade": 1.0,
+      "especificidade": 1.0
+    }
+  },
+  "latency_ms_p50": 7972.19,
+  "latency_ms_p95": 10082.14
+}

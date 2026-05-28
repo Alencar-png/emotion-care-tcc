@@ -1,0 +1,48 @@
+{
+  "agent": "qualitative_analyzer",
+  "n_responses": 150,
+  "n_clusters_generated": 7,
+  "adjusted_rand_index": 0.3338,
+  "normalized_mutual_info": 0.5803,
+  "homogeneity": 0.5008,
+  "completeness": 0.6897,
+  "v_measure": 0.5803,
+  "macro_f1": 0.5153,
+  "per_theme": {
+    "Sobrecarga": {
+      "precision": 0.75,
+      "recall": 0.6818,
+      "f1": 0.7143
+    },
+    "Reconhecimento": {
+      "precision": 1.0,
+      "recall": 0.5455,
+      "f1": 0.7059
+    },
+    "Ambiente físico": {
+      "precision": 0.7391,
+      "recall": 0.8095,
+      "f1": 0.7727
+    },
+    "Comunicação": {
+      "precision": 0.88,
+      "recall": 1.0,
+      "f1": 0.9362
+    },
+    "Carreira": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Liderança": {
+      "precision": 0.3143,
+      "recall": 1.0,
+      "f1": 0.4783
+    },
+    "Outros": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  }
+}
