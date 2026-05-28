@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Tokens (CSS variables) ───────────────────────────── */
+:root {
+  --brand-primary:        #10b981; /* esmeralda 500 */
+  --brand-primary-hover:  #059669; /* esmeralda 600 */
+  --brand-primary-active: #047857; /* esmeralda 700 */
+  --brand-primary-dark:   #064e3b; /* esmeralda 950 */
+  --brand-primary-light:  #d1fae5; /* esmeralda 100 */
+  --brand-primary-bg:     #f0fdf4; /* esmeralda 50  */
+  --brand-secondary:      #1e3a8a; /* marinho      */
+  --brand-secondary-dark: #172554;
+  --brand-text:           #064e3b;
+  --brand-muted:          #6b7280;
+  --brand-border:         #e5e7eb;
+  --brand-shadow-rgb:     16, 185, 129;
+}
+
+/* ─── Autofill fix (login inputs) ──────────────────────── */
+/* Mantém o fundo BRANCO mesmo quando o navegador faz autocomplete
+   de e-mail/senha — caso contrário ele aplica um amarelo (Chrome) ou
+   azul (alguns themes) sobre o input. */
+.autofill-fix:-webkit-autofill,
+.autofill-fix:-webkit-autofill:hover,
+.autofill-fix:-webkit-autofill:focus,
+.autofill-fix:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #ffffff inset !important;
+  -webkit-text-fill-color: #064e3b !important;     /* brand-text (verde escuro) */
+  caret-color: #10b981 !important;                  /* primary (esmeralda)      */
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* ─── Base ─────────────────────────────────────────────── */
+@layer base {
+  * {
+    border-color: theme('colors.brand.border');
+  }
+
+  body {
+    @apply bg-white text-brand-text antialiased;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* Hierarquia tipográfica */
+  h1 { @apply text-heading-1; }
+  h2 { @apply text-heading-2; }
+  h3 { @apply text-heading-3; }
+  h4 { @apply text-heading-4; }
+}
+
+/* ─── Components ───────────────────────────────────────── */
+@layer components {
+
+  /* ─── Input Emotion Care ───────────────────────────────── */
+  .input-emotioncare {
+    @apply h-[42px] rounded-md px-3 text-body transition-all duration-150 ease-in-out;
+    border: 1.5px solid theme('colors.brand.border');
+    font-family: 'Poppins', sans-serif;
+  }
+  .input-emotioncare::placeholder {
+    @apply text-brand-muted;
+  }
+  .input-emotioncare:focus {
+    @apply outline-none;
+    border-color: theme('colors.primary.DEFAULT');
+    box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.18);
+  }
+  .input-emotioncare:disabled {
+    @apply bg-brand-bg-muted text-brand-disabled cursor-not-allowed;
+  }
+  .input-brand.input-error {
+    border-color: theme('colors.error.DEFAULT');
+    box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.12);
+  }
+
+  /* ─── Select Emotion Care ──────────────────────────────── */
+  select.input-emotioncare {
+    @apply appearance-none bg-no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+    background-position: right 12px center;
+    background-size: 16px;
+    padding-right: 36px;
+  }
+
+  /* ─── Textarea Emotion Care ────────────────────────────── */
+  textarea.input-emotioncare {
+    @apply !h-auto py-2.5 resize-y min-h-[80px];
+  }
+
+  /* ─── Checkbox Emotion Care ────────────────────────────── */
+  .checkbox-emotioncare {
+    @apply rounded border-brand-border;
+    accent-color: theme('colors.primary.DEFAULT');
+  }
+  .checkbox-emotioncare:focus {
+    box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.18);
+  }
+
+  /* ─── Label Emotion Care ───────────────────────────────── */
+  .label-emotioncare {
+    @apply block text-body-sm font-medium text-brand-text mb-1.5;
+  }
+
+  /* ─── Botões Emotion Care ──────────────────────────────── */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 font-medium rounded-md transition-all duration-150 ease-in-out cursor-pointer;
+    @apply disabled:opacity-50 disabled:cursor-not-allowed;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .btn-sm   { @apply h-8  px-3 text-xs; }
+  .btn-md   { @apply h-10 px-4 text-body-sm; }
+  .btn-lg   { @apply h-12 px-5 text-body; }
+  .btn-xl   { @apply h-14 px-6 text-base; }
+  .btn-icon { @apply h-10 w-10 p-0; }
+
+  /* Variante Primary (esmeralda) */
+  .btn-primary { @apply bg-primary text-white; }
+  .btn-primary:hover:not(:disabled)  { @apply bg-primary-hover; }
+  .btn-primary:active:not(:disabled) { @apply bg-primary-active; }
+
+  /* Variante Secondary (marinho — usada para CTAs institucionais) */
+  .btn-marine        { @apply bg-secondary text-white; }
+  .btn-marine:hover:not(:disabled)  { @apply bg-secondary-hover; }
+  .btn-marine:active:not(:disabled) { @apply bg-secondary-active; }
+
+  /* Variante Outline (white/border) */
+  .btn-secondary { @apply bg-white text-brand-text border border-brand-border; }
+  .btn-secondary:hover:not(:disabled)  { @apply bg-brand-bg-muted border-brand-muted; }
+  .btn-secondary:active:not(:disabled) { @apply bg-brand-bg-subtle; }
+
+  /* Variante Ghost */
+  .btn-ghost { @apply bg-transparent text-brand-text-2; }
+  .btn-ghost:hover:not(:disabled)  { @apply bg-brand-bg-muted text-brand-text; }
+  .btn-ghost:active:not(:disabled) { @apply bg-brand-bg-subtle; }
+
+  /* Variante Danger */
+  .btn-danger { @apply bg-error text-white; }
+  .btn-danger:hover:not(:disabled)  { @apply bg-red-700; }
+  .btn-danger:active:not(:disabled) { @apply bg-red-800; }
+
+  /* ─── Badge Emotion Care ───────────────────────────────── */
+  .badge {
+    @apply inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-semibold uppercase tracking-wide;
+    border: 1px solid transparent;
+  }
+  .badge-primary   { @apply bg-primary-light text-primary-dark border-primary-border; }
+  .badge-secondary { @apply bg-secondary-light text-secondary border-secondary-border; }
+  .badge-success   { @apply bg-success-bg text-success border-success-border; }
+  .badge-warning   { @apply bg-warning-bg text-warning border-warning-border; }
+  .badge-error     { @apply bg-error-bg   text-error   border-error-border;   }
+  .badge-info      { @apply bg-info-bg    text-info    border-info-border;    }
+  .badge-neutral   { @apply bg-brand-bg-muted text-brand-muted border-brand-border; }
+
+  /* ─── Card Emotion Care ────────────────────────────────── */
+  .card-emotioncare {
+    @apply bg-white rounded-lg border border-brand-border shadow-xs;
+  }
+  .card-brand-hover {
+    @apply card-emotioncare transition-shadow duration-200;
+  }
+  .card-brand-hover:hover { @apply shadow-lg; }
+  .card-header { @apply px-5 py-4 border-b border-brand-border bg-brand-bg-subtle; }
+  .card-body   { @apply px-5 py-5; }
+  .card-footer { @apply px-5 py-3 border-t border-brand-border bg-brand-bg-subtle; }
+
+  /* ─── Page Header ─────────────────────────────────────── */
+  .page-header   { @apply mb-6; }
+  .page-title    { @apply text-heading-1 text-brand-text; }
+  .page-subtitle { @apply text-body-sm text-brand-muted mt-1; }
+
+  /* ─── Section Header ──────────────────────────────────── */
+  .section-title {
+    @apply text-heading-4 font-medium text-brand-text-2 mb-3 pb-2 border-b border-brand-border;
+  }
+
+  /* ─── Gradient brand (header/hero) ────────────────────── */
+  .bg-brand-gradient {
+    background: linear-gradient(135deg, #064e3b 0%, #047857 50%, #10b981 100%);
+  }
+  .bg-brand-gradient-marine {
+    background: linear-gradient(135deg, #1e3a8a 0%, #047857 100%);
+  }
+}
+
+/* ─── Utilities ────────────────────────────────────────── */
+@layer utilities {
+  .text-muted { @apply text-brand-muted; }
+}
+
+/* ─── Mobile First Improvements ────────────────────────── */
+@media (max-width: 767px) {
+  /* Prevenir zoom em inputs no iOS (mínimo 16px) */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"],
+  select,
+  textarea {
+    font-size: 16px;
+  }
+}
+
+/* ─── Custom scrollbar ─────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #ecfdf5;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb {
+  background: #6ee7b7;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #10b981;
+}
+
+/* ─── Global input/select/textarea font ────────────────── */
+input, select, textarea {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ─── Spinner ──────────────────────────────────────────── */
+.spinner-emotioncare {
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(16, 185, 129, 0.2);
+  border-top-color: #10b981;
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+}
+.spinner-brand-white {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: white;
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

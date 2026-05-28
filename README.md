@@ -40,6 +40,15 @@ emotion-care-tcc/
 │   ├── main.py                 entrypoint FastAPI
 │   └── requirements.txt        dependências Python
 │
+├── frontend/                   interface Next.js + TypeScript
+│   ├── src/                    componentes, páginas e hooks React
+│   ├── public/                 assets estáticos
+│   ├── package.json            dependências npm
+│   ├── next.config.js          configuração Next.js
+│   ├── tailwind.config.ts      configuração TailwindCSS
+│   ├── tsconfig.json           configuração TypeScript
+│   └── Dockerfile              empacotamento da aplicação
+│
 └── refactor_v1_2/              aparato de avaliação e geração do TCC
     ├── build_docx.py           gera TCC .docx e .pdf
     ├── audit_pdf.py            verifica acentos no PDF final
@@ -92,6 +101,12 @@ pip install -r requirements.txt
 
 # 4) Instalar dependências da avaliação
 pip install bert-score rouge-score gensim bertopic
+
+# 5) (Opcional) Subir o frontend Next.js
+cd ../frontend
+cp .env.example .env.local
+npm install
+npm run dev   # disponível em http://localhost:3000
 ```
 
 ---

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" role="img" aria-label="Emotion Care">
+  <!-- Heart + brain mark (white-on-dark variant) -->
+  <g transform="translate(8 12)">
+    <path d="M20 36 C 4 22, 4 6, 20 6 C 28 6, 32 12, 32 12 C 32 12, 36 6, 44 6 C 60 6, 60 22, 44 36 L 32 46 Z"
+          fill="#ffffff"/>
+    <path d="M22 22 q 5 -8 10 0 q 5 -8 10 0" fill="none"
+          stroke="#10b981" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="80" y="36" font-family="Poppins, Inter, sans-serif"
+        font-weight="700" font-size="22" fill="#ffffff" letter-spacing="-0.5">
+    Emotion
+  </text>
+  <text x="80" y="56" font-family="Poppins, Inter, sans-serif"
+        font-weight="500" font-size="16" fill="#d1fae5" letter-spacing="0.5">
+    Care
+  </text>
+</svg>
