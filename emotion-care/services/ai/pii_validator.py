@@ -62,10 +62,18 @@ _CNPJ = re.compile(
 # espaço) para evitar casar com sequências longas de dígitos (CPF/CNPJ sem
 # máscara). A detecção é feita APÓS CPF/CNPJ no scan, sobre o texto já
 # expurgado dessas categorias.
+#
+# v2.2: alternativa 'intl_split' adicionada para cobrir +55DDD 9 NNNN-NNNN,
+# anteriormente um ponto-de-falha conhecido (Seção 9.5 do TCC).
 _PHONE = re.compile(
-    r"(?:\+?55[\s\-])?"               # +55 com separador explícito (opcional)
     r"(?:"
+    r"\+?55\s?\d{2}\s9\s?\d{4}[-\s]\d{4}"  # +55 DDD 9 NNNN-NNNN (split, com ou sem espaço após +55)
+    r"|"
+    r"\+?55[\s\-]?\(\d{2}\)\s?\d{4,5}[-\s]\d{4}"  # +55 (DDD) NNNNN-NNNN
+    r"|"
     r"\(\d{2}\)\s?\d{4,5}[-\s]\d{4}"  # (DDD) + 8 ou 9 dígitos com separador
+    r"|"
+    r"\+?55[\s\-]\d{2}\s\d{4,5}[-\s]\d{4}"  # +55 DDD NNNNN-NNNN
     r"|"
     r"\d{2}\s\d{4,5}[-\s]\d{4}"        # DDD + 9 dígitos com espaço e hífen
     r")"
@@ -73,12 +81,27 @@ _PHONE = re.compile(
 )
 
 # Matrícula / crachá — gatilhos ampliados e formatos variados.
+# v2.2 adiciona:
+#   - sufixo "no sistema de ponto", "no SAP", "no AD" (gatilho pós-numérico);
+#   - prefixos abreviados extras: "RE", "PIS", "PASEP" (códigos comuns BR).
 _ENROLLMENT = re.compile(
+    r"(?:"
+    # padrão com gatilho ANTES do número
     r"\b(?:matr[íi]cula|matr\.|crach[aá]|cr\.|registro|reg\.|cadastro|"
     r"funcional|c[óo]digo[\s\-]rh|id[\s\-]?(?:interno|funcional)|"
-    r"n[º°ºo°]?\s*funcional|prontu[áa]rio)"
+    r"n[º°ºo°]?\s*funcional|prontu[áa]rio|"
+    r"re|pis|pasep|chapa|pront\.)"
     r"\s*(?:n[º°ºo°]\s*)?"
-    r"(?:\d{3,}[\-/]?\d*|[a-z]{0,3}[-]?\d{3,})\b",
+    r"(?:\d{3,}[\-/]?\d*|[a-z]{0,3}[-]?\d{3,})\b"
+    r"|"
+    # padrão com gatilho DEPOIS do número (ex.: "1234 no sistema de ponto")
+    r"\b\d{3,}\b\s+"
+    r"(?:no|na)\s+"
+    r"(?:sistema\s+de\s+ponto|sistema\s+(?:de\s+)?(?:rh|recursos\s+humanos)|"
+    r"folha\s+(?:de\s+)?(?:pagamento|ponto)|"
+    r"cadastro\s+(?:do\s+)?(?:funcion[áa]rio|colaborador|empregado)|"
+    r"crach[áa]|matr[íi]cula\b|ad|sap|adp|senior)"
+    r")",
     re.IGNORECASE,
 )
 

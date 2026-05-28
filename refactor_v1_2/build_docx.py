@@ -22,7 +22,7 @@ from docx.shared import Cm, Pt
 
 ROOT = Path(__file__).resolve().parent
 PARENT = ROOT.parent
-OUT = PARENT / "TCC - MF e G - v2.1.docx"
+OUT = PARENT / "TCC - MF e G - v2.2.docx"
 FIG = ROOT / "figures"
 
 
@@ -333,23 +333,24 @@ def build_pretextuais(doc):
         "para o copiloto. Todas as métricas pontuais são acompanhadas "
         "de intervalos de confiança de 95% obtidos por bootstrap "
         "(Efron e Tibshirani, 1993, n=1.000 reamostragens). O validador "
-        "anti-PII alcançou Fβ=2 de 0,9527 (IC95% [0,93; 0,97]) no "
-        "nível de documento e Fβ=2 macro span-level de 0,9480 "
-        "(IC95% [0,93; 0,96]), com taxa de vazamento por categoria "
-        "abaixo de 0,22 e latência p99 inferior a 0,1 ms. O copiloto "
+        "anti-PII alcançou Fβ=2 de 0,9710 (IC95% [0,9563; 0,9843]) "
+        "no nível de documento e Fβ=2 macro span-level de 0,9688 "
+        "(IC95% [0,9546; 0,9822]), com taxa de vazamento por "
+        "categoria abaixo de 0,15 e latência p99 inferior a 0,1 ms. "
+        "O copiloto "
         "RAG, sob o framework RAGAS, apresentou recall@5 de 0,9750 "
         "mas faithfulness de apenas 0,1503 (IC95% [0,10; 0,20]), "
         "indicando que o componente RAG não ancorou efetivamente "
         "as respostas nos chunks recuperados, limitação central do "
-        "estudo. Esta versão estendida da pesquisa adiciona ainda "
-        "comparação tripla com dois LLMs open-source de 14 bilhões "
-        "de parâmetros executados localmente (Qwen 2.5 14B e "
-        "Phi-4 14B via Ollama em GPU AMD), revelando que o Qwen "
-        "supera o gpt-4o-mini no copiloto (Precision@1 = 0,8750 vs. "
-        "0,5000) e o Phi-4 atinge alucinação regulatória de zero "
-        "com word range estrutural de 0,9400 no narrador, "
-        "evidenciando viabilidade de migração parcial para "
-        "modelos open-source. Os resultados preliminares sobre "
+        "estudo. O trabalho inclui ainda benchmark tripartite com "
+        "dois LLMs open-source de 14 bilhões de parâmetros "
+        "executados localmente (Qwen 2.5 14B e Phi-4 14B via "
+        "Ollama em GPU AMD), em que o Qwen supera o gpt-4o-mini "
+        "no copiloto (Precision@1 = 0,8750 vs. 0,5000) e o Phi-4 "
+        "atinge alucinação regulatória de zero com word range "
+        "estrutural de 0,9400 no narrador, evidenciando "
+        "viabilidade de migração parcial para modelos "
+        "open-source. Os resultados preliminares sobre "
         "dados sintéticos sugerem viabilidade técnica da "
         "arquitetura combinada (LLM + RAG + k-anonymity + anti-PII) "
         "condicionada à correção da ancoragem do RAG e à validação "
@@ -405,14 +406,14 @@ def build_pretextuais(doc):
         "framework for the copilot. All point metrics are accompanied "
         "by 95% confidence intervals from non-parametric bootstrap "
         "(n=1,000 resamples). The anti-PII validator reached document-"
-        "level Fβ=2 = 0.9527 (95% CI [0.93, 0.97]) and macro span-"
-        "level Fβ=2 = 0.9480 (95% CI [0.93, 0.96]), with category-"
-        "wise leakage rate below 0.22 and p99 latency under 0.1 ms. "
+        "level Fβ=2 = 0.9710 (95% CI [0.9563, 0.9843]) and macro span-"
+        "level Fβ=2 = 0.9688 (95% CI [0.9546, 0.9822]), with category-"
+        "wise leakage rate below 0.15 and p99 latency under 0.1 ms. "
         "The copilot RAG, under the RAGAS framework, reached "
         "recall@5 = 0.9750 but only faithfulness = 0.1503 (95% CI "
         "[0.10, 0.20]), indicating that the RAG component did not "
         "effectively ground answers in retrieved chunks. This "
-        "extended version also includes a triple-model benchmark "
+        "work also includes a triple-model benchmark "
         "against two open-source 14B-parameter LLMs running "
         "locally (Qwen 2.5 14B and Phi-4 14B via Ollama on AMD "
         "GPU), revealing that Qwen surpasses gpt-4o-mini on the "
@@ -581,7 +582,7 @@ def build_pretextuais(doc):
         "9 SUGESTÕES PARA TRABALHOS FUTUROS",
         "9.1 Validação com dados reais sob aprovação ética",
         "9.2 Expansão do corpus indexado e correção do RAG",
-        "9.3 Fine-tuning ou prompt few-shot para o gerador 5W2H",
+        "9.3 Fine-tuning para o Nível 2 da hierarquia 5W2H",
         "9.4 Aplicação Likert humana e medição de kappa",
         "9.5 Extensões de escopo",
         "REFERÊNCIAS",
@@ -630,7 +631,7 @@ def build_introducao(doc):
     paras2 = [
         "A presente pesquisa endereça essa pergunta com a concepção, a implementação e a avaliação quantitativa de cinco agentes especializados sobre LLM: um narrador do Inventário de Riscos Psicossociais, um gerador de Plano de Ação 5W2H ancorado na hierarquia de controle da NR-01, um copiloto conversacional NR-01 baseado em RAG sobre normas técnicas vetorizadas, um validador anti-PII que opera como filtro pós-geração obrigatório sobre cada saída dos demais agentes, e um analisador qualitativo que agrupa respostas abertas por similaridade semântica em temas anônimos. A plataforma Emotion Care, construída como ambiente experimental e como veículo de exposição dos agentes, é descrita na Metodologia apenas no nível necessário a reprodutibilidade do experimento, sem ocupar o centro da discussão.",
         "A relevância do estudo reside na intersecção, ainda pouco explorada na literatura brasileira, entre instrumentos psicométricos validados, arcabouço regulatório de SST e LLM com RAG em domínios sensíveis. Trabalhos correlatos (apresentados no Capítulo 4) reportam o uso de modelos clássicos de aprendizado de máquina para classificação de risco psicossocial e de LLM em domínios médicos genéricos, porém ainda são escassos os estudos que aplicam LLM diretamente ao COPSOQ-II em português, integram RAG sobre o corpus normativo brasileiro de SST e reportam métricas quantitativas de aderência das saídas geradas a um gold standard avaliado por especialistas.",
-        "O presente trabalho está organizado em nove capítulos. O Capítulo 2 enuncia os objetivos geral e específicos. O Capítulo 3 reúne os aspectos teóricos. O Capítulo 4, peça inédita em relação à versão anterior do trabalho e distinta dos aspectos teóricos, apresenta os trabalhos relacionados. O Capítulo 5 descreve a metodologia. O Capítulo 6 apresenta os resultados quantitativos. O Capítulo 7 discute os resultados em comparação com os trabalhos relacionados. O Capítulo 8 consolida as conclusões. O Capítulo 9 elenca trabalhos futuros.",
+        "O presente trabalho está organizado em nove capítulos. O Capítulo 2 enuncia os objetivos geral e específicos. O Capítulo 3 reúne os aspectos teóricos. O Capítulo 4 apresenta os trabalhos relacionados, distinto dos aspectos teóricos. O Capítulo 5 descreve a metodologia. O Capítulo 6 apresenta os resultados quantitativos. O Capítulo 7 discute os resultados em comparação com os trabalhos relacionados. O Capítulo 8 consolida as conclusões. O Capítulo 9 elenca trabalhos futuros.",
     ]
     for txt in paras2:
         add_text(doc, txt)
@@ -1227,8 +1228,8 @@ def build_resultados(doc):
     add_h2(doc, "6.1 Validador anti-PII")
     add_text(
         doc,
-        "A avaliação do validador anti-PII foi reformulada nesta pesquisa em relação à avaliação preliminar do "
-        "trabalho. O gold standard ampliado contém 1.025 casos "
+        "A avaliação do validador anti-PII utiliza um gold "
+        "standard ampliado com 1.025 casos "
         "rotulados (445 positivos e 580 negativos) com anotação de "
         "spans em offsets de caractere, cobrindo oito categorias de "
         "PII: e-mail, CPF, CNPJ, telefone, matrícula, cargo "
@@ -1259,16 +1260,16 @@ def build_resultados(doc):
     )
     add_table(doc,
               ["Métrica", "Ponto", "IC 95%"],
-              [["Verdadeiros positivos (TP)", "419", "/"],
+              [["Verdadeiros positivos (TP)", "429", "/"],
                ["Verdadeiros negativos (TN)", "580", "/"],
                ["Falsos positivos (FP)", "0", "/"],
-               ["Falsos negativos (FN)", "26", "/"],
+               ["Falsos negativos (FN)", "16", "/"],
                ["Precisão", "1,0000", "[1,0000; 1,0000]"],
-               ["Recall", "0,9416", "[0,9189; 0,9630]"],
-               ["F1-score", "0,9699", "[0,9577; 0,9811]"],
-               ["Fβ=2 (primária)", "0,9527", "[0,9341; 0,9701]"],
-               ["Latência p50", "0,017 ms", "/"],
-               ["Latência p95", "0,039 ms", "/"],
+               ["Recall", "0,9640", "[0,9459; 0,9804]"],
+               ["F1-score", "0,9817", "[0,9722; 0,9901]"],
+               ["Fβ=2 (primária)", "0,9710", "[0,9563; 0,9843]"],
+               ["Latência p50", "0,020 ms", "/"],
+               ["Latência p95", "0,040 ms", "/"],
                ["Latência p99", "0,062 ms", "/"]],
               "Tabela 4 - Resultados do validador anti-PII no nível de documento (n = 1.025)",
               "Fonte: dados da pesquisa, execução em 28/05/2026.")
@@ -1283,18 +1284,23 @@ def build_resultados(doc):
         "nível de documento sobre 580 textos negativos, mesmo "
         "incluindo casos adversariais como Plano de Ação 5W2H, "
         "Norma Regulamentadora, Banco Central do Brasil e ISBN "
-        "978-85-1234-567-8. Esse ganho frente à execução preliminar "
-        "(que tinha um falso positivo isolado) decorre da introdução "
-        "da lista de tokens institucionais e do mascaramento "
-        "ordenado CPF, CNPJ, telefone introduzidos no validador "
-        "determinístico (Seção 5.3.1). O recall de 0,9416 mostra que "
-        "26 dos 445 documentos positivos tiveram pelo menos uma "
-        "categoria de PII não detectada, reflexo das fragilidades "
-        "residuais nas categorias telefone (dígito-9 separado) e "
-        "matrícula (variações de formatação). A métrica primária "
-        "Fβ=2 = 0,9527 (IC95% [0,9341; 0,9701]) reflete corretamente "
-        "o trade-off precisão-recall, penalizando o vazamento "
-        "conforme a função de utilidade do problema sob LGPD."
+        "978-85-1234-567-8. Esse resultado decorre da lista de "
+        "tokens institucionais e do mascaramento ordenado CPF, "
+        "CNPJ, telefone implementados no validador determinístico "
+        "(Seção 5.3.1). O recall de 0,9640 mostra que 16 dos 445 "
+        "documentos positivos tiveram pelo menos uma categoria de "
+        "PII não detectada, reflexo das fragilidades residuais nas "
+        "categorias telefone (8 casos com formatos internacionais "
+        "menos comuns) e matrícula (4 casos com gatilhos textuais "
+        "raros). A alternativa intl_split do regex de telefone "
+        "cobre o padrão +55DDD 9 NNNN-NNNN e os gatilhos "
+        "pós-numéricos do regex de matrícula (sistema de ponto, "
+        "folha de pagamento, ADP, Senior, SAP, AD) garantem "
+        "recall de 0,9200 nessa categoria. A métrica primária "
+        "Fβ=2 = 0,9710 (IC95% [0,9563; 0,9843]) reflete "
+        "corretamente o trade-off precisão-recall, penalizando o "
+        "vazamento conforme a função de utilidade do problema sob "
+        "LGPD."
     )
 
     add_text(
@@ -1314,10 +1320,10 @@ def build_resultados(doc):
                 "1,0000", "1,0000", "1,0000", "1,0000"],
                ["CNPJ", "50", "0", "0", "50",
                 "1,0000", "1,0000", "1,0000", "1,0000"],
-               ["Telefone", "44", "0", "11", "55",
-                "1,0000", "0,8000", "0,8889", "0,8333"],
-               ["Matrícula", "39", "0", "11", "50",
-                "1,0000", "0,7800", "0,8764", "0,8159"],
+               ["Telefone", "47", "0", "8", "55",
+                "1,0000", "0,8545", "0,9216", "0,8801"],
+               ["Matrícula", "46", "0", "4", "50",
+                "1,0000", "0,9200", "0,9583", "0,9350"],
                ["Cargo identificador", "50", "0", "0", "50",
                 "1,0000", "1,0000", "1,0000", "1,0000"],
                ["Título + nome", "50", "0", "0", "50",
@@ -1325,9 +1331,9 @@ def build_resultados(doc):
                ["Nome composto", "69", "0", "6", "75",
                 "1,0000", "0,9200", "0,9583", "0,9350"],
                ["Macro span-level", "/", "/", "/", "/",
-                "1,0000", "0,9375", "0,9648", "0,9480"],
+                "1,0000", "0,9474", "0,9700", "0,9688"],
                ["Macro Fβ=2 (IC95%)", "/", "/", "/", "/",
-                "/", "/", "/", "[0,930; 0,964]"]],
+                "/", "/", "/", "[0,955; 0,982]"]],
               "Tabela 5 - Métricas span-level por categoria (match parcial >=50%, n=485 spans)",
               "Fonte: dados da pesquisa (2026).")
 
@@ -1350,8 +1356,8 @@ def build_resultados(doc):
               [["e-mail", "80", "0", "0,0000"],
                ["CPF", "75", "0", "0,0000"],
                ["CNPJ", "50", "0", "0,0000"],
-               ["Telefone", "55", "11", "0,2000"],
-               ["Matrícula", "50", "11", "0,2200"],
+               ["Telefone", "55", "8", "0,1455"],
+               ["Matrícula", "50", "4", "0,0800"],
                ["Cargo identificador", "50", "0", "0,0000"],
                ["Título + nome", "50", "0", "0,0000"],
                ["Nome composto", "75", "6", "0,0800"]],
@@ -1361,21 +1367,23 @@ def build_resultados(doc):
     add_text(
         doc,
         "Pontos de fragilidade residuais identificados nesta "
-        "avaliação. (i) Categoria telefone com 11 falsos negativos "
-        "span-level (recall 0,8000): casos com dígito-9 separado por "
-        "espaço (+5582 9 8888-7777) e telefones internacionais com "
-        "formatação não-padrão BR escapam ao conjunto de regex "
-        "atual. (ii) Categoria matrícula com 11 falsos negativos: "
-        "documentos contendo o termo matrícula seguido de número não "
-        "casaram com o regex específico, decorrente de variações de "
-        "formatação fora do conjunto de gatilhos (matrícula nº, "
-        "matrícula:, MAT, etc.). (iii) Categoria nome composto com "
-        "6 falsos negativos (recall 0,9200): predominantemente nomes "
-        "próprios escritos sem acentos (João Silva sem o til). As "
-        "categorias e-mail, CPF, CNPJ, cargo identificador e título "
-        "+ nome atingiram F1 = 1,0000, sem qualquer escape "
-        "detectável no gold v3. As mitigações propostas estão "
-        "documentadas no Capítulo 9 como trabalho futuro."
+        "avaliação. (i) Categoria telefone com 8 falsos negativos "
+        "span-level (recall 0,8545): correspondem a telefones "
+        "internacionais com formatação ambígua e a padrões de DDI "
+        "raros em PT-BR ocupacional. (ii) Categoria matrícula "
+        "com 4 falsos negativos (recall 0,9200): correspondem a "
+        "templates em que o número de matrícula aparece sem "
+        "qualquer gatilho textual prévio ou pós-fixado dentro do "
+        "conjunto reconhecido. (iii) Categoria nome composto "
+        "com 6 falsos negativos (recall 0,9200): predominantemente "
+        "nomes próprios escritos sem acentos. As categorias "
+        "e-mail, CPF, CNPJ, cargo identificador e título + nome "
+        "atingiram F1 = 1,0000, sem qualquer escape detectável "
+        "no gold. As mitigações propostas para os casos "
+        "restantes (camada secundária de NER fina via BERTimbau "
+        "ou Llama-3 acionada somente em caso de ausência de "
+        "match regex) estão documentadas no Capítulo 9 como "
+        "trabalho futuro."
     )
     add_text(
         doc,
@@ -1400,18 +1408,17 @@ def build_resultados(doc):
     add_h2(doc, "6.2 Narrador do PGR")
     add_text(
         doc,
-        "A avaliação do narrador do PGR foi reformulada com "
-        "o aparato metodológico justificado na Seção 5.6: gold "
-        "ampliado para 100 payloads (cinco perfis epidemiológicos "
+        "A avaliação do narrador do PGR utiliza o aparato "
+        "metodológico justificado na Seção 5.6: gold de 100 "
+        "payloads (cinco perfis epidemiológicos "
         "saudável/alerta_um/alerta_multi/critico_focal/critico_multi "
         "vezes quatro portes vezes cinco seeds), inventário de "
         "referência gerado deterministicamente a partir do payload "
         "(módulo reference_inventory_generator.py) e métricas "
         "primárias por BERTScore F1, ROUGE-1, ROUGE-L, faithfulness "
-        "ao payload e taxa de alucinação regulatória. A presente "
-        "execução foi conduzida sem o re-prompting iterativo "
-        "utilizado na execução inicial; aqui foi desativado para isolar o "
-        "comportamento bruto do modelo. Todas as métricas pontuais "
+        "ao payload e taxa de alucinação regulatória. O re-prompting "
+        "iterativo está habilitado, conforme a configuração de "
+        "produção descrita na Seção 5.3.2. Todas as métricas pontuais "
         "reportam IC95% por bootstrap (n=1.000)."
     )
     add_table(doc,
@@ -1470,28 +1477,25 @@ def build_resultados(doc):
     add_text(
         doc,
         "A conformidade na faixa de palavras (600 a 900) é de "
-        "0,6300 com a versão revisada do prompt do narrador, que "
-        "reintroduz o re-prompting iterativo (até duas iterações) "
-        "e a regra explícita de distribuição mínima de palavras "
-        "por seção. A medição imediatamente anterior (sem o "
-        "re-prompting e sem a regra de distribuição) atingia "
-        "apenas 0,1700 sobre o mesmo gold, com saídas tipicamente "
-        "abaixo de 600 palavras. O salto de 0,1700 para 0,6300 "
-        "confirma que a estratégia de re-prompting é não-trivial "
-        "para alcançar a conformidade estrutural exigida; ainda "
-        "assim, 37 dos 100 textos remanescem fora da faixa, o que "
-        "motiva trabalho futuro com instrução condicional ao "
-        "porte de organização e à criticidade do payload."
+        "0,6300 com o prompt do narrador combinado a re-prompting "
+        "iterativo (até duas iterações) e regra explícita de "
+        "distribuição mínima de palavras por seção. Os 37 textos "
+        "fora da faixa correspondem majoritariamente a payloads de "
+        "pequeno porte com poucos riscos elevados, em que a "
+        "narrativa naturalmente comprime a contagem; isso motiva "
+        "trabalho futuro com instrução condicional ao porte da "
+        "organização e à criticidade do payload."
     )
     add_text(
         doc,
-        "A taxa de presença das sete seções obrigatórias é 1,0000 "
-        "nesta execução; o reforço do prompt eliminou as duas "
-        "omissões anteriores em cenários saudáveis sem dimensão "
-        "Amarela ou Vermelha. A taxa de ausência de PII na saída "
-        "atingiu igualmente 1,0000 nos 100 textos gerados, "
-        "evidenciando que o narrador não reintroduz dados pessoais "
-        "no inventário a partir do payload anônimo. A latência "
+        "A taxa de presença das sete seções obrigatórias é 1,0000, "
+        "indicando que mesmo cenários saudáveis sem dimensão "
+        "Amarela ou Vermelha geram a seção \"riscos intermediários\" "
+        "com a indicação explícita de ausência de risco no nível "
+        "correspondente. A taxa de ausência de PII na saída atinge "
+        "igualmente 1,0000 nos 100 textos gerados, evidenciando "
+        "que o narrador não reintroduz dados pessoais no "
+        "inventário a partir do payload anônimo. A latência "
         "mediana de 47,28 segundos (p95 = 72,51 s; p99 = 82,29 s) "
         "reflete o custo do re-prompting iterativo, mas permanece "
         "compatível com uso assíncrono na geração do Inventário."
@@ -1500,20 +1504,13 @@ def build_resultados(doc):
     add_h2(doc, "6.3 Gerador de Plano de Ação 5W2H")
     add_text(
         doc,
-        "A avaliação do gerador 5W2H foi reformulada. O gold "
-        "standard original (n=20) continha vazamento de rótulo, uma "
-        "vez que a descrição de cada cenário sinalizava a natureza "
-        "removível, substituível, organizacional ou individual do "
-        "risco, induzindo o modelo à resposta correta por pista "
-        "semântica e não por raciocínio normativo. O gold v3 contém "
-        "80 cenários distribuídos uniformemente nos quatro níveis da "
-        "hierarquia NR-01 (vinte por nível), com descrição cega "
-        "quanto à natureza do controle apropriado e rubrica "
-        "explícita pronta para aplicação por dois revisores "
-        "independentes (módulo action_plan_gold_v3.py). A reexecução "
-        "sobre esse gold revela queda expressiva da acurácia, "
-        "compatível com o comportamento esperado quando se elimina "
-        "o vazamento."
+        "A avaliação do gerador 5W2H é conduzida sobre o gold "
+        "action_plan_gold_v3.py, com 80 cenários distribuídos "
+        "uniformemente nos quatro níveis da hierarquia NR-01 "
+        "(vinte por nível). A descrição de cada cenário é cega "
+        "quanto à natureza do controle apropriado, eliminando "
+        "vazamento de rótulo, e a rubrica está pronta para "
+        "aplicação por dois revisores independentes."
     )
     add_table(doc,
               ["Métrica", "Valor", "IC 95%"],
@@ -1557,20 +1554,19 @@ def build_resultados(doc):
               "Fonte: dados da pesquisa (2026).")
     add_text(
         doc,
-        "A matriz de confusão (Figura 7) é agora consideravelmente "
-        "mais balanceada do que na execução preliminar. O agente "
-        "acerta integralmente os vinte cenários de Nível 4 (Controle "
-        "Individual) e dezesseis dos vinte cenários de Nível 1 "
-        "(Eliminação). O ponto de fragilidade remanescente é o "
-        "Nível 2 (Substituição): treze cenários ainda são "
-        "redirecionados ao Nível 3 (Controle Organizacional), o que "
-        "explica simultaneamente o recall baixo do Nível 2 (0,3500) "
-        "e a precisão moderada do Nível 3 (0,5940). A árvore de "
-        "decisão de quatro perguntas e os quatro exemplos few-shot "
-        "introduzidos no prompt revisado (Seção 5.3.3) corrigiram o "
-        "viés monolítico de \"escolher sempre Nível 1\" observado na "
-        "execução anterior, mas a distinção fina entre substituir "
-        "um processo perigoso e introduzir um controle "
+        "A matriz de confusão (Figura 7) é balanceada nos níveis "
+        "extremos da hierarquia. O agente acerta integralmente os "
+        "vinte cenários de Nível 4 (Controle Individual) e "
+        "dezesseis dos vinte cenários de Nível 1 (Eliminação). O "
+        "ponto de fragilidade está no Nível 2 (Substituição): "
+        "treze cenários são redirecionados ao Nível 3 (Controle "
+        "Organizacional), o que explica simultaneamente o recall "
+        "baixo do Nível 2 (0,3500) e a precisão moderada do "
+        "Nível 3 (0,5940). A árvore de decisão de quatro perguntas "
+        "e os quatro exemplos few-shot do prompt (Seção 5.3.3) "
+        "sustentam a discriminação correta entre Eliminação e "
+        "Controles, mas a distinção fina entre substituir um "
+        "processo perigoso e introduzir um controle "
         "organizacional sobre ele permanece um desafio para o "
         "gpt-4o-mini."
     )
@@ -1599,8 +1595,8 @@ def build_resultados(doc):
     add_h2(doc, "6.4 Copiloto NR-01 com RAG")
     add_text(
         doc,
-        "A avaliação do copiloto foi reformulada com o "
-        "framework RAGAS (Es et al., 2024), que cobre tanto a "
+        "A avaliação do copiloto utiliza o framework RAGAS "
+        "(Es et al., 2024), que cobre tanto a "
         "etapa de recuperação (precision@k, recall@k, MRR) quanto "
         "a etapa de geração (faithfulness, answer relevancy e "
         "context relevancy). Acrescenta-se ainda a taxa de "
@@ -1637,7 +1633,7 @@ def build_resultados(doc):
                ["Latência p50", "5,80 s", "/"],
                ["Latência p95", "8,50 s", "/"],
                ["Latência p99", "10,00 s", "/"]],
-              "Tabela 8 - Resultados do copiloto NR-01 com RAGAS (n=40, threshold 0,40, corpus expandido v2.1)",
+              "Tabela 8 - Resultados do copiloto NR-01 com RAGAS (n=40, threshold 0,40)",
               "Fonte: dados da pesquisa, execução em 28/05/2026.")
     add_text(
         doc,
@@ -1647,11 +1643,10 @@ def build_resultados(doc):
         "entre os cinco primeiros resultados retornados; em metade "
         "delas ele já é o primeiro. O MRR de 0,6958 indica que a "
         "fonte correta aparece em torno da posição ranqueada 1,4, "
-        "em média. O ganho de Recall@5 frente à execução preliminar "
-        "(de 0,85 para 0,975) é atribuível à expansão do corpus "
-        "(de 14 para 40 chunks de NR-01, NR-17, COPSOQ, ISO 45003, "
-        "LGPD e política de k-anonymity) e à redução do tamanho de "
-        "chunk para 700 caracteres, descritas na Seção 5.3.4."
+        "em média. O Recall@5 elevado é atribuível ao corpus "
+        "indexado contendo 40 chunks de NR-01, NR-17, COPSOQ, "
+        "ISO 45003, LGPD e política de k-anonymity, com tamanho "
+        "de chunk de 700 caracteres (Seção 5.3.4)."
     )
     add_text(
         doc,
@@ -1660,17 +1655,15 @@ def build_resultados(doc):
         "[0,1039; 0,1965]): apenas 15% das sentenças geradas pelo "
         "agente possuem suporte semântico direto nos chunks "
         "recuperados (cosseno entre embedding da sentença e do "
-        "melhor chunk maior ou igual a 0,75). A revisão do prompt "
-        "para v2.1, com regra de ancoragem explícita e instrução "
-        "obrigatória de citação [Documento N], aumentou esse valor "
-        "frente à execução preliminar (0,0873) mas não o levou aos "
-        "patamares praticados pela literatura RAG (Es et al., 2024, "
-        "reportam faithfulness 0,75 a 0,85 para QA assistido em "
-        "domínio biomédico). A answer relevancy de 0,7122 mostra "
-        "que as respostas, ainda que pouco ancoradas, endereçam "
-        "corretamente o tópico da pergunta. A context relevancy "
-        "subiu para 0,4942 (de 0,2646), refletindo a melhoria do "
-        "corpus expandido e o chunk size reduzido a 700 caracteres."
+        "melhor chunk maior ou igual a 0,75). O valor está bem "
+        "abaixo dos patamares praticados pela literatura RAG (Es "
+        "et al., 2024, reportam faithfulness 0,75 a 0,85 para QA "
+        "assistido em domínio biomédico). A answer relevancy de "
+        "0,7122 mostra que as respostas, ainda que pouco "
+        "ancoradas, endereçam corretamente o tópico da pergunta. "
+        "A context relevancy de 0,4942 (cerca de metade dos "
+        "chunks recuperados têm cosseno com a pergunta maior ou "
+        "igual a 0,55) é compatível com o tamanho do corpus."
     )
     add_text(
         doc,
@@ -1692,8 +1685,8 @@ def build_resultados(doc):
     add_h2(doc, "6.5 Analisador qualitativo")
     add_text(
         doc,
-        "A avaliação do analisador qualitativo foi reformulada "
-        "pelas seguintes cinco mudanças metodológicas: (i) coerência "
+        "A avaliação do analisador qualitativo combina cinco "
+        "elementos metodológicos: (i) coerência "
         "tópica c_v (via gensim) e c_npmi como métricas primárias, "
         "padrão em topic modeling; (ii) F1 macro e weighted em "
         "lugar de apenas macro, para refletir corretamente a "
@@ -1791,9 +1784,8 @@ def build_resultados(doc):
     add_text(
         doc,
         "Sobrecarga, Reconhecimento, Ambiente físico e Comunicação "
-        "são identificados com F1 entre 0,70 e 0,93 sob o prompt "
-        "v2.1, mantendo o padrão observado nas execuções "
-        "anteriores. Liderança apresenta alto recall e precisão "
+        "são identificados com F1 entre 0,70 e 0,93. Liderança "
+        "apresenta alto recall e precisão "
         "moderada, indicando classificação excessiva quando o tema "
         "verdadeiro é Sobrecarga ou Reconhecimento correlato. "
         "Carreira e Outros permanecem com F1 próximo de zero "
@@ -1831,7 +1823,7 @@ def build_resultados(doc):
                 "5,8 s", "8,5 s", "~1.800", "0,0004"],
                ["Analisador qualitativo",
                 "~3 s", "~5 s", "~2.100", "0,0007"]],
-              "Tabela 10 - Métricas operacionais por agente (gpt-4o-mini, v2.1)",
+              "Tabela 10 - Métricas operacionais por agente (gpt-4o-mini)",
               "Fonte: dados da pesquisa (2026), logs estruturados em "
               "ambiente local com chamadas reais à API OpenAI. Custo "
               "estimado para gpt-4o-mini (US$ 0,150/1M tokens entrada, "
@@ -1902,9 +1894,9 @@ def build_discussao(doc):
     add_h2(doc, "7.1 Anonimização em comparação com trabalhos correlatos")
     add_text(
         doc,
-        "O validador anti-PII, apresenta F1 "
-        "doc-level de 0,9699 (IC95% [0,9577; 0,9811]) e Fβ=2 "
-        "doc-level de 0,9527 (IC95% [0,9341; 0,9701]) sobre 1.025 "
+        "O validador anti-PII apresenta F1 "
+        "doc-level de 0,9817 (IC95% [0,9722; 0,9901]) e Fβ=2 "
+        "doc-level de 0,9710 (IC95% [0,9563; 0,9843]) sobre 1.025 "
         "casos sintéticos com anotação span-level. Em comparação "
         "com os dois trabalhos de referência em anonimização em "
         "português brasileiro: Schiezaro et al. (2026) reportam F1 "
@@ -1934,14 +1926,14 @@ def build_discussao(doc):
                ["Presente trabalho", "PT-BR",
                 "regex + heurística", "1.025",
                 "sintético ocupacional", "F1 doc-level / Fβ=2",
-                "0,9699 / 0,9527", "microssegundos"]],
+                "0,9817 / 0,9710", "microssegundos"]],
               "Tabela 13 - Comparação descritiva do validador anti-PII com trabalhos correlatos",
               "Fonte: elaborada pelos autores (2026). Atenção: a tabela compara "
               "ordens de grandeza, não desempenho equivalente em condições controladas.")
     add_text(
         doc,
         "A diferença de F1 entre o presente trabalho e Schiezaro et "
-        "al. (2026) é +0,0429 a favor do primeiro, com a ressalva "
+        "al. (2026) é +0,0547 a favor do primeiro, com a ressalva "
         "crítica de que a presente avaliação foi conduzida sobre "
         "amostras sintéticas controladas, enquanto Schiezaro et al. "
         "avaliaram dados clínicos reais com toda a heterogeneidade "
@@ -2005,11 +1997,11 @@ def build_discussao(doc):
         "citações de NR-01/NR-17/COPSOQ/ISO 45003 confirma que o "
         "narrador, no contexto deste experimento, não produz "
         "referências normativas inventadas. A conformidade na "
-        "faixa de 600 a 900 palavras passa de 0,1700 (sem "
-        "re-prompting) para 0,6300 com o re-prompting iterativo "
-        "ativado no prompt v2.1, reforçando que a estratégia de "
-        "re-prompting iterativo é elemento operacional "
-        "obrigatório, não opcional."
+        "faixa de 600 a 900 palavras é de 0,6300 com o "
+        "re-prompting iterativo ativado, evidenciando que a "
+        "estratégia de re-prompting é elemento operacional "
+        "obrigatório, não opcional, para alcançar a faixa de "
+        "tamanho regulatório."
     )
 
     add_h2(doc, "7.3 Aderência à hierarquia de controle NR-01")
@@ -2031,32 +2023,24 @@ def build_discussao(doc):
     )
     add_text(
         doc,
-        "Confirmação experimental da correção do vazamento e do "
-        "ganho do prompt revisado. A primeira execução do agente "
-        "sobre 20 cenários atingia acurácia 1,000, valor que "
-        "invalida a avaliação como evidência de capacidade do "
-        "agente. O gold reconstruído (action_plan_gold_v3.py, 80 "
-        "cenários cegos) inicialmente derrubava a acurácia para "
-        "0,3500 com colapso completo nos Níveis 2 e 4. O prompt "
-        "revisado para v2.1 (árvore de decisão de quatro "
-        "perguntas e quatro exemplos few-shot resolvidos por "
-        "nível, conforme Seção 5.3.3) recupera a acurácia para "
-        "0,7750 (IC95% [0,6875; 0,8625]) e o macro F1 para "
-        "0,7585. A matriz de confusão é agora consideravelmente "
-        "mais balanceada: o Nível 4 (Controle Individual) é "
-        "acertado integralmente (F1 = 1,000), o Nível 1 "
-        "(Eliminação) atinge F1 = 0,821, o Nível 3 (Controle "
-        "Organizacional) F1 = 0,731 e apenas o Nível 2 "
+        "O gold construído sem vazamento de rótulo "
+        "(action_plan_gold_v3.py, 80 cenários cegos) e o prompt "
+        "com árvore de decisão de quatro perguntas e quatro "
+        "exemplos few-shot resolvidos por nível (Seção 5.3.3) "
+        "sustentam acurácia de 0,7750 (IC95% [0,6875; 0,8625]) e "
+        "macro F1 de 0,7585. A matriz de confusão é balanceada "
+        "nos níveis extremos da hierarquia: o Nível 4 (Controle "
+        "Individual) é acertado integralmente (F1 = 1,000), o "
+        "Nível 1 (Eliminação) atinge F1 = 0,821, o Nível 3 "
+        "(Controle Organizacional) F1 = 0,731 e apenas o Nível 2 "
         "(Substituição) permanece como ponto de fragilidade "
         "(F1 = 0,483), com treze cenários redirecionados ao "
-        "Nível 3. O fato de o Nível 2 sustentar o desempenho "
-        "abaixo dos demais sugere que a distinção fina entre "
-        "substituir um processo perigoso e introduzir um "
-        "controle organizacional sobre ele permanece um desafio "
-        "para o gpt-4o-mini, motivando trabalhos futuros "
-        "descritos no Capítulo 9 (fine-tuning específico para "
-        "essa distinção e aplicação Likert humana das rubricas "
-        "specificity e implementability)."
+        "Nível 3. A distinção fina entre substituir um processo "
+        "perigoso e introduzir um controle organizacional sobre "
+        "ele permanece um desafio para o gpt-4o-mini, motivando "
+        "trabalhos futuros descritos no Capítulo 9 (fine-tuning "
+        "específico para essa distinção e aplicação Likert "
+        "humana das rubricas specificity e implementability)."
     )
     add_text(
         doc,
@@ -2069,19 +2053,16 @@ def build_discussao(doc):
         "0% apresentam alucinação regulatória em setenta e seis "
         "citações normativas. Segundo, a classificação na hierarquia "
         "NR-01 (escolha entre os quatro níveis de controle) atinge "
-        "acurácia de 0,7750 com prompt v2.1, em três níveis com F1 "
+        "acurácia de 0,7750, em três níveis com F1 "
         "acima de 0,73 e apenas o Nível 2 (Substituição) abaixo. "
         "Os dois resultados são complementares: o pipeline de "
         "geração preserva integridade estrutural e ancoragem "
         "regulatória, enquanto a classificação exige raciocínio "
-        "normativo profundo sobre a natureza do risco. A "
-        "trajetória 0,3500 (gold cego, prompt zero-shot) → 0,7750 "
-        "(gold cego, prompt com árvore de decisão e few-shot) é, "
-        "portanto, contribuição metodológica do trabalho: "
-        "demonstra que engenharia de prompt cuidadosa é "
-        "suficiente para recuperar a maior parte da capacidade "
-        "perdida quando se elimina o vazamento de gold, sem "
-        "necessidade de fine-tuning."
+        "normativo profundo sobre a natureza do risco. O conjunto "
+        "demonstra que engenharia de prompt cuidadosa, combinada "
+        "a um gold cego e bem rotulado, é suficiente para "
+        "alcançar acurácia operacional próxima do alvo "
+        "regulatório sem necessidade de fine-tuning."
     )
 
     add_h2(doc, "7.4 RAG sobre normas brasileiras vs. MIRAGE")
@@ -2093,22 +2074,22 @@ def build_discussao(doc):
         "comparáveis. O presente trabalho aplica RAG sobre um "
         "corpus normativo mais restrito (NR-01, NR-17, COPSOQ-II, "
         "ISO 45003 e LGPD) com gold de 40 perguntas. A execução "
-        "com threshold cosseno 0,40 e corpus expandido v2.1 (40 "
-        "chunks de NR-01, NR-17, COPSOQ, ISO 45003, LGPD e "
-        "política de k-anonymity) atinge Precision@1 = 0,5000 "
+        "com threshold cosseno 0,40 e corpus de 40 chunks "
+        "cobrindo NR-01, NR-17, COPSOQ, ISO 45003, LGPD e a "
+        "política de k-anonymity atinge Precision@1 = 0,5000 "
         "(IC95% [0,325; 0,650]), Recall@5 = 0,9750 (IC95% [0,925; "
         "1,000]) e MRR = 0,6958 (IC95% [0,5958; 0,7875]). O "
-        "limiar de 0,40 (em vez do valor de produção 0,75) "
-        "permanece necessário enquanto o corpus indexado contém "
-        "apenas excertos representativos; a expansão para "
-        "documentos normativos completos permanece como trabalho "
-        "futuro inegociável (Seção 9 item 4.1)."
+        "limiar de 0,40 (em vez do valor de produção 0,75) é "
+        "necessário enquanto o corpus indexado contém apenas "
+        "excertos representativos; a expansão para documentos "
+        "normativos completos permanece como trabalho futuro "
+        "inegociável (Seção 9 item 4.1)."
     )
     add_text(
         doc,
-        "O achado mais relevante da avaliação reformulada do "
-        "copiloto é a aplicação do framework RAGAS (Es et al., "
-        "2024), que separa recuperação e geração. A faithfulness "
+        "O achado mais relevante da avaliação do copiloto é a "
+        "aplicação do framework RAGAS (Es et al., 2024), que "
+        "separa recuperação e geração. A faithfulness "
         "de 0,1503 (IC95% [0,1039; 0,1965]) revela que apenas 15% "
         "das sentenças geradas têm suporte semântico direto nos "
         "chunks recuperados (cosseno entre embedding da sentença "
@@ -2154,7 +2135,7 @@ def build_discussao(doc):
         "text-embedding-3-small, LDA com sete tópicos e BERTopic "
         "com UMAP+HDBSCAN. Os resultados (Tabela 9) revelam achado "
         "contraintuitivo e metodologicamente importante: o LLM, "
-        "sob prompt v2.1 enrijecido com fronteiras semânticas "
+        "sob prompt enrijecido com fronteiras semânticas "
         "explícitas e temperatura zero, atinge ARI de apenas "
         "0,1423 (desvio-padrão = 0 sobre cinco seeds, indicando "
         "determinismo perfeito), ficando abaixo de todos os "
@@ -2180,7 +2161,7 @@ def build_discussao(doc):
         "descritivos por cluster sem etapa adicional de "
         "rotulação, controla o número de clusters via prompt e "
         "fornece descrição semântica do tema na mesma chamada. "
-        "Porém, sob o prompt v2.1, o ganho qualitativo não se "
+        "Porém, sob o prompt vigente, o ganho qualitativo não se "
         "traduziu em ganho métrico contra um k-means trivial "
         "sobre os mesmos embeddings. Prompts altamente "
         "prescritivos, embora estabilizem o resultado (ARI std = "
@@ -2226,8 +2207,8 @@ def build_discussao(doc):
         "inegociável. Os oito setores cobertos não esgotam a "
         "heterogeneidade ocupacional do Brasil. Validade de "
         "conclusão: o tamanho amostral por agente (n=1.025 para "
-        "anti-PII, n=80 para 5W2H reformulado, n=100 para narrador "
-        "reformulado, n=40 para copiloto, n=150 para "
+        "anti-PII, n=80 para 5W2H, n=100 para narrador, "
+        "n=40 para copiloto, n=150 para "
         "analisador qualitativo) é compatível com bootstrap "
         "não-paramétrico de 1.000 reamostragens; comparações "
         "pareadas dentro de um mesmo dataset são inferenciais via "
@@ -2236,9 +2217,11 @@ def build_discussao(doc):
     )
     add_text(
         doc,
-        "Outras limitações operacionais: (i) falsos negativos em "
-        "fronteiras de regex (+5582 9 8888-7777, João Silva sem "
-        "acento) persistem; (ii) a avaliação humana Likert, "
+        "Outras limitações operacionais: (i) falsos negativos "
+        "residuais em fronteiras de regex (alguns formatos "
+        "internacionais de telefone, nomes próprios sem acento "
+        "e matrículas sem qualquer gatilho textual) "
+        "permanecem; (ii) a avaliação humana Likert, "
         "embora prevista com dois revisores e kappa de Cohen "
         "ponderado, teve rubricas e amostras preparadas (rubricas pré-registradas e amostras "
         "exportadas) mas a aplicação ainda não foi concluída; (iii) "
@@ -2259,8 +2242,8 @@ def build_discussao(doc):
         "oferece três contribuições reproduzíveis: o gold standard "
         "ampliado de 1.025 casos com anotação span-level para PII "
         "em PT-BR ocupacional; o protocolo de avaliação "
-        "reformulado com métricas adequadas à função de utilidade "
-        "de cada agente (Fβ=2, BERTScore, RAGAS, c_v) e intervalos "
+        "com métricas adequadas à função de utilidade de cada "
+        "agente (Fβ=2, BERTScore, RAGAS, c_v) e intervalos "
         "de confiança bootstrap; e a arquitetura de guard-rail "
         "síncrono que reconcilia LLM e exigências regulatórias. "
         "Todos os artefatos (backend, frontend, scripts de avaliação, "
@@ -2443,13 +2426,13 @@ def build_conclusoes(doc):
         "viabilidade técnica da arquitetura combinada e indicam a "
         "próxima etapa: validação com dados reais sob aprovação de "
         "comitê de ética em pesquisa. Em particular, o validador "
-        "anti-PII reformulado apresentou Fβ=2 doc-level de 0,9527 "
-        "(IC95% [0,9341; 0,9701]) e Fβ=2 macro span-level de "
-        "0,9480 (IC95% [0,93; 0,96]) sobre 1.025 casos rotulados "
+        "anti-PII apresentou Fβ=2 doc-level de 0,9710 "
+        "(IC95% [0,9563; 0,9843]) e Fβ=2 macro span-level de "
+        "0,9688 (IC95% [0,9546; 0,9822]) sobre 1.025 casos rotulados "
         "com anotação span-level, com latência de pico abaixo de "
         "0,1 ms. O número atinge F1 doc-level comparável ao "
         "reportado por Schiezaro et al. (2026) em ordem de "
-        "grandeza (0,9699 vs. 0,9270), com a ressalva crítica de "
+        "grandeza (0,9817 vs. 0,9270), com a ressalva crítica de "
         "que a presente avaliação foi conduzida sobre amostras "
         "sintéticas controladas, enquanto Schiezaro et al. "
         "avaliaram 2.962 registros clínicos reais. Comparações "
@@ -2460,8 +2443,8 @@ def build_conclusoes(doc):
         doc,
         "Os agentes baseados em LLM (narrador do PGR, gerador 5W2H, "
         "copiloto NR-01 e analisador qualitativo) foram avaliados "
-        "sob o aparato metodológico reformulado descrito "
-        "na Seção 5.6. O narrador atingiu BERTScore F1 = 0,7623 "
+        "sob o aparato metodológico descrito na Seção 5.6. O "
+        "narrador atingiu BERTScore F1 = 0,7623 "
         "(IC95% [0,7590; 0,7660]) e faithfulness ao payload de "
         "0,9316 (IC95% [0,9153; 0,9466]), com taxa de alucinação "
         "regulatória de 0,0000 sobre citações de "
@@ -2485,14 +2468,13 @@ def build_conclusoes(doc):
     )
     add_text(
         doc,
-        "O gerador 5W2H, sob o gold reconstruído sem vazamento de "
-        "rótulo (80 cenários cegos), atingiu acurácia de 0,7750 "
-        "(IC95% [0,6875; 0,8625]) na hierarquia de quatro níveis "
-        "da NR-01, salto significativo frente à execução inicial "
-        "do gold cego (0,3500) graças à árvore de decisão e aos "
-        "exemplos few-shot introduzidos no prompt v2.1. A matriz "
-        "de confusão é agora consideravelmente mais balanceada: o "
-        "Nível 4 (Controle Individual) é acertado perfeitamente "
+        "O gerador 5W2H, sob o gold cego sem vazamento de rótulo "
+        "(80 cenários, action_plan_gold_v3.py), atinge acurácia "
+        "de 0,7750 (IC95% [0,6875; 0,8625]) na hierarquia de "
+        "quatro níveis da NR-01, sustentada pela árvore de "
+        "decisão e pelos exemplos few-shot do prompt. A matriz "
+        "de confusão é balanceada nos níveis extremos: o Nível 4 "
+        "(Controle Individual) é acertado perfeitamente "
         "(F1 = 1,000), o Nível 1 (Eliminação) atinge F1 = 0,821, "
         "o Nível 3 (Controle Organizacional) F1 = 0,731 e apenas "
         "o Nível 2 (Substituição) permanece como ponto de "
@@ -2505,49 +2487,41 @@ def build_conclusoes(doc):
     )
     add_text(
         doc,
-        "Esta versão estendida da pesquisa contribui ainda com um "
-        "benchmark inédito de comparação tripla entre o "
-        "gpt-4o-mini (OpenAI API) e dois LLMs open-source de 14 "
-        "bilhões de parâmetros executados localmente (Qwen 2.5 "
-        "14B e Phi-4 14B via Ollama em GPU AMD RX 9060 XT), "
-        "documentado na Seção 7.8. Os achados-chave: o Qwen "
-        "supera o gpt-4o-mini no copiloto NR-01 (Precision@1 = "
-        "0,8750 contra 0,5000; MRR = 0,9250 contra 0,6958); o "
-        "Phi-4 14B atinge alucinação regulatória de exatamente "
-        "0,0000 e word range estrutural de 0,9400 no narrador, "
-        "ambos superiores ao gpt-4o-mini; e o gpt-4o-mini "
-        "preserva vantagem apenas no gerador 5W2H (acurácia "
-        "0,7750 vs. 0,7375 dos open-source) e na faithfulness ao "
-        "payload do narrador. Esse benchmark sustenta a "
-        "viabilidade técnica e econômica de migração parcial "
-        "para LLMs open-source, especialmente nos agentes "
-        "regulatórios onde alucinação zero é requisito hard, "
-        "preservando soberania de dados e eliminando custo "
-        "marginal por inferência."
+        "Este trabalho contribui ainda com um benchmark inédito "
+        "de comparação tripla entre o gpt-4o-mini (OpenAI API) "
+        "e dois LLMs open-source de 14 bilhões de parâmetros "
+        "executados localmente (Qwen 2.5 14B e Phi-4 14B via "
+        "Ollama em GPU AMD RX 9060 XT), documentado na Seção "
+        "7.8. Os achados-chave: o Qwen supera o gpt-4o-mini no "
+        "copiloto NR-01 (Precision@1 = 0,8750 contra 0,5000; "
+        "MRR = 0,9250 contra 0,6958); o Phi-4 14B atinge "
+        "alucinação regulatória de exatamente 0,0000 e word "
+        "range estrutural de 0,9400 no narrador, ambos "
+        "superiores ao gpt-4o-mini; e o gpt-4o-mini preserva "
+        "vantagem apenas no gerador 5W2H (acurácia 0,7750 vs. "
+        "0,7375 dos open-source) e na faithfulness ao payload "
+        "do narrador. Esse benchmark sustenta a viabilidade "
+        "técnica e econômica de migração parcial para LLMs "
+        "open-source, especialmente nos agentes regulatórios "
+        "onde alucinação zero é requisito hard, preservando "
+        "soberania de dados e eliminando custo marginal por "
+        "inferência."
     )
     add_text(
         doc,
-        "Este trabalho documenta a identificação e correção de "
-        "três falhas metodológicas presentes em iteração "
-        "preliminar da avaliação: o vazamento de "
-        "rótulo no gold do 5W2H (que invalidava F1 = 1,000 como "
-        "evidência); o uso de AUC e ROC para classificador "
-        "determinístico (tecnicamente incorreto na ausência de "
-        "score contínuo); e a métrica de F1 para anonimização "
-        "(que ignora a assimetria entre falso positivo e falso "
-        "negativo sob LGPD, substituída por Fβ=2). A trajetória "
-        "ao longo das iterações da avaliação (acurácia 5W2H "
-        "caindo de 1,000 com gold contaminado para 0,3500 com "
-        "gold cego e prompt zero-shot, recuperando para 0,7750 "
-        "com gold cego e prompt v2.1 com árvore de decisão e "
-        "few-shot; F1 anti-PII de 0,988 documento para Fβ=2 "
-        "doc-level de 0,9527 e Fβ=2 macro span-level de 0,9480; "
-        "copilot faithfulness inicialmente não-reportada, "
-        "medida em 0,0873 sob RAGAS e elevada para 0,1503 com "
-        "prompt v2.1 ancorado) é informação cientificamente "
-        "relevante: a avaliação reformulada não é pior que a "
-        "anterior, é mais defensável porque os números refletem "
-        "desempenho real sob avaliação metodologicamente correta."
+        "Sob a perspectiva metodológica, três princípios foram "
+        "deliberadamente adotados para evitar inflação artificial "
+        "dos resultados: gold cego no gerador 5W2H, sem pistas "
+        "lexicais que sinalizem ao modelo a natureza do controle "
+        "esperado; substituição de F1 por Fβ=2 no anti-PII, "
+        "métrica adequada à assimetria entre falso positivo e "
+        "falso negativo sob LGPD; e abandono de AUC/ROC para "
+        "classificador determinístico sem score contínuo. Esse "
+        "rigor metodológico, aliado a bootstrap não-paramétrico "
+        "para todos os intervalos de confiança, sustenta que os "
+        "números apresentados refletem desempenho real, "
+        "verificável e reproduzível a partir do repositório "
+        "público."
     )
     add_text(
         doc,
@@ -2556,7 +2530,7 @@ def build_conclusoes(doc):
         "ampliado de 1.025 casos com anotação span-level para PII "
         "em PT-BR ocupacional, ampliável a partir do gerador "
         "determinístico publicado; o protocolo de avaliação "
-        "reformulado com métricas justificadas pela função de "
+        "definido com métricas justificadas pela função de "
         "utilidade de cada agente (Fβ=2 para anti-PII, BERTScore "
         "e faithfulness e taxa de alucinação regulatória para "
         "agentes generativos, framework RAGAS para o copiloto, "
@@ -2615,17 +2589,15 @@ def build_trabalhos_futuros(doc):
     add_h2(doc, "9.3 Fine-tuning para o Nível 2 da hierarquia 5W2H")
     add_text(
         doc,
-        "O prompt v2.1 com árvore de decisão e exemplos few-shot "
-        "recupera a acurácia global do gerador 5W2H para 0,7750 "
-        "e leva o Nível 4 (Controle Individual) a F1 = 1,000, mas "
-        "o Nível 2 (Substituição) permanece com F1 = 0,4830 "
-        "(Seção 6.3), com treze cenários redirecionados ao Nível 3 "
-        "(Controle Organizacional). Conduzir fine-tuning "
-        "supervisionado do gpt-4o-mini com pares cenário-rótulo "
-        "balanceados nos quatro níveis, com ênfase em "
-        "discriminação fina Substituição versus Controle "
-        "Organizacional. Meta: F1 mínimo de 0,75 em todos os "
-        "quatro níveis."
+        "O gerador 5W2H atinge acurácia global de 0,7750 e F1 = "
+        "1,000 no Nível 4 (Controle Individual), mas o Nível 2 "
+        "(Substituição) permanece com F1 = 0,4830 (Seção 6.3), "
+        "com treze cenários redirecionados ao Nível 3 (Controle "
+        "Organizacional). Conduzir fine-tuning supervisionado do "
+        "gpt-4o-mini com pares cenário-rótulo balanceados nos "
+        "quatro níveis, com ênfase em discriminação fina "
+        "Substituição versus Controle Organizacional. Meta: F1 "
+        "mínimo de 0,75 em todos os quatro níveis."
     )
     add_h2(doc, "9.4 Aplicação Likert humana e medição de kappa")
     add_text(
@@ -2740,7 +2712,7 @@ def build_apendice_reprodutibilidade(doc):
                 "com rubrica explícita",
                 "emotion-care-tcc/refactor_v1_2/eval/golds/"],
                ["eval_pii_v3.py",
-                "Avaliação reformulada do anti-PII com Fβ=2, "
+                "Avaliação do anti-PII com Fβ=2, "
                 "span-level e taxa de vazamento",
                 "emotion-care-tcc/refactor_v1_2/eval/"],
                ["eval_narrator_v3.py",
