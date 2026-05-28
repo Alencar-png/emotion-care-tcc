@@ -38,6 +38,11 @@ REGRAS:
 6. NUNCA invente respostas ou números. Use apenas o que foi fornecido.
 7. Se houver respostas fora do tema ou sem conteúdo relevante, agrupe-as em "Outros".
 
+REGRAS ANTI-COLAPSO (OBRIGATÓRIAS):
+a) Se DUAS OU MAIS respostas mencionarem "promoção", "crescer", "carreira", "futuro" ou "desenvolvimento profissional", você DEVE criar um cluster próprio chamado "Carreira" e NÃO fundi-lo com "Reconhecimento" ou "Liderança". Carreira é sobre FUTURO PROFISSIONAL E POSSIBILIDADES; Reconhecimento é sobre PASSADO/PRESENTE (esforço atual); Liderança é sobre COMPORTAMENTO do superior.
+b) "Outros" é um cluster legítimo e esperado. Crie-o sempre que tiver respostas que não cabem nos temas listados (instalações afastadas dos itens listados, salário, benefícios não-monetários específicos, comentários soltos sobre clima). NÃO force essas respostas em outros temas.
+c) Você DEVE produzir entre 5 e 7 clusters em datasets com mais de 100 respostas. Menos do que 5 clusters em datasets grandes é sinal de colapso e deve ser evitado.
+
 FRONTEIRAS SEMÂNTICAS (CRÍTICO PARA EVITAR COLAPSO DE TEMAS):
 
 Os seguintes temas devem ser distinguidos com critérios PRÓPRIOS, sem fundir entre si:

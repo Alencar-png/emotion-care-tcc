@@ -54,7 +54,10 @@ REGRAS OBRIGATORIAS:
       SE NÃO => pergunta 2.
 
     PERGUNTA 2: A fonte cumpre função operacional necessária MAS pode ser substituída por processo equivalente menos danoso?
-      Exemplos: produção empurrada -> puxada (kanban); avaliação anual única -> feedback contínuo; multitarefa forçada -> foco serial; ranking público diário -> feedback individual privado; ciclo de recrutamento concentrado -> fluxo contínuo distribuído.
+      DEFINIÇÃO ESSENCIAL: a função é INDISPENSÁVEL, mas o MÉTODO/FORMATO atual é trocável por outro. Avaliar desempenho é função; "avaliação anual única" é o MÉTODO substituível por feedback contínuo. Comunicar metas é função; "ranking público" é o MÉTODO substituível por feedback privado.
+      CONTRASTE COM NÍVEL 1: se a prática toda pudesse ser SIMPLESMENTE REMOVIDA sem comprometer a operação => Nível 1. Se a prática NÃO pode sumir mas seu FORMATO ATUAL pode ser trocado por outro menos danoso => Nível 2.
+      CONTRASTE COM NÍVEL 3: se a fragilidade está na CULTURA, na ORGANIZAÇÃO ou na CAPACITAÇÃO de gestores (e NÃO em um processo específico que pode ser literalmente trocado por outro processo) => Nível 3.
+      EXEMPLOS DE NÍVEL 2: produção empurrada -> puxada (kanban); avaliação anual única -> feedback contínuo; multitarefa forçada -> foco serial; ranking público diário -> feedback individual privado; ciclo de recrutamento concentrado -> fluxo contínuo distribuído; reunião diária presencial obrigatória -> stand-up assíncrono; e-mail como canal primário -> ferramenta de mensagem com horário definido; turnos 12x36 -> turnos 6x1 com folga rotativa; controle por horas trabalhadas -> controle por entregas.
       SE SIM => Nível 2 (Substituição). FIM.
       SE NÃO => pergunta 3.
 
@@ -78,7 +81,17 @@ EXEMPLOS RESOLVIDOS (FEW-SHOT) — use como referência para o raciocínio class
 
   Exemplo B (Nível 2 - Substituição):
     Risco: Demandas Cognitivas no setor Administrativo; descrição menciona avaliação anual única como mecanismo formal de feedback.
-    Análise: avaliar desempenho é função necessária; o formato atual (anual única) é substituível por feedback contínuo estruturado.
+    Análise: avaliar desempenho é função necessária; o formato atual (anual única) é substituível por feedback contínuo estruturado. Não é Nível 1 porque a função avaliação não pode sumir; não é Nível 3 porque a intervenção é trocar UM processo específico, não redesenhar cultura.
+    nivel_hierarquia => "2-Substituição".
+
+  Exemplo B' (Nível 2 - Substituição, contrastando com Nível 1):
+    Risco: Ritmo de Trabalho elevado no setor de Operações; descrição menciona produção empurrada (push) com filas crescentes entre estações.
+    Análise: produzir é função necessária (não pode ser eliminada como em Nível 1); o método "produção empurrada" é substituível por "produção puxada" (kanban) com ganho de previsibilidade e redução de carga. A substituição troca um processo por outro processo equivalente menos danoso. Não é Nível 3 porque o redesenho é técnico e localizado, não cultural.
+    nivel_hierarquia => "2-Substituição".
+
+  Exemplo B'' (Nível 2 - Substituição, contrastando com Nível 3):
+    Risco: Conflito de Papel no setor Comercial; descrição menciona uso de e-mail como canal único, gerando ambiguidade em prioridades.
+    Análise: comunicar prioridades é função necessária; o método "e-mail livre" é substituível por "ferramenta de tarefas com SLAs e ownership explícito". Não é Nível 3 porque NÃO se trata de capacitar gestores ou rever cultura, mas de TROCAR o canal/processo de comunicação por outro mais estruturado.
     nivel_hierarquia => "2-Substituição".
 
   Exemplo C (Nível 3 - Controle Organizacional):

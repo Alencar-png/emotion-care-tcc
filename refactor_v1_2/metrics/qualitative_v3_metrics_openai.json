@@ -1,36 +1,36 @@
 {
   "agent": "qualitative_analyzer",
-  "version": "v3_2026-05_v21_openai",
+  "version": "v3_2026-05_v22_openai",
   "n_responses": 150,
   "n_themes": 7,
   "n_seeds": 5,
   "llm_stability": {
-    "ari_mean": 0.1423,
-    "ari_std": 0.0,
-    "nmi_mean": 0.3769,
-    "nmi_std": 0.0,
-    "cv_mean": 0.3565,
-    "cv_std": 0.0,
-    "macro_f1_mean": 0.3954,
-    "macro_f1_std": 0.0,
-    "weighted_f1_mean": 0.3955,
-    "weighted_f1_std": 0.0
+    "ari_mean": 0.1498,
+    "ari_std": 0.0069,
+    "nmi_mean": 0.3599,
+    "nmi_std": 0.0155,
+    "cv_mean": 0.4724,
+    "cv_std": 0.1057,
+    "macro_f1_mean": 0.3649,
+    "macro_f1_std": 0.012,
+    "weighted_f1_mean": 0.3662,
+    "weighted_f1_std": 0.012
   },
   "llm_ari_ci": {
-    "point": 0.1423,
-    "lo": 0.1003,
-    "hi": 0.211
+    "point": 0.1549,
+    "lo": 0.1223,
+    "hi": 0.2314
   },
   "llm_last_run_full": {
-    "ari": 0.1423,
-    "nmi": 0.3769,
+    "ari": 0.1549,
+    "nmi": 0.3485,
     "homogeneity": 0.32,
     "completeness": 0.45,
-    "v_measure": 0.3769,
-    "macro_f1": 0.3954,
-    "weighted_f1": 0.3955,
-    "c_v": 0.3565,
-    "c_npmi": 0.04
+    "v_measure": 0.3485,
+    "macro_f1": 0.3649,
+    "weighted_f1": 0.3662,
+    "c_v": 0.5496,
+    "c_npmi": 0.05
   },
   "baselines": {
     "kmeans": {
@@ -48,9 +48,9 @@
       "weighted_f1": 0.3007
     },
     "bertopic": {
-      "ari": 0.1969,
-      "nmi": 0.4444,
-      "c_v": 0.2958,
+      "ari": 0.1133,
+      "nmi": 0.4139,
+      "c_v": 0.3552,
       "macro_f1": 0.3999,
       "weighted_f1": 0.4012
     }

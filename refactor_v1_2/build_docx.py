@@ -22,7 +22,7 @@ from docx.shared import Cm, Pt
 
 ROOT = Path(__file__).resolve().parent
 PARENT = ROOT.parent
-OUT = PARENT / "TCC - MF e G - v2.3.docx"
+OUT = PARENT / "TCC - MF e G - v2.4.docx"
 FIG = ROOT / "figures"
 
 
@@ -1520,19 +1520,19 @@ def build_resultados(doc):
     )
     add_table(doc,
               ["Métrica", "Valor", "IC 95%"],
-              [["Acurácia 4 níveis (primária)", "0,7750", "[0,6875; 0,8625]"],
-               ["Macro F1 (4 níveis)", "0,7585", "/"],
-               ["Macro precisão", "0,8040", "/"],
-               ["Macro recall", "0,7750", "/"],
-               ["Taxa de aderência andragógica (Knowles)", "0,9125",
-                "73/80 planos"],
+              [["Acurácia 4 níveis (primária)", "0,7875", "[0,7000; 0,8750]"],
+               ["Macro F1 (4 níveis)", "0,7828", "/"],
+               ["Macro precisão", "0,7993", "/"],
+               ["Macro recall", "0,7875", "/"],
+               ["Taxa de aderência andragógica (Knowles)", "0,9250",
+                "74/80 planos"],
                ["Taxa de alucinação regulatória", "0,0000",
                 "76 citações válidas / 76"],
-               ["Type-Token Ratio (diversidade de ações)", "0,0994", "/"],
+               ["Type-Token Ratio (diversidade de ações)", "0,0927", "/"],
                ["Entropia Shannon normalizada", "1,0000", "/"],
-               ["Latência p50", "9,53 s", "/"],
-               ["Latência p95", "18,59 s", "/"],
-               ["Latência p99", "21,28 s", "/"]],
+               ["Latência p50", "7,09 s", "/"],
+               ["Latência p95", "12,61 s", "/"],
+               ["Latência p99", "15,08 s", "/"]],
               "Tabela 7 - Resultados do gerador 5W2H (gold v3, n=80, descrição cega)",
               "Fonte: dados da pesquisa, execução em 28/05/2026.")
     add_figure(doc, FIG / "action_plan_confusion.png",
@@ -1546,40 +1546,37 @@ def build_resultados(doc):
     add_table(doc,
               ["Nível NR-01", "Precisão", "Recall", "F1", "Suporte",
                "Observação"],
-              [["1-Eliminação", "0,8420", "0,8000", "0,8210", "20",
-                "Equilíbrio precisão-recall"],
-               ["2-Substituição", "0,7780", "0,3500", "0,4830", "20",
-                "Recall ainda limitado pelo confundimento "
-                "com nível 1"],
-               ["3-Controle Organizacional", "0,5940", "0,9500",
-                "0,7310", "20", "Recall alto às custas da precisão"],
-               ["4-Controle Individual", "1,0000", "1,0000",
-                "1,0000", "20", "Acerto perfeito (gold sintático "
-                "+ few-shot)"]],
+              [["1-Eliminação", "0,9290", "0,6500", "0,7650", "20",
+                "Precisão alta, recall moderado"],
+               ["2-Substituição", "0,6670", "0,6000", "0,6320", "20",
+                "Recall recuperado com exemplos few-shot "
+                "contrastando Nível 1 versus Nível 2"],
+               ["3-Controle Organizacional", "0,6920", "0,9000",
+                "0,7830", "20", "Recall alto, precisão moderada"],
+               ["4-Controle Individual", "0,9090", "1,0000",
+                "0,9520", "20", "Acerto quase perfeito"]],
               "Tabela 7b - Métricas por nível NR-01 (gold v3, n=80)",
               "Fonte: dados da pesquisa (2026).")
     add_text(
         doc,
-        "A matriz de confusão (Figura 7) é balanceada nos níveis "
-        "extremos da hierarquia. O agente acerta integralmente os "
-        "vinte cenários de Nível 4 (Controle Individual) e "
-        "dezesseis dos vinte cenários de Nível 1 (Eliminação). O "
-        "ponto de fragilidade está no Nível 2 (Substituição): "
-        "treze cenários são redirecionados ao Nível 3 (Controle "
-        "Organizacional), o que explica simultaneamente o recall "
-        "baixo do Nível 2 (0,3500) e a precisão moderada do "
-        "Nível 3 (0,5940). A árvore de decisão de quatro perguntas "
-        "e os quatro exemplos few-shot do prompt (Seção 5.3.3) "
-        "sustentam a discriminação correta entre Eliminação e "
-        "Controles, mas a distinção fina entre substituir um "
-        "processo perigoso e introduzir um controle "
-        "organizacional sobre ele permanece um desafio para o "
-        "gpt-4o-mini."
+        "A matriz de confusão (Figura 7) é equilibrada entre os "
+        "quatro níveis. O agente acerta vinte dos vinte cenários "
+        "de Nível 4 (Controle Individual), treze dos vinte de "
+        "Nível 1 (Eliminação), doze dos vinte de Nível 2 "
+        "(Substituição) e dezoito dos vinte de Nível 3 (Controle "
+        "Organizacional). A árvore de decisão de quatro perguntas, "
+        "as definições essenciais por nível e os seis exemplos "
+        "few-shot do prompt (Seção 5.3.3), incluindo três casos "
+        "contrastando explicitamente Nível 1 versus Nível 2 e "
+        "Nível 2 versus Nível 3, sustentam recall de 0,6000 no "
+        "Nível 2, valor consideravelmente mais alto do que o "
+        "patamar de 0,3500 característico de prompts sem "
+        "contraste explícito entre os níveis adjacentes."
     )
     add_text(
         doc,
         "Outras métricas do agente preservam comportamento "
-        "satisfatório. A aderência andragógica é de 0,9125, com 73 "
+        "satisfatório. A aderência andragógica é de 0,9250, com 74 "
         "dos 80 planos referenciando explicitamente ao menos um "
         "dos cinco princípios de Knowles (autonomia, experiência "
         "prévia, prontidão, orientação para aplicação, motivação "
@@ -1589,8 +1586,8 @@ def build_resultados(doc):
         "validadas contra a base curada NR-01/NR-17/COPSOQ/ISO 45003. "
         "A diversidade de ações (entropia normalizada 1,0000) "
         "confirma que cada plano é único, sem mode collapse "
-        "lexical. A latência mediana de 9,5 segundos cresce para "
-        "18,6 segundos no p95 quando o cenário envolve múltiplos "
+        "lexical. A latência mediana de 7,1 segundos cresce para "
+        "12,6 segundos no p95 quando o cenário envolve múltiplos "
         "riscos, dentro do envelope aceitável para uso assíncrono. "
         "A próxima etapa de avaliação inclui aplicação "
         "Likert humana das rubricas specificity e implementability "
@@ -1717,11 +1714,11 @@ def build_resultados(doc):
               ["Método", "ARI", "NMI", "c_v", "macro F1",
                "weighted F1"],
               [["LLM (média 5 seeds, temp=0)",
-                "0,1423 ± 0,000",
-                "0,3769 ± 0,000",
-                "0,3565 ± 0,000",
-                "0,3954 ± 0,000",
-                "0,3955 ± 0,000"],
+                "0,1498 ± 0,0069",
+                "0,3599 ± 0,0155",
+                "0,4724 ± 0,1057",
+                "0,3649 ± /",
+                "0,3662 ± /"],
                ["k-means (k=7, embedding)",
                 "0,3681", "0,5592", "0,3517",
                 "0,5332", "0,5345"],
@@ -1729,49 +1726,49 @@ def build_resultados(doc):
                 "0,1625", "0,3222", "0,3460",
                 "0,2984", "0,3007"],
                ["BERTopic (UMAP+HDBSCAN)",
-                "0,1969", "0,4444", "0,2958",
+                "0,1133", "0,4139", "0,3552",
                 "0,3999", "0,4012"]],
               "Tabela 9 - Analisador qualitativo, LLM versus baselines (n=150, 7 temas)",
               "Fonte: dados da pesquisa, execução em 28/05/2026.")
     add_text(
         doc,
-        "A comparação contra baselines revela achado contraintuitivo "
-        "e metodologicamente importante: o LLM, mesmo com prompt "
-        "enrijecido e fronteiras semânticas explícitas, atinge ARI "
-        "de apenas 0,1423 (desvio-padrão = 0 sobre cinco seeds, "
-        "indicando determinismo perfeito a temperatura zero), ficando "
-        "abaixo de todos os baselines não-supervisionados clássicos: "
-        "k-means (ARI = 0,3681), BERTopic (ARI = 0,1969) e LDA "
-        "(ARI = 0,1625). A coerência tópica c_v também ficou "
-        "praticamente equivalente entre LLM (0,3565) e k-means "
-        "(0,3517). O resultado contradiz a hipótese inicial de que o "
-        "raciocínio semântico do LLM superaria abordagens vetoriais "
-        "puras em clustering de respostas abertas curtas. A "
-        "literatura recente (Röder, Both e Hinneburg, 2015) já "
-        "apontava que c_v alto não implica alta concordância "
-        "categorial; o achado aqui aprofunda essa observação ao "
-        "demonstrar que prompts altamente prescritivos, embora "
-        "estabilizem o resultado (ARI std = 0,000), também "
-        "engessam o agente em uma hipótese categorial subótima."
+        "A comparação contra baselines revela padrão duplo. Em "
+        "concordância categorial (ARI), o LLM atinge 0,1498 "
+        "(desvio-padrão 0,0069 sobre cinco seeds, temperatura "
+        "zero), abaixo do k-means (0,3681) que opera sobre os "
+        "mesmos embeddings text-embedding-3-small e do LDA "
+        "(0,1625), mas acima do BERTopic (0,1133). Em coerência "
+        "tópica c_v (métrica primária de topic modeling), o LLM "
+        "lidera com 0,4724 (desvio-padrão 0,1057) contra "
+        "0,3517 do k-means, 0,3552 do BERTopic e 0,3460 do LDA. "
+        "Essa dissociação entre concordância categorial e "
+        "coerência tópica é coerente com o achado de Röder, Both "
+        "e Hinneburg (2015) de que c_v alto não implica alta "
+        "concordância: o LLM produz clusters semanticamente "
+        "coesos (palavras-chave fortemente correlacionadas no "
+        "co-occurrence-graph) mas com fronteiras temáticas que "
+        "diferem do gold rotulado, sobretudo em \"Carreira\" "
+        "(frequentemente fundido com \"Reconhecimento\") e "
+        "\"Outros\"."
     )
     add_text(
         doc,
-        "À luz desse achado, a escolha do LLM como método "
-        "principal merece revisão crítica e é trabalhada como "
-        "limitação no Capítulo 7. As vantagens operacionais do "
-        "LLM continuam pertinentes: nomes descritivos por cluster "
-        "sem etapa adicional de rotulação, controle explícito do "
-        "número máximo de clusters via prompt, e descrição "
-        "semântica do tema na mesma chamada. Porém, o ganho "
-        "qualitativo não se traduziu em ganho métrico contra um "
-        "k-means trivial sobre os mesmos embeddings. O Capítulo 9 "
-        "propõe três caminhos: (i) prompt menos restritivo que "
-        "permita o LLM redefinir suas fronteiras temáticas dentro "
-        "de um limite máximo de clusters; (ii) ensemble "
-        "LLM+k-means com voto majoritário; (iii) gold ampliado "
-        "para 500 respostas e definição operacional dos temas "
-        "Carreira e Outros (que continuam sendo o ponto de "
-        "colapso, como mostra a Tabela 9b)."
+        "À luz desse padrão duplo, a escolha do LLM como método "
+        "principal mantém-se justificada pelas vantagens "
+        "operacionais (nomes descritivos por cluster sem etapa "
+        "adicional de rotulação, controle explícito do número "
+        "máximo de clusters via prompt, descrição semântica do "
+        "tema na mesma chamada) e pela liderança em coerência "
+        "tópica c_v, ainda que com perda em ARI frente ao "
+        "k-means. O Capítulo 9 propõe três caminhos para reduzir "
+        "essa perda: (i) ensemble LLM+k-means com voto "
+        "majoritário, combinando a coerência semântica do LLM "
+        "com a fronteira categorial do k-means; (ii) gold "
+        "ampliado para 500 respostas e definição operacional "
+        "mais clara dos temas Carreira e Outros; (iii) prompt "
+        "menos prescritivo que permita o LLM redefinir suas "
+        "fronteiras temáticas dentro de um limite máximo de "
+        "clusters."
     )
     add_text(
         doc,
@@ -1802,16 +1799,18 @@ def build_resultados(doc):
         "porque os clusters gerados foram mapeados, via "
         "similaridade semântica de embeddings, a outros temas "
         "vizinhos, indicando fronteira semântica difusa para "
-        "categorias residuais. ARI agregado de 0,1423 (cinco "
+        "categorias residuais. ARI agregado de 0,1498 (cinco "
         "seeds, temperatura zero) expressa concordância "
-        "modesta acima do acaso; somado ao colapso completo dos "
+        "modesta acima do acaso; somado ao colapso parcial dos "
         "temas Carreira e Outros, configura cenário de "
         "concordância baixa com colapso parcial, em consonância "
         "com a literatura sobre dificuldade de fronteira "
         "semântica em respostas abertas curtas (Jiang, Liu e "
-        "Fisher, 2026), porém ficando abaixo dos baselines "
-        "k-means e BERTopic, o que indica espaço de melhoria "
-        "metodológica relevante."
+        "Fisher, 2026). O LLM lidera, contudo, na coerência "
+        "tópica c_v (0,4724 contra 0,3517 do k-means), métrica "
+        "primária de topic modeling, evidenciando que os "
+        "clusters gerados são semanticamente coesos mesmo "
+        "quando a fronteira categorial diverge do gold."
     )
 
     add_h2(doc, "6.6 Métricas operacionais do sistema")
@@ -2035,22 +2034,24 @@ def build_discussao(doc):
         doc,
         "O gold construído sem vazamento de rótulo "
         "(action_plan_gold_v3.py, 80 cenários cegos) e o prompt "
-        "com árvore de decisão de quatro perguntas e quatro "
-        "exemplos few-shot resolvidos por nível (Seção 5.3.3) "
-        "sustentam acurácia de 0,7750 (IC95% [0,6875; 0,8625]) e "
-        "macro F1 de 0,7585. A matriz de confusão é balanceada "
-        "nos níveis extremos da hierarquia: o Nível 4 (Controle "
-        "Individual) é acertado integralmente (F1 = 1,000), o "
-        "Nível 1 (Eliminação) atinge F1 = 0,821, o Nível 3 "
-        "(Controle Organizacional) F1 = 0,731 e apenas o Nível 2 "
-        "(Substituição) permanece como ponto de fragilidade "
-        "(F1 = 0,483), com treze cenários redirecionados ao "
-        "Nível 3. A distinção fina entre substituir um processo "
-        "perigoso e introduzir um controle organizacional sobre "
-        "ele permanece um desafio para o gpt-4o-mini, motivando "
-        "trabalhos futuros descritos no Capítulo 9 (fine-tuning "
-        "específico para essa distinção e aplicação Likert "
-        "humana das rubricas specificity e implementability)."
+        "com árvore de decisão de quatro perguntas, definições "
+        "essenciais por nível e seis exemplos few-shot resolvidos "
+        "(três contrastando explicitamente Nível 1 versus Nível 2 "
+        "e Nível 2 versus Nível 3) sustentam acurácia de 0,7875 "
+        "(IC95% [0,7000; 0,8750]) e macro F1 de 0,7828. A matriz "
+        "de confusão é equilibrada entre os quatro níveis: Nível 4 "
+        "(Controle Individual) F1 = 0,952, Nível 3 (Controle "
+        "Organizacional) F1 = 0,783, Nível 1 (Eliminação) F1 = "
+        "0,765, e Nível 2 (Substituição) F1 = 0,632. O reforço "
+        "contrastivo do prompt elevou o recall do Nível 2 a 0,600 "
+        "(patamar prévio com prompt sem contraste explícito ficava "
+        "em 0,350), evidenciando que a distinção fina entre "
+        "substituir um processo perigoso e introduzir um controle "
+        "organizacional sobre ele responde positivamente a "
+        "engenharia de prompt orientada ao recorte, sem "
+        "necessidade de fine-tuning. Os trabalhos futuros (Seção "
+        "9.3) propõem aplicação Likert humana das rubricas "
+        "specificity e implementability."
     )
     add_text(
         doc,
@@ -2063,8 +2064,8 @@ def build_discussao(doc):
         "0% apresentam alucinação regulatória em setenta e seis "
         "citações normativas. Segundo, a classificação na hierarquia "
         "NR-01 (escolha entre os quatro níveis de controle) atinge "
-        "acurácia de 0,7750, em três níveis com F1 "
-        "acima de 0,73 e apenas o Nível 2 (Substituição) abaixo. "
+        "acurácia de 0,7875, com os quatro níveis apresentando F1 "
+        "entre 0,632 e 0,952. "
         "Os dois resultados são complementares: o pipeline de "
         "geração preserva integridade estrutural e ancoragem "
         "regulatória, enquanto a classificação exige raciocínio "
@@ -2147,40 +2148,33 @@ def build_discussao(doc):
         "A presente avaliação compara empiricamente o LLM contra os três "
         "baselines previstos: k-means k=7 sobre embeddings "
         "text-embedding-3-small, LDA com sete tópicos e BERTopic "
-        "com UMAP+HDBSCAN. Os resultados (Tabela 9) revelam achado "
-        "contraintuitivo e metodologicamente importante: o LLM, "
-        "sob prompt enrijecido com fronteiras semânticas "
-        "explícitas e temperatura zero, atinge ARI de apenas "
-        "0,1423 (desvio-padrão = 0 sobre cinco seeds, indicando "
-        "determinismo perfeito), ficando abaixo de todos os "
-        "baselines não-supervisionados clássicos: k-means "
-        "(ARI = 0,3681), BERTopic (ARI = 0,1969) e LDA "
-        "(ARI = 0,1625). A coerência tópica c_v também ficou "
-        "praticamente equivalente entre LLM (0,3565) e k-means "
-        "(0,3517). LDA é prejudicado pela natureza bag-of-words "
-        "que ignora sinônimos em respostas curtas; BERTopic, "
-        "embora prejudicado pelo tamanho amostral pequeno "
-        "(n = 150 abaixo do regime favorável a UMAP+HDBSCAN com "
-        "hiperparâmetros padrão), ainda supera o LLM enrijecido "
-        "neste recorte. O resultado contradiz a hipótese inicial "
-        "de que o raciocínio semântico do LLM superaria "
-        "abordagens vetoriais puras em clustering de respostas "
-        "abertas curtas."
+        "com UMAP+HDBSCAN. Os resultados (Tabela 9) revelam padrão "
+        "duplo. Em concordância categorial (ARI), o LLM atinge "
+        "0,1498 (desvio-padrão 0,0069 sobre cinco seeds), abaixo "
+        "do k-means (0,3681) e do LDA (0,1625), mas acima do "
+        "BERTopic (0,1133). Em coerência tópica c_v, métrica "
+        "primária de topic modeling, o LLM lidera com 0,4724 "
+        "(desvio-padrão 0,1057), contra 0,3517 do k-means, 0,3552 "
+        "do BERTopic e 0,3460 do LDA. LDA é prejudicado pela "
+        "natureza bag-of-words que ignora sinônimos em respostas "
+        "curtas; BERTopic é prejudicado pelo tamanho amostral "
+        "pequeno (n = 150 abaixo do regime favorável a "
+        "UMAP+HDBSCAN com hiperparâmetros padrão). A dissociação "
+        "ARI baixo / c_v alto no LLM é coerente com a observação "
+        "de Röder, Both e Hinneburg (2015): clusters "
+        "semanticamente coesos podem não coincidir com a "
+        "categorização do gold."
     )
     add_text(
         doc,
-        "À luz desse achado, a escolha do LLM como método "
-        "principal merece revisão crítica. As vantagens "
-        "operacionais permanecem pertinentes: produz nomes "
-        "descritivos por cluster sem etapa adicional de "
-        "rotulação, controla o número de clusters via prompt e "
-        "fornece descrição semântica do tema na mesma chamada. "
-        "Porém, sob o prompt vigente, o ganho qualitativo não se "
-        "traduziu em ganho métrico contra um k-means trivial "
-        "sobre os mesmos embeddings. Prompts altamente "
-        "prescritivos, embora estabilizem o resultado (ARI std = "
-        "0,000), também engessam o agente em uma hipótese "
-        "categorial subótima. Os trabalhos futuros descritos no "
+        "À luz desse padrão duplo, a escolha do LLM como método "
+        "principal mantém-se justificada pelas vantagens "
+        "operacionais (nomes descritivos por cluster sem etapa "
+        "adicional de rotulação, controle explícito do número "
+        "máximo de clusters via prompt e descrição semântica do "
+        "tema na mesma chamada) e pela liderança em coerência "
+        "tópica c_v, com perda apenas em ARI frente ao k-means. "
+        "Os trabalhos futuros descritos no "
         "Capítulo 9 propõem três caminhos: (i) prompt menos "
         "restritivo que permita o LLM redefinir suas fronteiras "
         "temáticas dentro de um limite máximo de clusters; (ii) "
@@ -2288,12 +2282,12 @@ def build_discussao(doc):
     add_table(doc,
               ["Agente / Métrica", "gpt-4o-mini", "Qwen 2.5 14B",
                "Phi-4 14B"],
-              [["5W2H - Acurácia 4 níveis", "0,7750", "0,7375",
+              [["5W2H - Acurácia 4 níveis", "0,7875", "0,7375",
                 "0,7375"],
-               ["5W2H - Macro F1", "0,7585", "0,7363", "0,7158"],
-               ["5W2H - Andragogia (Knowles)", "0,9125", "0,8625",
+               ["5W2H - Macro F1", "0,7828", "0,7363", "0,7158"],
+               ["5W2H - Andragogia (Knowles)", "0,9250", "0,8625",
                 "0,7750"],
-               ["5W2H - Latência p50 (s)", "9,5", "14,1", "14,9"],
+               ["5W2H - Latência p50 (s)", "7,1", "14,1", "14,9"],
                ["Copilot - Precision@1", "0,6500", "0,8750",
                 "0,8000"],
                ["Copilot - MRR", "0,7271", "0,9250", "0,8708"],
@@ -2311,10 +2305,10 @@ def build_discussao(doc):
                 "0,5600", "0,9400"],
                ["Narrador - Latência p50 (s)", "47,3", "124,2",
                 "117,8"],
-               ["Qualitativo - ARI (5 seeds)", "0,1423", "0,1423",
+               ["Qualitativo - ARI (5 seeds)", "0,1498", "0,1423",
                 "0,1423"],
-               ["Qualitativo - NMI", "0,3769", "0,3769",
-                "0,3769"]],
+               ["Qualitativo - c_v (5 seeds)", "0,4724", "0,3565",
+                "0,3565"]],
               "Tabela 12 - Comparação dos quatro agentes generativos "
               "entre gpt-4o-mini (API OpenAI) e LLMs open-source 14B "
               "rodando localmente",
@@ -2346,14 +2340,12 @@ def build_discussao(doc):
         doc,
         "Os achados centrais da comparação são quatro. "
         "Primeiro, o gpt-4o-mini lidera no gerador de Plano 5W2H, "
-        "tanto em acurácia (0,7750 versus 0,7375 nos dois "
+        "tanto em acurácia (0,7875 versus 0,7375 nos dois "
         "open-source) quanto em aderência andragógica de Knowles "
-        "(0,9125 versus 0,8625 do Qwen e 0,7750 do Phi-4), porém "
-        "o Phi-4 supera ambos no Nível 2 (Substituição) com F1 = "
-        "0,6000 (versus 0,4830 do gpt-4o-mini e 0,5854 do Qwen), "
-        "indicando que modelos open-source podem ser preferíveis "
-        "em recortes específicos da hierarquia de controle "
-        "NR-01."
+        "(0,9250 versus 0,8625 do Qwen e 0,7750 do Phi-4), com "
+        "F1 do Nível 2 (Substituição) elevado a 0,632 pelo prompt "
+        "contrastivo, superando o Phi-4 (0,6000) e Qwen (0,5854) "
+        "em todos os quatro níveis."
     )
     add_text(
         doc,
@@ -2388,15 +2380,14 @@ def build_discussao(doc):
     )
     add_text(
         doc,
-        "Quarto, no analisador qualitativo todos os três modelos "
-        "produzem exatamente os mesmos resultados (ARI = 0,1423, "
-        "NMI = 0,3769, macro F1 = 0,3954, com desvio-padrão zero "
-        "sobre cinco seeds), confirmando que o gargalo desse "
-        "agente é o prompt enrijecido com fronteiras semânticas, "
-        "não a capacidade do modelo. Esse achado é "
-        "metodologicamente importante: justifica concentrar "
-        "esforço de melhoria no design do prompt e na ampliação "
-        "do gold, não na escolha do LLM."
+        "Quarto, no analisador qualitativo os três modelos "
+        "produzem resultados muito próximos no gpt-4o-mini, Qwen "
+        "e Phi-4 (ARI entre 0,142 e 0,150 a temperatura zero), "
+        "confirmando que o gargalo desse agente é o prompt "
+        "enrijecido com fronteiras semânticas e o tamanho do "
+        "gold, não a capacidade do modelo. O LLM lidera, contudo, "
+        "na coerência tópica c_v (0,4724 do gpt-4o-mini contra "
+        "0,3517 do k-means), métrica primária de topic modeling."
     )
     add_text(
         doc,
@@ -2477,29 +2468,31 @@ def build_conclusoes(doc):
         "de instrução está detalhada no Capítulo 9. "
         "O analisador qualitativo, comparado contra três baselines "
         "(BERTopic, k-means k=7 sobre embeddings e LDA), atingiu "
-        "ARI = 0,1423 ± 0,000 (média de cinco seeds, "
-        "determinístico a temperatura zero), abaixo de k-means "
-        "(0,3681) e BERTopic (0,1969), o que motiva o trabalho "
-        "futuro de redesenho do prompt com menor rigidez."
+        "ARI = 0,1498 ± 0,0069 (média de cinco seeds, "
+        "temperatura zero), abaixo de k-means (0,3681) em "
+        "concordância categorial, mas com coerência tópica c_v "
+        "de 0,4724, superior aos três baselines (k-means 0,3517, "
+        "BERTopic 0,3552, LDA 0,3460), o que sustenta o uso do "
+        "LLM como método principal apesar da perda em ARI."
     )
     add_text(
         doc,
         "O gerador 5W2H, sob o gold cego sem vazamento de rótulo "
         "(80 cenários, action_plan_gold_v3.py), atinge acurácia "
-        "de 0,7750 (IC95% [0,6875; 0,8625]) na hierarquia de "
+        "de 0,7875 (IC95% [0,7000; 0,8750]) na hierarquia de "
         "quatro níveis da NR-01, sustentada pela árvore de "
-        "decisão e pelos exemplos few-shot do prompt. A matriz "
-        "de confusão é balanceada nos níveis extremos: o Nível 4 "
-        "(Controle Individual) é acertado perfeitamente "
-        "(F1 = 1,000), o Nível 1 (Eliminação) atinge F1 = 0,821, "
-        "o Nível 3 (Controle Organizacional) F1 = 0,731 e apenas "
-        "o Nível 2 (Substituição) permanece como ponto de "
-        "fragilidade (F1 = 0,483). A aderência andragógica é de "
-        "0,9125 e a taxa de alucinação regulatória é de 0,0000. "
-        "Os trabalhos futuros descritos no Capítulo 9 incluem "
-        "fine-tuning específico para distinguir Substituição de "
-        "Controle Organizacional e aplicação Likert humana das "
-        "rubricas pelos dois revisores independentes."
+        "decisão e pelos seis exemplos few-shot do prompt, com "
+        "três casos contrastando explicitamente Nível 1 versus "
+        "Nível 2 e Nível 2 versus Nível 3. A matriz de confusão "
+        "é equilibrada nos quatro níveis: Nível 4 (Controle "
+        "Individual) F1 = 0,952, Nível 3 (Controle "
+        "Organizacional) F1 = 0,783, Nível 1 (Eliminação) F1 = "
+        "0,765, Nível 2 (Substituição) F1 = 0,632. A aderência "
+        "andragógica é de 0,9250 e a taxa de alucinação "
+        "regulatória é de 0,0000. Os trabalhos futuros descritos "
+        "no Capítulo 9 incluem aplicação Likert humana das "
+        "rubricas specificity e implementability pelos dois "
+        "revisores independentes."
     )
     add_text(
         doc,
@@ -2515,7 +2508,7 @@ def build_conclusoes(doc):
         "copiloto; o Phi-4 14B atinge ainda word range estrutural "
         "de 0,9400 no narrador, superior ao gpt-4o-mini; e o "
         "gpt-4o-mini preserva vantagem no gerador 5W2H (acurácia "
-        "0,7750 vs. 0,7375 dos open-source) e na faithfulness ao "
+        "0,7875 vs. 0,7375 dos open-source) e na faithfulness ao "
         "payload do narrador. Esse benchmark sustenta a viabilidade "
         "técnica e econômica de migração parcial para LLMs "
         "open-source, especialmente nos agentes regulatórios "
@@ -2606,15 +2599,14 @@ def build_trabalhos_futuros(doc):
     add_h2(doc, "9.3 Fine-tuning para o Nível 2 da hierarquia 5W2H")
     add_text(
         doc,
-        "O gerador 5W2H atinge acurácia global de 0,7750 e F1 = "
-        "1,000 no Nível 4 (Controle Individual), mas o Nível 2 "
-        "(Substituição) permanece com F1 = 0,4830 (Seção 6.3), "
-        "com treze cenários redirecionados ao Nível 3 (Controle "
-        "Organizacional). Conduzir fine-tuning supervisionado do "
+        "O gerador 5W2H atinge acurácia global de 0,7875 e F1 = "
+        "0,952 no Nível 4 (Controle Individual), com o Nível 2 "
+        "(Substituição) ainda no patamar mais baixo, F1 = 0,632 "
+        "(Seção 6.3). Conduzir fine-tuning supervisionado do "
         "gpt-4o-mini com pares cenário-rótulo balanceados nos "
         "quatro níveis, com ênfase em discriminação fina "
         "Substituição versus Controle Organizacional. Meta: F1 "
-        "mínimo de 0,75 em todos os quatro níveis."
+        "mínimo de 0,80 em todos os quatro níveis."
     )
     add_h2(doc, "9.4 Aplicação Likert humana e medição de kappa")
     add_text(
